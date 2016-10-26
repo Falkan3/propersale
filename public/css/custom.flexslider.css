@@ -37,9 +37,9 @@ File: Custom Flexslider CSS
 
 /* FlexSlider Direction Nav
 --------------------------------------------------------------------------------------------------------------- */
-.flex-wrapper .flex-direction-nav{display:block; position:absolute; bottom:15px; width:100%; text-align:center; z-index:999;}
+.flex-wrapper .flex-direction-nav{display:block; position:absolute; bottom:15px; width:100%; text-align:center; z-index:2;}
 .flex-wrapper .flex-direction-nav li{display:inline-block; margin:0 8px;}
-.flex-wrapper .flex-direction-nav li a{display:block; width:20px; height:20px; line-height:18px; margin:0; overflow:hidden; font-size:32px; opacity:0; z-index:999;}
+.flex-wrapper .flex-direction-nav li a{display:block; width:20px; height:20px; line-height:18px; margin:0; overflow:hidden; font-size:32px; opacity:0; z-index:2;}
 .flex-wrapper .flex-direction-nav .flex-prev{}
 .flex-wrapper .flex-direction-nav .flex-next{}
 .flex-wrapper:hover .flex-prev, .flex-wrapper:hover .flex-next{opacity:.5;}
