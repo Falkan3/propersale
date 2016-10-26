@@ -4,6 +4,54 @@
 
 @section('content')
     <div class="main">
+        <?php /*
+        <div class="container">
+
+            <!-- ################################################################################################ -->
+            <div class="wrapper row3">
+                <main class="container clear">
+                    <!-- main body -->
+                    <!-- ################################################################################################ -->
+                    <ul class="nospace group services">
+                        <li class="one_quarter first">
+                            <article><i class="fa fa-leanpub"></i>
+                                <h6 class="heading">Vitae blandit</h6>
+                                <p>Fusce quis ultricies turpis phasellus ipsum ante pulvinar sed libero non interdum.</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </article>
+                        </li>
+                        <li class="one_quarter">
+                            <article><i class="fa fa-life-ring"></i>
+                                <h6 class="heading">Dolor rhoncus</h6>
+                                <p>Vitae sagittis purus magna at est curabitur cursus massa sit amet egestas pulvinar.</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </article>
+                        </li>
+                        <li class="one_quarter">
+                            <article><i class="fa fa-automobile"></i>
+                                <h6 class="heading">Augue molestie</h6>
+                                <p>Nulla nec molestie purus ac aliquam neque vivamus auctor mauris eu commodo ultricies.</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </article>
+                        </li>
+                        <li class="one_quarter">
+                            <article><i class="fa fa-bank"></i>
+                                <h6 class="heading">Nulla finibus</h6>
+                                <p>Nunc fringilla magna non elit hendrerit in volutpat velit tempus aliquam malesuada.</p>
+                                <footer><a href="#">Read More &raquo;</a></footer>
+                            </article>
+                        </li>
+                    </ul>
+                    <!-- ################################################################################################ -->
+                    <!-- / main body -->
+                    <div class="clear"></div>
+                </main>
+            </div>
+            <!-- ################################################################################################ -->
+        </div>
+*/ ?>
+
+        <?php /*<div id="wall_1" class="image" data-stellar-background-ratio="0.4"></div>*/ ?>
         <div class="container">
             <div id="content_1" class="content">
                 <h1>Opis firmy</h1>
@@ -26,6 +74,7 @@
                     qui officia deserunt mollit anim id est laborum.</p>
             </div>
         </div>
+
 
         <!-- ################################################################################################ -->
         <div class="wrapper flex-wrapper overlay bgded" style="background-image:url('images/demo/backgrounds/03.png')">
@@ -157,9 +206,9 @@
     <!-- ################################################################################################ -->
  */ ?>
 
-        <div id="wall_1" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
-            <div id="content_2" class="content">
+            <div id="content_3" class="content">
 
                 <h1>Nasza oferta dla Twojej firmy</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -253,9 +302,9 @@
         <!-- ################################################################################################ -->
  */ ?>
 
-        <div id="wall_2" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="wall_3" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
-            <div id="content_3" class="content">
+            <div id="content_4" class="content">
 
                 <h1>Co zyskujesz na współpracy z nami</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -309,9 +358,9 @@
             </div>
         </div>
 
-        <div id="wall_3" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="wall_4" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
-            <div id="content_4" class="content">
+            <div id="content_5" class="content">
 
                 <h1>Porównanie kosztów kampanii dla indywidualnej firmy z kosztami za efekt, jaki proponujemy</h1>
 
@@ -376,9 +425,9 @@
             </div>
         </div>
 
-        <div id="wall_1" class="image" data-stellar-background-ratio="0.4"></div>
+        <div id="wall_5" class="image" data-stellar-background-ratio="0.4"></div>
         <div class="container">
-            <div id="content_5" class="content">
+            <div id="content_6" class="content">
 
                 <h1>Chcesz poznać szczegółową ofertę dla Twojej firmy? Zostaw do siebie kontakt</h1>
 
