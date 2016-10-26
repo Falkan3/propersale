@@ -5,26 +5,26 @@
         <div class="group btmspace-50">
             <div class="one_quarter first"><i class="icon fa fa-map-marker"></i>
                 <address class="btmspace-15">
-                    Street Name &amp; Number, Town<br>
-                    Postcode/Zip
+                    <p>Webfield sp. z o.o.</p>
+                    <p>Szafarnia 11, F8</p>
+                    <p>80-755 Gdańsk</p>
+                    <p>NIP 583-319-08-89</p>
                 </address>
             </div>
             <div class="one_quarter"> <i class="icon fa fa-phone"></i>
                 <ul class="nospace">
-                    <li>+00 (123) 456 7890</li>
-                    <li>+00 (123) 456 7890</li>
+                    <li>+48 690-435-825</li>
                 </ul>
             </div>
             <div class="one_quarter"> <i class="icon fa fa-envelope-o"></i>
                 <ul class="nospace">
-                    <li>info@domain.com</li>
-                    <li>sales@domain.com</li>
+                    <li>kontakt@propersale.pl</li>
                 </ul>
             </div>
             <div class="one_quarter"> <i class="icon fa fa-clock-o"></i>
                 <ul class="nospace">
-                    <li>Mon - Fri: 9 to 5.00pm</li>
-                    <li>Sat: 9 to 1.00pm</li>
+                    <li>Pon - Pt: 9:00 to 17:00</li>
+                    <li>Sob - Nie: Nieczynne</li>
                 </ul>
             </div>
         </div>
@@ -33,9 +33,10 @@
         <!-- ################################################################################################ -->
         <div class="group">
             <div class="one_quarter first">
-                <h6 class="title">volutpat ultricies</h6>
-                <p>Nulla posuere eros hendrerit porta semper curabitur placerat.</p>
-                <p>Lacus a tincidunt maecenas ut augue eu magna tempus dapibus sed venenatis.</p>
+                <h6 class="title">Informacje</h6>
+                <p><a href="#">Polityka prywatności</a></p>
+                <p><a href="#">Polityka cookies</a></p>
+                <p><a href="#">Regulamin</a></p>
             </div>
             <div class="one_quarter">
                 <h6 class="title">Mauris lacus nulla</h6>

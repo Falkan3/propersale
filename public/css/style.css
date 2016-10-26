@@ -12,7 +12,6 @@
 
 .content {
     width: 100%;
-    background: white;
     z-index: 2;
 }
 
@@ -51,22 +50,32 @@
     position: relative;
 }
 
-h1::first-letter {
+.main h1::first-letter {
     font-size: 60px;
     font-weight: 600;
     color: #3cb0f8;
 }
+.main h2::first-letter {
+    font-size: 36px;
+    font-weight: 400;
+    color: #3cb0f8;
+}
+
+
+.carousel-items li a {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 720px) {
-    .image {
+    .main .image {
         height: 200px;
     }
 
-    .content h1 {
+    .main .content h1 {
         margin: 20px 2%;
     }
 
-    .content p {
+    .main .content p {
         margin: 20px 5%;
     }
 }

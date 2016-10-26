@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
 
     <script src="{{ URL::asset('js/jquery.min.js') }}"></script>

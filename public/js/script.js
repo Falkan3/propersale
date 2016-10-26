@@ -28,6 +28,24 @@ $(window).scroll(function () {
     } else {
         $("#backtotop").removeClass("visible");
     }
+
+    var shrinkHeader = 300;
+    var scroll = getCurrentScroll();
+    if ( scroll >= shrinkHeader ) {
+        $('.header').addClass('shrink');
+    }
+    else {
+        $('.header').removeClass('shrink');
+    }
+    function getCurrentScroll() {
+        return window.pageYOffset || document.documentElement.scrollTop;
+    }
+});
+
+$("nav b").click(function (e) {
+    e.preventDefault();
+    $(this).toggleClass("visible");
+    $(this).next('div').toggleClass("visible");
 });
 
 

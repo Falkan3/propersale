@@ -16,7 +16,7 @@ File: Custom Flexslider CSS
 
 /* FlexSlider Necessary Styles
 --------------------------------------------------------------------------------------------------------------- */
-.flex-wrapper, .flexslider{display:block; position:relative; width:100%; height:100%; margin:0; padding:0;}
+.flex-wrapper, .flexslider{display:block; position:relative; width:100%; height:100%; margin-left:auto; margin-right:auto; padding:0;}
 .flexslider .slides, .flexslider .carousel-items{display:block; position:relative; width:100%; height:100%;}
 .flexslider .slides > li, .flexslider .carousel-items > li{display:none; position:relative; -webkit-backface-visibility:hidden;}
 
