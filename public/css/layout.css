@@ -487,7 +487,7 @@ header .content {
 
 /* Latest
 --------------------------------------------------------------------------------------------------------------- */
-#latest.centred {
+#latest.centered {
     padding: 100px 0;
 }
 
@@ -521,7 +521,7 @@ header .content {
 
 /* Clients
 --------------------------------------------------------------------------------------------------------------- */
-#clients.centred {
+#clients.centered {
     padding: 100px 0;
 }
 
@@ -1008,6 +1008,7 @@ input:focus, textarea:focus, *:required:focus {
 #footer button, .email_form button {
     color: #FFFFFF;
     background-color: #FF9C09;
+    width: 100%;
 }
 
 #backtotop {
@@ -1058,7 +1059,7 @@ table a, #comments a {
 /* Max Wrapper Width - Laptop, Desktop etc.
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width: 978px) {
-    #header, #breadcrumb, .container, .centred, #footer, #copyright {
+    #header, #breadcrumb, .container, .centered, #footer, #copyright {
         max-width: 978px;
     }
 }
@@ -1066,7 +1067,7 @@ table a, #comments a {
 /* Smartphone + Tablet
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width: 900px) {
-    #header, #breadcrumb, .container, .centred, #footer, #copyright {
+    #header, #breadcrumb, .container, .centered, #footer, #copyright {
         max-width: 90%;
     }
 
@@ -1109,7 +1110,7 @@ table a, #comments a {
         margin: 0 5px 5px 0;
     }
 
-    .centred {
+    .centered {
     }
 
     #footer {

@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $(window).stellar();
-    enableNiceScrolling();
+    //enableNiceScrolling();
 });
 
 function enableNiceScrolling() {
@@ -29,7 +29,7 @@ $(window).scroll(function () {
         $("#backtotop").removeClass("visible");
     }
 
-    var shrinkHeader = 300;
+    var shrinkHeader = 50;
     var scroll = getCurrentScroll();
     if ( scroll >= shrinkHeader ) {
         $('.header').addClass('shrink');

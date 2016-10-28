@@ -17,11 +17,11 @@
     <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
     <script src="{{ URL::asset('js/jquery-ui.min.js') }}"></script>
     <script src="{{ URL::asset('js/jquery.stellar.js') }}"></script>
-    <script src="{{ URL::asset('js/jquery.nicescroll.js') }}"></script>
+    <?php /*<script src="{{ URL::asset('js/jquery.nicescroll.js') }}"></script> */ ?>
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ URL::asset('js/npm.js') }}"></script>
 </head>
-<body id="top">
+<body id="top" data-spy="scroll" data-target="nav">
 <!-- header -->
 @include('main.header')
 
@@ -38,6 +38,8 @@
 <!-- / IE9 Placeholder Support -->
 <!-- Homepage specific -->
 <script src="{{ URL::asset('js/jquery.flexslider-min.js') }}"></script>
+<script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
+<script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
 
 </body>
 </html>
