@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ URL::asset('css/jquery-ui-themes-1.12.1/themes/smoothness/jquery-ui.min.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
 
     <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
     <script src="{{ URL::asset('js/jquery-ui.min.js') }}"></script>
