@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Parallax demo')
+@section('title', 'ProperMONEY')
 
 @section('content')
 
@@ -9,6 +9,40 @@
         <div class="content">
             <div class="tri-screen-height flex-fit">
                 <h1>Jak działamy</h1>
+
+                <div class="row page-section padding_medium_hor">
+                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                            <h2>Onet mailing</h2>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                            <h2>Ad Words</h2>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                            <h2>Display</h2>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small right">
+                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-right-down"/>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small left">
+                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-left-down"/>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                        <h2>Call center</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                        <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                        <h2>Zweryfikowane kontakty dla Twojej firmy</h2>
+                    </div>
+                </div>
             </div>
 
             <div class="pri-screen-height flex-fit darkened">
@@ -166,3 +200,38 @@
         */ ?>
 
 @stop
+
+
+<?php
+/*
+    <div class="row page-section padding_medium_hor flex-fit-nocol">
+                    <div class="col-xs-12 col-sm-2 col-md-2 col-sm-offset-1 col-md-offset-1 padding_small">
+                        <div class="third-screen-height flex-fit flex-vcenter">
+                            <img src="{{ URL::asset('images/demo/125x125.png') }}" />
+                        </div>
+                        <div class="third-screen-height flex-fit flex-vcenter">
+                            <img src="{{ URL::asset('images/demo/125x125.png') }}" />
+                        </div>
+                        <div class="third-screen-height flex-fit flex-vcenter">
+                            <img src="{{ URL::asset('images/demo/125x125.png') }}" />
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 padding_small">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 padding_small flex-fit flex-vcenter">
+                        <p>
+                            Call center
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 padding_small">
+
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-2 padding_small flex-fit flex-vcenter">
+                            <p>
+                                Zweryfikowane kontakty  dla Twojej firmy
+                            </p>
+                    </div>
+                </div>
+*/
+?>

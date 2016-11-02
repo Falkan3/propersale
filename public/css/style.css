@@ -172,10 +172,18 @@
 div.screen-height {height: 100%; overflow: hidden;}
 div.tri-screen-height {height: 75%; overflow: hidden;}
 div.duo-screen-height {height: 50%; overflow: hidden;}
+div.third-screen-height {height: 33.33%; overflow: hidden;}
 div.pri-screen-height {height: 25%; overflow: hidden;}
-div.flex-fit {display: flex; flex-flow: column;}
+.flex-fit {display: flex; flex-flow: column;}
+.flex-fit.flex-vcenter {justify-content:center; align-content:center; text-align: center;}
+.flex-fit.flex-vcenter p {margin: 0;}
+.flex-fit-nocol {display: flex;}
 
-div.darkened {background-color: #f1f1f1; border: 1px solid #ddd;}
+div.darkened {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
 
 /* Custom */
 
@@ -185,5 +193,26 @@ div.darkened {background-color: #f1f1f1; border: 1px solid #ddd;}
 
 div.screen-height .slides li, section.screen-height .slides li article {
     min-height: 100vh;
+}
+
+img.img-arrow-down {
+    height: 50px;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */
+    transform: rotate(90deg);
+}
+
+img.img-arrow-right-down {
+    height: 50px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+}
+
+img.img-arrow-left-down {
+    height: 50px;
+    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Safari */
+    transform: rotate(135deg);
 }
 /* ---------------------*/

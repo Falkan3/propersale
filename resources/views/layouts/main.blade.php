@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/jquery-ui-themes-1.12.1/themes/smoothness/jquery-ui.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
@@ -21,7 +21,7 @@
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
     <?php /*<script src="{{ URL::asset('js/npm.js') }}"></script>*/ ?>
 </head>
-<body id="top" data-spy="scroll" data-target="nav">
+<body id="top">
 <!-- header -->
 @include('main.header')
 

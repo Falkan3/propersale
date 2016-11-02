@@ -4,13 +4,13 @@
             <div class="wrapper">
                 <ul>
                     <li><img id="logo" src="{{ URL::asset('images/logo.png') }}"/></li>
-                    <li><a href="#">Jak działamy</a></li>
-                    <li><a href="#">Korzyści dla biznesu</a></li>
+                    <li><a href="#page1" anchor="true">Jak działamy</a></li>
+                    <li><a href="#page2" anchor="true">Korzyści dla biznesu</a></li>
                     <li>
                         <b></b>
                         <div>
-                            <a href="#">Nasi klienci</a>
-                            <a href="#">Kontakt</a>
+                            <a href="#page3" anchor="true">Nasi klienci</a>
+                            <a href="#email_form" anchor="true">Kontakt</a>
                         </div>
                     </li>
                 </ul>

@@ -255,7 +255,7 @@ header nav img {
 }
 .header.shrink nav ul li:last-child a {
     margin-top: 20px;
-    font-size: 9px;
+    font-size: 12px;
 }
 .header nav ul li:last-child>div {
     height: 100%;
@@ -297,6 +297,14 @@ header .content {
     display: block;
 }
 */
+
+.desktop-float-left {
+    float: left;
+}
+
+.desktop-float-right {
+    float: right;
+}
 
 @media screen and (max-width: 720px) {
     .header {
@@ -406,6 +414,14 @@ header .content {
         margin-top: 0;
         font-size: 13px;
         padding: 8px 10px;
+    }
+
+    .desktop-float-left {
+        float: none;
+    }
+
+    .desktop-float-right {
+        float: none;
     }
 }
 
@@ -1045,6 +1061,7 @@ input:focus, textarea:focus, *:required:focus {
     color: #FFFFFF;
     background-color: #FF9C09;
     width: 100%;
+    min-width: 60px;
 }
 
 #backtotop {

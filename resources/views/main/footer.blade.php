@@ -32,37 +32,19 @@
         <hr class="btmspace-50">
         <!-- ################################################################################################ -->
         <div class="group">
-            <div class="one_quarter first">
+            <div class="one_quarter first desktop-float-left">
                 <h6 class="title">Informacje</h6>
                 <p><a href="#">Polityka prywatności</a></p>
                 <p><a href="#">Polityka cookies</a></p>
                 <p><a href="#">Regulamin</a></p>
             </div>
-            <div class="one_quarter">
-                <h6 class="title">Mauris lacus nulla</h6>
-                <ul class="nospace linklist">
-                    <li><a href="#">Vestibulum dignissim orci</a></li>
-                    <li><a href="#">Felis iaculis suscipit</a></li>
-                    <li><a href="#">Maecenas eget faucibus</a></li>
-                    <li><a href="#">Quisque imperdiet mattis</a></li>
-                    <li><a href="#">Nullam ac fringilla nunc</a></li>
-                </ul>
-            </div>
-            <div class="one_quarter">
-                <h6 class="title">Accumsan ut quam</h6>
-                <article>
-                    <h2 class="nospace font-x1"><a href="#">Eget rhoncus lacus</a></h2>
-                    <time class="smallfont" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-                    <p>Aliquam quis egestas dui proin dapibus pulvinar metus, eu facilisis lorem pharetra nec etiam vel lorem curabitur.</p>
-                </article>
-            </div>
-            <div class="one_quarter">
-                <h6 class="title">Venenatis semper</h6>
+            <div class="one_quarter desktop-float-right">
+                <h6 class="title">Newsletter</h6>
                 <form class="btmspace-30" method="post" action="#">
                     <fieldset>
                         <legend>Newsletter:</legend>
-                        <input class="btmspace-15" type="text" value="" placeholder="Email">
-                        <button type="submit" value="submit">Submit</button>
+                        <input class="btmspace-15" type="text" value="" placeholder="E-mail">
+                        <button type="submit" value="submit">Wyślij</button>
                     </fieldset>
                 </form>
                 <ul class="faico clear">

@@ -1,3 +1,5 @@
+var $root = $('html, body');
+
 $(document).ready(function () {
     $(window).stellar();
     //enableNiceScrolling();
@@ -16,6 +18,16 @@ function advantages_slider() {
         $(this).css('height',fill_height);
     });
 }
+
+$(document).on('click', 'a', function(event){
+    if($(this).attr('anchor')=='true' && $(this).attr('href').length > 1 && $(this).attr('href').charAt(0)=='#') {
+        event.preventDefault();
+
+        $root.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top-50
+        }, 500);
+    }
+});
 
 function enableNiceScrolling() {
 
