@@ -1,7 +1,21 @@
 $(document).ready(function () {
     $(window).stellar();
     //enableNiceScrolling();
+
+    advantages_slider();
 });
+
+$( window ).resize(function() {
+    advantages_slider();
+});
+
+function advantages_slider() {
+    var obj = $('.fill');
+    $.each( obj, function( e ) {
+        var fill_height = $(this).parent().parent().height();
+        $(this).css('height',fill_height);
+    });
+}
 
 function enableNiceScrolling() {
 
@@ -46,6 +60,33 @@ $("nav b").click(function (e) {
     e.preventDefault();
     $(this).toggleClass("visible");
     $(this).next('div').toggleClass("visible");
+});
+
+$('#slider_advantages').carousel({
+    interval: false,
+    wrap: false
+});
+
+$('#slider_advantages').children('.left.carousel-control').hide();
+
+$('#slider_advantages').on('slid.bs.carousel', '', function() {
+    var $this = $(this);
+
+    $this.children('.carousel-control').show();
+
+    if($('.carousel-inner .item:first').hasClass('active')) {
+        $this.children('.left.carousel-control').fadeOut();
+    } else if($('.carousel-inner .item:last').hasClass('active')) {
+        $this.children('.right.carousel-control').fadeOut();
+    }
+
+});
+
+$("#slider_advantages").swiperight(function() {
+    $(this).carousel('prev');
+});
+$("#slider_advantages").swipeleft(function() {
+    $(this).carousel('next');
 });
 
 

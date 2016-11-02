@@ -84,6 +84,54 @@
     text-decoration: none;
 }
 
+.carousel-control {
+    background: none !important;
+    filter: progid: none !important;
+    outline: 0;
+}
+
+.carousel-control {
+    color: #3cb0f8;
+}
+
+#slider_advantages .carousel-control:focus, #slider_advantages .carousel-control:hover {
+    color: #83c7f1;
+}
+
+#slider_advantages.carousel, .item, .active {
+    flex: 1 1 100%;
+}
+
+#slider_advantages.carousel .item.active {
+    height: 100%;
+}
+
+#slider_advantages .carousel-inner {
+    height: 100%;
+}
+
+.carousel-caption {
+    top: 10%;
+}
+
+.content #slider_advantages p {
+    color: #fff;
+}
+
+#slider_advantages .carousel-indicators li{display:none;}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 @media screen and (max-width: 720px) {
     .page-section .image {
         height: 200px;
@@ -96,14 +144,35 @@
     .page-section  .content p {
         margin: 20px 5%;
     }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .content #slider_advantages.carousel .carousel-caption p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        width: 60px;
+        height: 70px;
+        margin-top: -33px;
+        font-size: 70px;
+    }
 }
 
 /* FULL HEIGHT SECTIONS */
 
-div.screen-height {height: 100%}
-div.tri-screen-height {height: 75%;}
-div.duo-screen-height {height: 50%;}
-div.pri-screen-height {height: 25%;}
+div.screen-height {height: 100%; overflow: hidden;}
+div.tri-screen-height {height: 75%; overflow: hidden;}
+div.duo-screen-height {height: 50%; overflow: hidden;}
+div.pri-screen-height {height: 25%; overflow: hidden;}
 div.flex-fit {display: flex; flex-flow: column;}
 
 div.darkened {background-color: #f1f1f1; border: 1px solid #ddd;}

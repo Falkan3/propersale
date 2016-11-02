@@ -19,7 +19,7 @@
     <script src="{{ URL::asset('js/jquery.stellar.js') }}"></script>
     <?php /*<script src="{{ URL::asset('js/jquery.nicescroll.js') }}"></script> */ ?>
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ URL::asset('js/npm.js') }}"></script>
+    <?php /*<script src="{{ URL::asset('js/npm.js') }}"></script>*/ ?>
 </head>
 <body id="top" data-spy="scroll" data-target="nav">
 <!-- header -->
@@ -31,7 +31,6 @@
 
 <a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
 
-<script src="{{ URL::asset('js/script.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <!-- IE9 Placeholder Support -->
 <script src="{{ URL::asset('js/jquery.placeholder.min.js') }}"></script>
@@ -40,6 +39,8 @@
 <script src="{{ URL::asset('js/jquery.flexslider-min.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
+<script src="{{ URL::asset('js/jquery.mobile.custom.min.js') }}"></script>
+<script src="{{ URL::asset('js/script.js') }}"></script>
 
 </body>
 </html>

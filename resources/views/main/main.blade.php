@@ -21,6 +21,55 @@
         <div class="content">
             <div class="tri-screen-height flex-fit">
                 <h1>Korzyści dla biznesu</h1>
+
+                <div id="slider_advantages" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider_advantages" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider_advantages" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="fill overlay bgded"
+                                 style="background-image:url('{{ URL::asset('images/demo/backgrounds/stock1.jpg') }}');"></div>
+                            <div class="carousel-caption">
+                                <h3>Tyle wydajesz organizując reklamę samemu</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lacus
+                                    ullamcorper, molestie diam vel, laoreet ex. Aliquam pharetra vestibulum justo, eget
+                                    porttitor neque porttitor quis. Quisque in arcu eu augue semper suscipit dapibus at
+                                    lectus. Sed venenatis volutpat imperdiet. Duis orci orci, sodales imperdiet ornare
+                                    ac, aliquet at nisi. Sed sed aliquet nisl. Integer nec elementum nunc.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="fill overlay bgded"
+                                 style="background-image:url('{{ URL::asset('images/demo/backgrounds/stock3.jpg') }}');"></div>
+                            <div class="carousel-caption">
+                                <h3>Tyle możesz oszczędzić zlecając nam zdobycie zainteresowanie klienta</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lacus
+                                    ullamcorper, molestie diam vel, laoreet ex. Aliquam pharetra vestibulum justo, eget
+                                    porttitor neque porttitor quis. Quisque in arcu eu augue semper suscipit dapibus at
+                                    lectus. Sed venenatis volutpat imperdiet. Duis orci orci, sodales imperdiet ornare
+                                    ac, aliquet at nisi. Sed sed aliquet nisl. Integer nec elementum nunc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#slider_advantages" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#slider_advantages" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
 
             <div class="pri-screen-height flex-fit darkened">

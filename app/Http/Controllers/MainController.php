@@ -20,11 +20,6 @@ class MainController extends Controller
      */
     public function index()
     {
-        return view('/');
-    }
-
-    public function parallax()
-    {
         return view('main.main');
     }
 }
