@@ -5,141 +5,87 @@
 @section('content')
 
     <!-- Intro Section -->
-    <section id="page1" class="page-section">
-        <div class="content">
-            <div class="tri-screen-height flex-fit">
-                <h1>Jak działamy</h1>
+    <section id="page1" class="">
+        <div class="content container">
+            <h1>Jak działamy</h1>
 
-                <div class="row page-section padding_medium_hor">
-                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
-                            <h2>Onet mailing</h2>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
-                            <h2>Ad Words</h2>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
-                            <h2>Display</h2>
-                        </div>
+            <ul class="animated_list padding_medium_ver">
+                <div class="row padding_medium">
+                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                        <li>
+                            <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
+                            <p>test</p>
+                        </li>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small right">
-                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-right-down"/>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
-                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
-                        </div>
-                        <div class="col-xs-4 col-sm-4 col-md-4 padding_small left">
-                            <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-left-down"/>
-                        </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                        <li>
+                            <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
+                            <p>test</p>
+                        </li>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
-                        <h2>Call center</h2>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
-                        <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
-                        <h2>Zweryfikowane kontakty dla Twojej firmy</h2>
+                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                        <li>
+                            <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
+                            <p>test</p>
+                        </li>
                     </div>
                 </div>
-            </div>
-
-            <div class="pri-screen-height flex-fit darkened">
-                <p>Tekst</p>
-            </div>
+                <div class="row padding_medium">
+                    <div class="col-xs-6 col-sm-6 col-md-6 center">
+                        <li class="right_mrg">
+                            <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
+                            <p>test</p>
+                        </li>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 center">
+                        <li>
+                            <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
+                            <p>test</p>
+                        </li>
+                    </div>
+                </div>
+                <div class="row padding_medium">
+                    <div class="col-xs-12 col-sm-12 col-md-12 center">
+                        <li class="right_mrg left_mrg">
+                            <img src="{{ URL::asset('images/demo/icon6.png') }}" alt="icon"/>
+                            <p>TEST</p>
+                        </li>
+                    </div>
+                </div>
+            </ul>
         </div>
     </section>
 
-    <section id="page2" class="page-section">
-        <div class="content">
-            <div class="tri-screen-height flex-fit">
-                <h1>Korzyści dla biznesu</h1>
+    <section id="page2" class="">
+        <div class="content container">
+            <h1>Korzyści dla biznesu</h1>
 
-                <div id="slider_advantages" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#slider_advantages" data-slide-to="0" class="active"></li>
-                        <li data-target="#slider_advantages" data-slide-to="1"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="fill overlay bgded"
-                                 style="background-image:url('{{ URL::asset('images/demo/backgrounds/stock1.jpg') }}');"></div>
-                            <div class="carousel-caption">
-                                <h3>Tyle wydajesz organizując reklamę samemu</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lacus
-                                    ullamcorper, molestie diam vel, laoreet ex. Aliquam pharetra vestibulum justo, eget
-                                    porttitor neque porttitor quis. Quisque in arcu eu augue semper suscipit dapibus at
-                                    lectus. Sed venenatis volutpat imperdiet. Duis orci orci, sodales imperdiet ornare
-                                    ac, aliquet at nisi. Sed sed aliquet nisl. Integer nec elementum nunc.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="fill overlay bgded"
-                                 style="background-image:url('{{ URL::asset('images/demo/backgrounds/stock3.jpg') }}');"></div>
-                            <div class="carousel-caption">
-                                <h3>Tyle możesz oszczędzić zlecając nam zdobycie zainteresowanie klienta</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et lacus
-                                    ullamcorper, molestie diam vel, laoreet ex. Aliquam pharetra vestibulum justo, eget
-                                    porttitor neque porttitor quis. Quisque in arcu eu augue semper suscipit dapibus at
-                                    lectus. Sed venenatis volutpat imperdiet. Duis orci orci, sodales imperdiet ornare
-                                    ac, aliquet at nisi. Sed sed aliquet nisl. Integer nec elementum nunc.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#slider_advantages" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#slider_advantages" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-
-            <div class="pri-screen-height flex-fit darkened">
-                <p>Tekst</p>
-            </div>
         </div>
     </section>
 
-    <section id="page3" class="page-section">
-        <div class="content">
-            <div class="tri-screen-height flex-fit">
-                <h1>Nasi klienci</h1>
+    <section id="page3" class="">
+        <div class="content container padding_small_ver">
+            <h1>Nasi klienci</h1>
+            <!-- ################################################################################################ -->
+        </div>
+
+        <div class="wrapper flex-wrapper overlay bgded"
+             style="background-image:url('images/demo/backgrounds/03.png')">
+            <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
-                <div class="wrapper flex-wrapper overlay bgded"
-                     style="background-image:url('images/demo/backgrounds/03.png')">
-                    <section id="clients" class="flexslider centered">
-                        <!-- ################################################################################################ -->
-                        <ul class="carousel-items">
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                            <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                        </ul>
-                        <!-- ################################################################################################ -->
-                    </section>
-                    <!-- ################################################################################################ -->
-                </div>
-            </div>
-
-            <div class="pri-screen-height flex-fit darkened">
-                <p>Tekst</p>
-            </div>
+                <ul class="carousel-items">
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                </ul>
+                <!-- ################################################################################################ -->
+            </section>
+            <!-- ################################################################################################ -->
         </div>
     </section>
 
@@ -235,3 +181,39 @@
                 </div>
 */
 ?>
+
+<?php /*
+            <div class="row padding_medium_hor">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                        <h2>Onet mailing</h2>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                        <h2>Ad Words</h2>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                        <h2>Display</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small right">
+                        <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-right-down"/>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small center">
+                        <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
+                    </div>
+                    <div class="col-xs-4 col-sm-4 col-md-4 padding_small left">
+                        <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-left-down"/>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                    <h2>Call center</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                    <img src="{{ URL::asset('images/demo/arrow.png') }}" alt="arrow" class="img-arrow-down"/>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 padding_small center">
+                    <h2>Zweryfikowane kontakty dla Twojej firmy</h2>
+                </div>
+            </div>
+            */ ?>

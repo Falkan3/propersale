@@ -74,6 +74,7 @@
     font-weight: 600;
     color: #3cb0f8;
 }
+
 .content h2::first-letter {
     font-size: 36px;
     font-weight: 400;
@@ -86,7 +87,7 @@
 
 .carousel-control {
     background: none !important;
-    filter: progid: none !important;
+    filter: progid:none !important;
     outline: 0;
 }
 
@@ -118,7 +119,9 @@
     color: #fff;
 }
 
-#slider_advantages .carousel-indicators li{display:none;}
+#slider_advantages .carousel-indicators li {
+    display: none;
+}
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -137,11 +140,11 @@
         height: 200px;
     }
 
-    .page-section  .content h1 {
+    .page-section .content h1 {
         margin: 20px 2%;
     }
 
-    .page-section  .content p {
+    .page-section .content p {
         margin: 20px 5%;
     }
 
@@ -169,15 +172,49 @@
 
 /* FULL HEIGHT SECTIONS */
 
-div.screen-height {height: 100%; overflow: hidden;}
-div.tri-screen-height {height: 75%; overflow: hidden;}
-div.duo-screen-height {height: 50%; overflow: hidden;}
-div.third-screen-height {height: 33.33%; overflow: hidden;}
-div.pri-screen-height {height: 25%; overflow: hidden;}
-.flex-fit {display: flex; flex-flow: column;}
-.flex-fit.flex-vcenter {justify-content:center; align-content:center; text-align: center;}
-.flex-fit.flex-vcenter p {margin: 0;}
-.flex-fit-nocol {display: flex;}
+div.screen-height {
+    height: 100%;
+    overflow: hidden;
+}
+
+div.tri-screen-height {
+    height: 75%;
+    overflow: hidden;
+}
+
+div.duo-screen-height {
+    height: 50%;
+    overflow: hidden;
+}
+
+div.third-screen-height {
+    height: 33.33%;
+    overflow: hidden;
+}
+
+div.pri-screen-height {
+    height: 25%;
+    overflow: hidden;
+}
+
+.flex-fit {
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-fit.flex-vcenter {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.flex-fit.flex-vcenter p {
+    margin: 0;
+}
+
+.flex-fit-nocol {
+    display: flex;
+}
 
 div.darkened {
     background-color: #f1f1f1;
@@ -215,4 +252,26 @@ img.img-arrow-left-down {
     -webkit-transform: rotate(135deg); /* Safari */
     transform: rotate(135deg);
 }
+
 /* ---------------------*/
+
+/* animated list ---------------------*/
+
+.animated_list li {
+    list-style: none;
+    display: inline-block;
+    background: transparent;
+}
+
+.animated_list li img {
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.animated_list li p {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
