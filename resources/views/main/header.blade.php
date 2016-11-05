@@ -1,22 +1,26 @@
 <header>
-    <div class="header">
-        <nav>
-            <div class="wrapper">
-                <ul>
-                    <li><img id="logo" src="{{ URL::asset('images/logo.png') }}"/></li>
-                    <li><a href="#page1" anchor="true">Jak działamy</a></li>
-                    <li><a href="#page2" anchor="true">Korzyści dla biznesu</a></li>
-                    <li>
-                        <b></b>
-                        <div>
-                            <a href="#page3" anchor="true">Nasi klienci</a>
-                            <a href="#email_form" anchor="true">Kontakt</a>
-                        </div>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-default navbar-fixed-top transparent_nav">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img id="logo" src="{{ URL::asset('images/logo-jasne.png') }}"/></a>
             </div>
-        </nav>
-    </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 
     <!-- Top Background Image Wrapper -->
     <!-- ################################################################################################ -->

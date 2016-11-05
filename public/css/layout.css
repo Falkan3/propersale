@@ -71,232 +71,56 @@ File: Layout CSS
 
 /* Header
 --------------------------------------------------------------------------------------------------------------- */
-#header {
-    padding-top: 20px;
+
+.navbar {
+    margin-bottom: 0;
+    border-bottom: none;
+    background-color:rgba(0, 0, 0, 0.8)
 }
 
-#header #logo {
-    width: auto;
-    height: auto;
+.navbar-default .navbar-nav>li>a {
+    color: #fff !important;
 }
 
-#header #logo h1 {
-    margin: 10px 0 0 0;
-    padding: 0;
-    font-size: 32px;
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffdd00 !important;
 }
 
-header nav .wrapper {
-    height: 100%;
-    position: relative;
-    margin: 0 auto;
-    max-width: 1160px;
+.navbar li a {
+    background-color: transparent !important;
+    border-top: solid 2px transparent;
 }
 
-.header nav .wrapper:before {
-    left: -100%;
+.navbar li.active a {
+    border-color: #ffdd00;
 }
 
-.header nav .wrapper:after {
-    right: -99%;
+.navbar a {
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.header nav .wrapper:after, .header nav .wrapper:before {
-    content: '';
-    display: block;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-}
-
-header nav, header nav ul {
-    height: 100%;
-}
-
-header nav ul {
-    width: 100%;
-    margin: 0;
-}
-
-header nav ul li {
-    display: inline-block;
-    overflow: hidden;
-    float: left;
-    width: 15%;
-    height: 100%;
-    text-align: center;
-    border-right: 2px solid #d7d7d7;
-    background: #fff;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    position: relative;
-    margin: 0;
-    padding-top: 0;
-}
-
-header nav ul li:first-child {
-    width: 30%;
-    border-right: none;
-    background: transparent;
-    box-sizing: content-box;
-    margin: 0 1.25%;
-    padding-top: 0;
-}
-
-header nav ul li:last-child {
-    float: right;
-    width: 37.5%;
-    border: 0;
-    text-align: left!important;
-    padding-left: 1%;
-    padding-top: 0;
-}
-
-header nav img {
-    vertical-align: baseline;
-    max-height: 80px;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    color: #fff;
-    z-index: 3;
-    height: 80px;
-    overflow: hidden;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    transition: height 0.3s;
-
-    -webkit-transition: -webkit-transform 1s;
-    transition: transform 1s;
-
-    text-align: center;
-
-    -webkit-transform: translateY(35px);
-    transform: translateY(35px);
-
+.navbar:not(.transparent_nav) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header.shrink {
-    height: 60px;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+.navbar, .navbar li a {
+    transition: 1s;
 }
 
-.header.shrink nav img {
-    max-height: 60px;
+nav #logo {
+    max-width: 200px;
 }
 
-.header h1 {
-    font-size: 30px;
-    font-weight: normal;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    color: #000;
-    padding-top: 20px;
-    margin: 0;
+@media screen and (min-width: 768px) {
+    nav.navbar.navbar-default.transparent_nav {
+        background-color: transparent;
+        border: none;
+    }
 }
 
-.header.shrink h1 {
-    font-size: 24px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.header nav li:not(:last-child) a {
-    /*display: inline-block;*/
-    /*padding: 28px 0;*/
-    height: 100%;
-    box-sizing: border-box;
-    color: #000;
-    font-size: 16px;
-    font-weight: 500;
-    -webkit-transition: color .25s;
-    transition: color .25s;
-
-    /* Internet Explorer 10 */
-    display:-ms-flexbox;
-    -ms-flex-pack:center;
-    -ms-flex-align:center;
-
-    /* Firefox */
-    display:-moz-box;
-    -moz-box-pack:center;
-    -moz-box-align:center;
-
-    /* Safari, Opera, and Chrome */
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-
-    /* W3C */
-    display:box;
-    box-pack:center;
-    box-align:center;
-}
-
-.header .nav ul li:last-child a:first-child {
-    margin-left: 20px;
-}
-.header.shrink nav ul li:last-child a {
-    margin-top: 20px;
-    font-size: 12px;
-}
-.header nav ul li:last-child>div {
-    height: 100%;
-    padding: 26px 0;
-}
-.header.shrink nav ul li:last-child>div {
-    padding: 17px 0;
-}
-.header nav ul li:last-child a {
-    margin-top: 25px;
-    padding: 2px 10px;
-    width: auto;
-    border-right: 1px solid #d7d7d7;
-    font-size: 10px;
-    font-weight: 500;
-}
-.header.shrink nav ul li:last-child {
-    padding-top: 0;
-}
-.header nav ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #000;
-    padding-right: 3px;
-    width: 100%;
-}
-
-.header.shrink nav ul li:first-child {
-    padding-top: 0;
-}
-.header nav ul li.active a, .header nav ul li:last-child a.active {
-    color: #27aae1;
-    font-weight: 500;
-}
-
-/*
-header .content {
-    height: 115px;
-    display: block;
-}
-*/
+/* /Header
+--------------------------------------------------------------------------------------------------------------- */
 
 .desktop-float-left {
     float: left;
@@ -307,115 +131,6 @@ header .content {
 }
 
 @media screen and (max-width: 720px) {
-    .header {
-        overflow: visible !important;
-        height: 40px !important;
-        -webkit-transform: translateY(0) !important;
-        transform: translateY(0) !important;
-        top: 12px !important;
-        -webkit-transition: none !important;
-        transition: none !important;
-    }
-
-    .header nav ul li a {
-        font-size: 12px!important;
-        padding: 0;
-        height: 100%;
-        width: auto;
-        line-height: 10px;
-    }
-
-    header .content {
-        display: none;
-    }
-
-    .header nav ul li:last-child>div, .header.shrink nav ul li:last-child>div {
-        padding: 0;
-        height: auto;
-    }
-
-    header nav ul li:first-child {
-        width: 30%;
-    }
-
-    header nav ul li {
-        width: 27.5%;
-    }
-
-    header nav ul li:last-child {
-        width: 12.5%;
-        height: 100%;
-        position: relative;
-    }
-
-    header nav ul li:last-child b:after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        height: 0;
-        width: 0;
-        border: solid transparent;
-        border-color: #d7d7d7 transparent transparent;
-        border-width: 10px;
-        margin-top: -4px;
-        margin-left: -13px;
-    }
-
-    header nav ul li:last-child>div {
-        display: none;
-        position: relative;
-        z-index: -1;
-        opacity: 0;
-        -webkit-transition: all .5s;
-        transition: all .5s;
-    }
-
-    header nav ul li:last-child b {
-        position: relative;
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-
-    header nav ul li:last-child b.visible:after {
-        border-top-color: #51b2dc;
-    }
-
-    header nav ul li:last-child>div.visible {
-        display: block;
-        position: fixed;
-        top: 39px;
-        right: 0;
-        opacity: 1;
-        background: #51b2dc;
-    }
-
-    header nav ul li:last-child>div {
-        display: none;
-        position: relative;
-        z-index: -1;
-        opacity: 0;
-        -webkit-transition: all .5s;
-        transition: all .5s;
-    }
-
-    header nav ul li:last-child a {
-        display: block;
-        margin: 0;
-        padding: 22px 60px;
-        color: #fff;
-        font-size: 36px;
-        text-align: center;
-        border-bottom: 1px solid #fff;
-    }
-
-    .header nav ul li:last-child>div a, .header.shrink nav ul li:last-child>div a {
-        margin-top: 0;
-        font-size: 13px;
-        padding: 8px 10px;
-    }
-
     .desktop-float-left {
         float: none;
     }
@@ -447,7 +162,7 @@ header .content {
 }
 
 #pageintro .slides li .flex-content {
-    padding: 330px 0 150px;
+    padding: 230px 0 150px;
     text-align: center;
     z-index: 1;
 }
@@ -585,7 +300,7 @@ header .content {
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
 .container {
-    padding: 80px 0;
+    padding: 60px 0;
 }
 
 /* Content */
@@ -917,7 +632,7 @@ td {
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 a {
-    color: #FF9C09;
+    color: #ffdd00;
 }
 
 hr, .borderedbox {
@@ -930,7 +645,7 @@ label span {
 }
 
 input:focus, textarea:focus, *:required:focus {
-    border-color: #FF9C09;
+    border-color: #ffdd00;
 }
 
 .overlay {
@@ -956,8 +671,8 @@ input:focus, textarea:focus, *:required:focus {
 
 .btn:hover {
     color: #FFFFFF;
-    background-color: #FF9C09;
-    border-color: #FF9C09;
+    background-color: #ffdd00;
+    border-color: #ffdd00;
 }
 
 /* Rows */
@@ -1002,7 +717,7 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 .services li:hover a {
-    color: #FF9C09;
+    color: #ffdd00;
 }
 
 .services li:hover i {
@@ -1012,7 +727,7 @@ input:focus, textarea:focus, *:required:focus {
 
 /* Sliders + Carousels */
 .flex-wrapper .flex-direction-nav a {
-    color: #FF9C09;
+    color: #ffdd00;
 }
 
 #testimonials .slides li .flex-content blockquote::before {
@@ -1059,14 +774,14 @@ input:focus, textarea:focus, *:required:focus {
 
 #footer button, .email_form button {
     color: #FFFFFF;
-    background-color: #FF9C09;
+    background-color: #ffdd00;
     width: 100%;
     min-width: 60px;
 }
 
 #backtotop {
     color: #FFFFFF;
-    background-color: #3cb0f8;
+    background-color: #ffdd00;
 }
 
 /* Tables + Comments */
@@ -1075,7 +790,7 @@ table, th, td, #comments .avatar, #comments input, #comments textarea {
 }
 
 #comments input:focus, #comments textarea:focus, #comments *:required:focus {
-    border-color: #FF9C09;
+    border-color: #ffdd00;
 }
 
 th {
@@ -1223,7 +938,8 @@ table a, #comments a {
     }
 
     .container, #footer {
-        padding-bottom: 50px;
+        padding-bottom: 40px;
+        padding-top: 40px;
     }
 
     #footer .group:first-of-type div:last-child {

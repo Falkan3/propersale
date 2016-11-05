@@ -72,13 +72,13 @@
 .content h1::first-letter {
     font-size: 60px;
     font-weight: 600;
-    color: #3cb0f8;
+    color: #ffdd00;
 }
 
 .content h2::first-letter {
     font-size: 36px;
     font-weight: 400;
-    color: #3cb0f8;
+    color: #ffdd00;
 }
 
 .carousel-items li a {
@@ -92,11 +92,11 @@
 }
 
 .carousel-control {
-    color: #3cb0f8;
+    color: #ffdd00;
 }
 
 #slider_advantages .carousel-control:focus, #slider_advantages .carousel-control:hover {
-    color: #83c7f1;
+    color: #ffdd00;
 }
 
 #slider_advantages.carousel, .item, .active {
@@ -256,6 +256,10 @@ img.img-arrow-left-down {
 /* ---------------------*/
 
 /* animated list ---------------------*/
+
+.animated_list {
+    min-height: 662px;
+}
 
 .animated_list li {
     list-style: none;

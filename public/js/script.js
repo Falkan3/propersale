@@ -2,6 +2,7 @@ var $root = $('html, body');
 
 var animated_list = $('.animated_list');
 var last_child_of_anim_list = animated_list.find('li').last().find('img');
+var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 2;
 
 $(document).ready(function () {
     $(window).stellar();
@@ -12,14 +13,6 @@ $(document).ready(function () {
     /* /Animated list*/
 
     advantages_slider();
-});
-
-var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 2;
-
-$(document).on('scroll', function () {
-    if ($(this).scrollTop() >= list_position) {
-        animateList();
-    }
 });
 
 $(window).resize(function () {
@@ -69,17 +62,16 @@ $(window).scroll(function () {
     } else {
         $("#backtotop").removeClass("visible");
     }
+    if ($(this).scrollTop() >= list_position) {
+        animateList();
+    }
 
-    var shrinkHeader = 50;
-    var scroll = getCurrentScroll();
-    if (scroll >= shrinkHeader) {
-        $('.header').addClass('shrink');
+    var transparenHeader = 10;
+    if ($(this).scrollTop() >= transparenHeader) {
+        $('header nav').removeClass('transparent_nav');
     }
     else {
-        $('.header').removeClass('shrink');
-    }
-    function getCurrentScroll() {
-        return window.pageYOffset || document.documentElement.scrollTop;
+        $('header nav').addClass('transparent_nav');
     }
 });
 
