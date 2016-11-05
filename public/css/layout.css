@@ -773,14 +773,15 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 #footer button, .email_form button {
-    color: #FFFFFF;
+    color: #464646;
+    font-weight: bold;
     background-color: #ffdd00;
     width: 100%;
     min-width: 60px;
 }
 
 #backtotop {
-    color: #FFFFFF;
+    color: #464646;
     background-color: #ffdd00;
 }
 

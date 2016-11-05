@@ -27,6 +27,7 @@ function advantages_slider() {
     });
 }
 
+/*
 $(document).on('click', 'a', function (event) {
     if ($(this).attr('anchor') == 'true' && $(this).attr('href').length > 1 && $(this).attr('href').charAt(0) == '#') {
         event.preventDefault();
@@ -36,6 +37,7 @@ $(document).on('click', 'a', function (event) {
         }, 500);
     }
 });
+*/
 
 function enableNiceScrolling() {
 

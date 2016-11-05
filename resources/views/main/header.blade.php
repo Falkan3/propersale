@@ -15,8 +15,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="#page1" class="page-scroll">Jak działamy <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#page2" class="page-scroll">Korzyści dla biznesu</a></li>
+                    <li><a href="#page3" class="page-scroll">Nasi klienci</a></li>
+                    <li><a href="#email_form" class="page-scroll">Kontakt</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
