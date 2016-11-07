@@ -119,12 +119,12 @@ function animateList() {
 
     for (var i = 0; i < items.length; i++) {
         $(items[i]).animate({
-            height: "show",
-            opacity: "show"
-        }, 1500);
+            width:"show",
+            opacity:"show"
+        },1500);
     }
 
-    last_child_of_anim_list.animate({height: '150px', width: '150px'}, 1500);
+    //last_child_of_anim_list.animate({height: '150px', width: '150px'}, 1500);
 
 }
 

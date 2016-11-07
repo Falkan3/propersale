@@ -3,7 +3,8 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -15,8 +16,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="#page1" class="page-scroll">Jak działamy <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#page2" class="page-scroll">Korzyści dla biznesu</a></li>
+                    <li><a href="#page1" class="page-scroll">Korzyści dla biznesu</a></li>
+                    <?php /*<span class="sr-only">(current)</span>*/ ?>
+                    <li><a href="#page2" class="page-scroll">Jak działamy</a></li>
                     <li><a href="#page3" class="page-scroll">Nasi klienci</a></li>
                     <li><a href="#email_form" class="page-scroll">Kontakt</a></li>
                 </ul>
@@ -31,22 +33,29 @@
             <div id="pageintro" class="flexslider clear">
                 <!-- ################################################################################################ -->
                 <ul class="slides clear">
-                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/stock1.jpg')">
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider1.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Integer commodo ornare</h2>
-                            <p>Suspendisse potenti ut non risus hendrerit placerat metus eu pharetra nisl praesent
-                                faucibus
-                                magna ipsum vestibulum.</p>
-                            <p><a class="btn" href="#">Odio placerat</a></p>
+                            <h2 class="heading">Oferujemy <span class="strong">marketing efektywnościowy</span> nowej
+                                generacji!</h2>
+                            <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
-                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/stock2.jpeg')">
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Donec quis imperdiet</h2>
-                            <p>Semper pellentesque nam at urna non tellus pulvinar lobortis pellentesque commodo in
-                                ipsum in
-                                condimentum donec.</p>
-                            <p><a class="btn" href="#">Aenean leo lectus</a></p>
+                            <h2 class="heading">Lorem ipsum</h2>
+                            <p></p>
+                            <p><a class="btn" href="#">Lorem ipsum</a></p>
+                        </article>
+                    </li>
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
+                        <article class="centered flex-content">
+                            <h2 class="heading"><span class="strong">Gwarantujemy</span> wielokanałowe <span
+                                        class="strong">dotarcie do klienta!</span></h2>
+                            <p><span
+                                        class="strong">Weryfikujemy dane</span> poprzez Call Center - <span
+                                        class="strong">dostarczamy zainteresowanego klienta!</span>
+                            </p>
+                            <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                 </ul>

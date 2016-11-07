@@ -6,7 +6,7 @@
 
 body, input, textarea, select {
     /*font-family: Verdana, Geneva, sans-serif;*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
     line-height: 1.6em;
 }
@@ -40,6 +40,14 @@ body, input, textarea, select {
 .overlay {
     position: relative;
     z-index: 1;
+}
+
+span.strong {
+    font-weight: bold;
+}
+
+span.underline {
+    text-decoration: underline;
 }
 
 @charset "utf-8";
@@ -83,7 +91,7 @@ File: Layout CSS
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #ffdd00 !important;
+    color: #3975b9 !important;
 }
 
 .navbar li a {
@@ -92,12 +100,12 @@ File: Layout CSS
 }
 
 .navbar li.active a {
-    border-color: #ffdd00;
+    border-color: #3975b9;
 }
 
 .navbar a {
     font-size: 16px;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 
 .navbar:not(.transparent_nav) {
@@ -162,7 +170,7 @@ nav #logo {
 }
 
 #pageintro .slides li .flex-content {
-    padding: 230px 0 150px;
+    padding: 280px 0 0;
     text-align: center;
     z-index: 1;
 }
@@ -175,13 +183,23 @@ nav #logo {
 
 #pageintro .slides li .flex-content .heading {
     margin-bottom: 15px;
-    font-size: 80px;
+    font-size: 42px;
+}
+
+#pageintro .slides li .flex-content p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 
 #pageintro .slides li .flex-content p:first-of-type {
     max-width: 50%;
-    margin: 0 auto 30px;
+    margin: 0 auto 0;
     line-height: 1.4;
+}
+
+#pageintro .slides li .flex-content p:last-of-type {
+    margin-top: 30px;
 }
 
 /* Testimonials
@@ -632,7 +650,7 @@ td {
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 a {
-    color: #ffdd00;
+    color: #3975b9;
 }
 
 hr, .borderedbox {
@@ -645,7 +663,7 @@ label span {
 }
 
 input:focus, textarea:focus, *:required:focus {
-    border-color: #ffdd00;
+    border-color: #3975b9;
 }
 
 .overlay {
@@ -671,8 +689,8 @@ input:focus, textarea:focus, *:required:focus {
 
 .btn:hover {
     color: #FFFFFF;
-    background-color: #ffdd00;
-    border-color: #ffdd00;
+    background-color: #3975b9;
+    border-color: #3975b9;
 }
 
 /* Rows */
@@ -717,7 +735,7 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 .services li:hover a {
-    color: #ffdd00;
+    color: #3975b9;
 }
 
 .services li:hover i {
@@ -727,7 +745,7 @@ input:focus, textarea:focus, *:required:focus {
 
 /* Sliders + Carousels */
 .flex-wrapper .flex-direction-nav a {
-    color: #ffdd00;
+    color: #3975b9;
 }
 
 #testimonials .slides li .flex-content blockquote::before {
@@ -768,21 +786,23 @@ input:focus, textarea:focus, *:required:focus {
 }
 
 #footer input, .email_form input {
-    color: #FFFFFF;
-    background-color: #3D4247;
+    color: #000;
+    /*background-color: #3D4247;*/
+    border: solid 2px #3D4247;
 }
 
 #footer button, .email_form button {
-    color: #464646;
+    color: #000;
     font-weight: bold;
-    background-color: #ffdd00;
+    background-color: #3975b9;
     width: 100%;
     min-width: 60px;
+    border: solid 2px transparent;
 }
 
 #backtotop {
     color: #464646;
-    background-color: #ffdd00;
+    background-color: #3975b9;
 }
 
 /* Tables + Comments */
@@ -791,7 +811,7 @@ table, th, td, #comments .avatar, #comments input, #comments textarea {
 }
 
 #comments input:focus, #comments textarea:focus, #comments *:required:focus {
-    border-color: #ffdd00;
+    border-color: #3975b9;
 }
 
 th {
@@ -852,11 +872,15 @@ table a, #comments a {
     }
 
     #pageintro .slides li .flex-content {
-        padding: 200px 0 150px;
+        padding: 260px 0 0;
     }
 
     #pageintro .slides li .flex-content .heading {
-        font-size: 54px;
+        font-size: 38px;
+    }
+
+    #pageintro .slides li .flex-content p {
+        font-size: 18px;
     }
 
     #pageintro .slides li .flex-content p:first-of-type {
@@ -918,11 +942,15 @@ table a, #comments a {
     }
 
     #pageintro .slides li .flex-content {
-        padding: 210px 0;
+        padding: 210px 0 0 0;
     }
 
     #pageintro .slides li .flex-content .heading {
-        font-size: 32px;
+        font-size: 28px;
+    }
+
+    #pageintro .slides li .flex-content p {
+        font-size: 16px;
     }
 
     #pageintro .slides li .flex-content p:first-of-type {

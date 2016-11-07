@@ -7,26 +7,26 @@
     <!-- Intro Section -->
     <section id="page1" class="">
         <div class="content container">
-            <h1>Jak działamy</h1>
+            <h1>Korzyści dla Twojego biznesu</h1>
 
             <ul class="animated_list padding_medium_ver">
                 <div class="row padding_medium">
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
-                            <p>test</p>
+                            <p><span class="strong">Zwiększasz sprzedaż</span> bo efektywnie reklamujesz się w Internecie</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
-                            <p>test</p>
+                            <p><span class="strong">Zmniejszasz</span> koszty bo nie martwisz się o cenę reklamy i nie musisz opłacać pracownika</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
-                            <p>test</p>
+                            <p><span class="strong">Docierasz do</span> zainteresowanego <span class="strong">klienta wielokanałowo</span></p>
                         </li>
                     </div>
                 </div>
@@ -34,21 +34,13 @@
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
                             <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
-                            <p>test</p>
+                            <p><span class="strong">Otrzymujesz</span> tylko <span class="strong">zweryfikowane kontakty</span> do klientów</p>
                         </li>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
-                            <p>test</p>
-                        </li>
-                    </div>
-                </div>
-                <div class="row padding_medium">
-                    <div class="col-xs-12 col-sm-12 col-md-12 center">
-                        <li class="right_mrg left_mrg">
-                            <img src="{{ URL::asset('images/demo/icon6.png') }}" alt="icon"/>
-                            <p>TEST</p>
+                            <p><span class="strong">Budujesz bazę</span> klientów <span class="strong">na przyszłość</span></p>
                         </li>
                     </div>
                 </div>
@@ -58,8 +50,8 @@
 
     <section id="page2" class="">
         <div class="content container">
-            <h1>Korzyści dla biznesu</h1>
-
+            <h1>Jak działamy</h1>
+            <h3 class="center">Najlepiej zorganizowana reklama w Internecie</h3>
         </div>
     </section>
 
@@ -74,14 +66,17 @@
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
                 <ul class="carousel-items">
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/demo/logo.png" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
                 </ul>
                 <!-- ################################################################################################ -->
             </section>
@@ -92,16 +87,22 @@
     <section id="email_form">
         <div class="container">
             <div id="content_contact" class="content">
-                <h1>Chcesz poznać szczegółową ofertę dla Twojej firmy? Zostaw do siebie kontakt</h1>
+                <h1>Chcesz poznać ofertę dla Twojej firmy? Zostaw dane, a skontaktujemy się z Tobą!</h1>
 
                 <div class="row">
                     <div class="email_form">
-                        <h6 class="title">Podaj swój adres E-mail</h6>
+                        <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
                         <form class="btmspace-30" method="post" action="#">
                             <fieldset>
-                                <legend>Newsletter:</legend>
-                                <div class="col-xs-12 col-sm-10 col-md-10">
+                                <legend>Kontakt:</legend>
+                                <div class="col-xs-12 col-sm-4 col-md-4">
                                     <input class="btmspace-15" type="text" value="" placeholder="E-mail">
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy">
+                                </div>
+                                <div class="col-xs-12 col-sm-3 col-md-3">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu">
                                 </div>
                                 <div class="col-xs-12 col-sm-2 col-md-2">
                                     <button type="submit" value="submit" class="center_mrg">Wyślij</button>
