@@ -87,7 +87,8 @@
     <section id="email_form">
         <div class="container">
             <div id="content_contact" class="content">
-                <h1>Chcesz poznać ofertę dla Twojej firmy? Zostaw dane, a skontaktujemy się z Tobą!</h1>
+                <h1>Chcesz poznać ofertę dla Twojej firmy?</h1>
+                <h3>Zostaw dane, a skontaktujemy się z Tobą!</h3>
 
                 <div class="row">
                     <div class="email_form">

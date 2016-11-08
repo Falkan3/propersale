@@ -124,7 +124,7 @@
 }
 
 #clients li img {
-    min-height: 121px;
+    height: 121px;
 }
 
 /* Background images are set within the HTML using inline CSS, not here */

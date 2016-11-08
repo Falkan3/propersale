@@ -42,19 +42,16 @@
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Lorem ipsum</h2>
-                            <p></p>
+                            <h2 class="heading"><span class="strong">Gwarantujemy</span> wielokanałowe <span
+                                        class="strong">dotarcie do klienta!</span></h2>
                             <p><a class="btn" href="#">Lorem ipsum</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading"><span class="strong">Gwarantujemy</span> wielokanałowe <span
-                                        class="strong">dotarcie do klienta!</span></h2>
-                            <p><span
+                            <h2 class="heading"><span
                                         class="strong">Weryfikujemy dane</span> poprzez Call Center - <span
-                                        class="strong">dostarczamy zainteresowanego klienta!</span>
-                            </p>
+                                        class="strong">dostarczamy zainteresowanego klienta!</span></h2>
                             <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>

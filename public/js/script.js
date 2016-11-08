@@ -69,11 +69,13 @@ $(window).scroll(function () {
     }
 
     var transparenHeader = 10;
-    if ($(this).scrollTop() >= transparenHeader) {
-        $('header nav').removeClass('transparent_nav');
-    }
-    else {
-        $('header nav').addClass('transparent_nav');
+    if($( window ).width() > 768) {
+        if ($(this).scrollTop() >= transparenHeader) {
+            $('header nav').removeClass('transparent_nav');
+        }
+        else {
+            $('header nav').addClass('transparent_nav');
+        }
     }
 });
 

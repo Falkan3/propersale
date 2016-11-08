@@ -127,6 +127,13 @@ nav #logo {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .navbar li a {
+        border-top: none;
+        border-left: solid 2px transparent;
+    }
+}
+
 /* /Header
 --------------------------------------------------------------------------------------------------------------- */
 
