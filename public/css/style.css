@@ -190,6 +190,8 @@
 
 div.screen-height {
     height: 100%;
+    min-height: 100vh;
+    height: calc(100%);
     overflow: hidden;
 }
 
