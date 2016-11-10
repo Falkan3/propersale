@@ -65,8 +65,8 @@
             <!-- ################################################################################################ -->
         </div>
 
-        <div class="wrapper flex-wrapper overlay bgded"
-             style="background-image:url('images/demo/backgrounds/03.png')">
+        <div class="wrapper flex-wrapper bgded"
+             <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?> style="background-color: #232830;">
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
                 <ul class="carousel-items">
