@@ -13,22 +13,22 @@
                 <div class="row padding_medium">
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
-                            <p><span class="strong">Zwiększasz sprzedaż</span></p>
+                            <img src="{{ URL::asset('images/demo/icon4-b.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Zwiększasz sprzedaż</span></p>
                             <p>efektywnie reklamujesz się w Internecie</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
-                            <p><span class="strong">Zmniejszasz koszty</span></p>
+                            <img src="{{ URL::asset('images/demo/icon2-b.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Zmniejszasz koszty</span></p>
                             <p>nie martwisz się o cenę reklamy i nie musisz opłacać pracownika</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
-                            <p><span class="strong">Docierasz do klienta</span></p>
+                            <img src="{{ URL::asset('images/demo/icon3-b.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Docierasz do klienta</span></p>
                             <p>wielokanałowo</p>
                         </li>
                     </div>
@@ -36,14 +36,14 @@
                 <div class="row padding_medium">
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
-                            <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
-                            <p><span class="strong">Zyskujesz zweryfikowane kontakty</span></p>
+                            <img src="{{ URL::asset('images/demo/icon1-b.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Zyskujesz zweryfikowane kontakty</span></p>
                         </li>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
-                            <p><span class="strong">Budujesz bazę klientów</span></p>
+                            <img src="{{ URL::asset('images/demo/icon5-b.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
                             <p>którą możesz wykorzystać na przyszłość</p>
                         </li>
                     </div>

@@ -241,8 +241,8 @@ img.img-arrow-left-down {
 }
 
 .animated_list li img {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -302,6 +302,10 @@ ul.animated_list li p:first-of-type {
     }
     div.screen-height .slides li, section.screen-height .slides li article {
         min-height: 600px;
+    }
+    .animated_list li img {
+        height: 100px;
+        width: 100px;
     }
 }
 

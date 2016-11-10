@@ -26,7 +26,7 @@ $(window).load(function() {
         touch: true,
         smoothHeight: true,
         slideshow: true,
-		slideshowSpeed: 8000,
+		slideshowSpeed: 3000,
         start: function(slider) {
             $('body').removeClass('loading');
         }
