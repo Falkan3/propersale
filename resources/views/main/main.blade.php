@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'ProperMONEY')
+@section('title', 'ProperSALE')
 
 @section('content')
 
@@ -44,7 +44,7 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
                             <p><span class="strong">Budujesz bazę klientów</span></p>
-                            <p>Którą możesz wykorzystać na przyszłość</p>
+                            <p>którą możesz wykorzystać na przyszłość</p>
                         </li>
                     </div>
                 </div>

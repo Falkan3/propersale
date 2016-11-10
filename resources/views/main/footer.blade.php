@@ -18,12 +18,12 @@
             </div>
             <div class="one_quarter"> <i class="icon fa fa-envelope-o"></i>
                 <ul class="nospace">
-                    <li>kontakt@propersale.pl</li>
+                    <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE" target="_top">kontakt@propersale.pl</li>
                 </ul>
             </div>
             <div class="one_quarter"> <i class="icon fa fa-clock-o"></i>
                 <ul class="nospace">
-                    <li>Pon - Pt: 9:00 to 17:00</li>
+                    <li>Pon - Pt: 9:00 do 17:00</li>
                     <li>Sob - Nie: Nieczynne</li>
                 </ul>
             </div>
