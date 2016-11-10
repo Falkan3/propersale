@@ -55,6 +55,20 @@
                             <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider4.jpg')">
+                        <article class="centered flex-content">
+                            <h2 class="heading"><span
+                                        class="strong">Stomatologia</span></h2>
+                            <p><a class="btn" href="#">Test</a></p>
+                        </article>
+                    </li>
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider5.jpg')">
+                        <article class="centered flex-content">
+                            <h2 class="heading"><span
+                                        class="strong">Nieruchomości</span></h2>
+                            <p><a class="btn" href="#">Test</a></p>
+                        </article>
+                    </li>
                 </ul>
                 <!-- ################################################################################################ -->
             </div>

@@ -83,7 +83,9 @@ File: Layout CSS
 .navbar {
     margin-bottom: 0;
     border-bottom: none;
-    background-color:rgba(0, 0, 0, 0.8)
+    background-color:rgba(0, 0, 0, 0.8);
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -108,9 +110,11 @@ File: Layout CSS
     /*font-weight: bold;*/
 }
 
+/*
 .navbar:not(.transparent_nav) {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+*/
 
 .navbar, .navbar li a {
     transition: 1s;

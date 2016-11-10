@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .image {
     height: 400px;
     width: 100%;
@@ -251,6 +253,10 @@ img.img-arrow-left-down {
     text-align: center;
 }
 
+ul.animated_list li p:first-of-type {
+    margin-bottom: 8px;
+}
+
 /* media queries ---------------------*/
 
 @media screen and (max-width: 720px) {
@@ -306,5 +312,17 @@ img.img-arrow-left-down {
         height: 70px;
         margin-top: -33px;
         font-size: 70px;
+    }
+    ul.animated_list div div {
+        padding: 0 3%;
+    }
+    ul.animated_list div div:first-child {
+        padding-right: 5%;
+    }
+    ul.animated_list div div:last-child {
+        padding-left: 5%;
+    }
+    .navbar-nav {
+        float: right;
     }
 }
