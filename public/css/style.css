@@ -257,6 +257,17 @@ ul.animated_list li p:first-of-type {
     margin-bottom: 8px;
 }
 
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #3975b9;
+}
+
 /* media queries ---------------------*/
 
 @media screen and (max-width: 720px) {
