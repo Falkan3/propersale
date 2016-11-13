@@ -378,10 +378,6 @@ ul.animated_list li p:first-of-type {
     .content #slider_advantages.carousel .carousel-caption p {
         font-size: 13px;
     }
-
-    .hide_on_mobile {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -400,6 +396,9 @@ ul.animated_list li p:first-of-type {
 
     .no_margin_on_mobile {
         margin: 0;
+    }
+    .hide_on_mobile {
+        display: none;
     }
 }
 
