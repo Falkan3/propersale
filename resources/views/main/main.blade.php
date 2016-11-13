@@ -61,7 +61,7 @@
                 <img src="{{ URL::asset('images/logo-n.png') }}" class="middle_logo"/>
                 <div class="rotate_item four" data-angle=0>
                     <p>Portale</p>
-                    <img src="{{ URL::asset('images/demo/diagram/wp.png') }}" class="inline_img"/>
+                    <img src="{{ URL::asset('images/demo/diagram/Wp.png') }}" class="inline_img"/>
                     <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class="inline_img"/>
                     <img src="{{ URL::asset('images/demo/diagram/interia.png') }}" class="inline_img"/>
                 </div>
@@ -99,7 +99,7 @@
                 <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
                     <h3>Portale</h3>
                     <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/wp.png') }}" class=""/>
+                        <img src="{{ URL::asset('images/demo/diagram/Wp.png') }}" class=""/>
                     </div>
                     <div style="display: inline-block; width: 30%;">
                         <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class=""/>

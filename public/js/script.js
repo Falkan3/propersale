@@ -18,6 +18,7 @@ $(document).ready(function () {
 
     advantages_slider();
 
+    screen_width_2 = 35 + circleArray.width()*1.25;
     chargearray();
 });
 
