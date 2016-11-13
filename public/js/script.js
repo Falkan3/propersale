@@ -3,6 +3,10 @@ var $root = $('html, body');
 var animated_list = $('.animated_list');
 var last_child_of_anim_list = animated_list.find('li').last().find('img');
 var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 2;
+var circleContainer = $('.circle-big');
+var circleArray = $('.rotate_item');
+var screen_width_2 = 35 + circleArray.width()*1.25;
+var angle = 0;
 
 $(document).ready(function () {
     $(window).stellar();
@@ -13,10 +17,13 @@ $(document).ready(function () {
     /* /Animated list*/
 
     advantages_slider();
+
+    chargearray();
 });
 
 $(window).resize(function () {
     advantages_slider();
+    screen_width_2 =  35 + circleArray.width()*1.25;
 });
 
 function advantages_slider() {
@@ -166,6 +173,24 @@ function pulse(obj) {
  'margin-top': $(items[4]).find('img').height() * 2 + 15
  }];
  */
+
+function chargearray () {
+    for (var i = 0, j = circleArray.length; i < j; i++) {
+        var circle = circleArray[i];
+        var circleAngle = parseInt (circle.dataset.angle);
+        var totalAngle = angle + circleAngle;
+        var style = "rotate(" + totalAngle + "deg) translate(" + (screen_width_2) + "px)";
+        totalAngle = - totalAngle;
+        style = style + " rotate(" + totalAngle + "deg)"
+        circle.style.webkitTransform = style;
+        circle.style.Transform = style;
+    }
+}
+
+window.setInterval(function(){
+    angle = angle + 1;
+    chargearray ();
+}, 100);
 
 
 

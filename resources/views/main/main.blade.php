@@ -55,7 +55,128 @@
     <section id="page2" class="">
         <div class="content container">
             <h1>Jak działamy</h1>
-            <h3 class="center">Najlepiej zorganizowana reklama w Internecie</h3>
+            <h2 class="center">Najlepiej zorganizowana reklama w Internecie</h2>
+
+            <div class="circle-big hide_on_mobile">
+                <img src="{{ URL::asset('images/logo-n.png') }}" class="middle_logo"/>
+                <div class="rotate_item four" data-angle=0>
+                    <p>Portale</p>
+                    <img src="{{ URL::asset('images/demo/diagram/wp.png') }}" class="inline_img"/>
+                    <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class="inline_img"/>
+                    <img src="{{ URL::asset('images/demo/diagram/interia.png') }}" class="inline_img"/>
+                </div>
+                <div class="rotate_item seven" data-angle=60>
+                    <p>Bazy mailingowe</p>
+                    <img src="{{ URL::asset('images/demo/diagram/mailing-b.png') }}"/>
+                </div>
+                <div class="rotate_item seven" data-angle=120>
+                    <p>Mobile</p>
+                    <img src="{{ URL::asset('images/demo/diagram/mobile-b.png') }}"/>
+                </div>
+                <div class="rotate_item seven" data-angle=180>
+                    <p>Blogi</p>
+                    <img src="{{ URL::asset('images/demo/diagram/blogging-b.png') }}"/>
+                </div>
+                <div class="rotate_item ten" data-angle=240>
+                    <img src="{{ URL::asset('images/demo/diagram/abcs-of-adwords-google-adwords-logo.png') }}"/>
+                </div>
+                <div class="rotate_item one" data-angle=300>
+                    <p>Media społecznościowe</p>
+                    <img src="{{ URL::asset('images/demo/diagram/facebook.png') }}" class="inline_img"/>
+                    <img src="{{ URL::asset('images/demo/diagram/instagram-Logo-PNG-Transparent-Background-download.png') }}"
+                         class="inline_img"/>
+                    <img src="{{ URL::asset('images/demo/diagram/twitter-icon.png') }}" class="inline_img"/>
+                </div>
+            </div>
+
+            <div class="show_on_mobile center-block center">
+                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
+                    <h3>Google Adwords</h3>
+                    <img src="{{ URL::asset('images/demo/diagram/abcs-of-adwords-google-adwords-logo.png') }}"
+                         class="big_icon"/>
+                </div>
+
+                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
+                    <h3>Portale</h3>
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/wp.png') }}" class=""/>
+                    </div>
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class=""/>
+                    </div>
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/interia.png') }}" class=""/>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
+                    <h3>Media społecznościowe</h3>
+
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/facebook.png') }}" class=""/>
+                    </div>
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/instagram-Logo-PNG-Transparent-Background-download.png') }}"
+                             class="inline_img"/>
+                    </div>
+                    <div style="display: inline-block; width: 30%;">
+                        <img src="{{ URL::asset('images/demo/diagram/twitter-icon.png') }}" class=""/>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
+                    <div style="display: inline-block; width: 30%;">
+                        <p class="no_margin">Bazy mailingowe</p>
+                        <img src="{{ URL::asset('images/demo/diagram/mailing-b.png') }}" class="small_icon"/>
+                    </div>
+
+                    <div style="display: inline-block; width: 30%;">
+                        <p class="no_margin">Mobile</p>
+                        <img src="{{ URL::asset('images/demo/diagram/mobile-b.png') }}" class="small_icon"/>
+                    </div>
+
+                    <div style="display: inline-block; width: 30%;">
+                        <p class="no_margin">Blogi</p>
+                        <img src="{{ URL::asset('images/demo/diagram/blogging-b.png') }}" class="small_icon"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-sm-12 col-md-12 center-block" style="padding-left: 25px !important;">
+                <svg version="1.1" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;"
+                     xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="150px"
+                     viewBox="0 0 255 296" enable-background="new 0 0 255 296" xml:space="preserve">
+                    <g>
+                        <path fill="#3975b9"
+                              d="M 154.3 126.3 L 204.1 126.3 L 104.5 249 L 5 126.3 L 54.7 126.3 L 54.7 3.6 L 154.3 3.6Z"></path>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="col-sm-12 col-sm-12 col-md-12 center center-block padding_medium_ver">
+                <h3>Nasz Call Center</h3>
+                <img src="{{ URL::asset('images/demo/icon3-b.png') }}" alt="Call center icon" class="icon"/>
+            </div>
+
+            <div class="col-sm-12 col-sm-12 col-md-12 center-block" style="padding-left: 25px !important;">
+                <svg version="1.1" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;"
+                     xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="150px"
+                     viewBox="0 0 255 296" enable-background="new 0 0 255 296" xml:space="preserve">
+                    <g>
+                        <path fill="#3975b9"
+                              d="M 154.3 126.3 L 204.1 126.3 L 104.5 249 L 5 126.3 L 54.7 126.3 L 54.7 3.6 L 154.3 3.6Z"></path>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="col-sm-12 col-sm-12 col-md-12 center center-block padding_medium_ver">
+                <h3 class="no_margin"><span class="strong">Nowi klienci</span></h3>
+                <p>I większa sprzedaż</p>
+                <img src="{{ URL::asset('images/demo/diagram/klienci-b.png') }}" alt="Klienci icon"
+                     class="icon padding_small_ver"/>
+            </div>
         </div>
     </section>
 
