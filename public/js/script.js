@@ -17,10 +17,10 @@ $(document).ready(function () {
     /* /Animated list*/
 
     advantages_slider();
+});
 
-    console.log(screen_width_2);
+$( window ).load(function() {
     screen_width_2 = 35 + circleArray.width()*1.25;
-    console.log(screen_width_2);
     chargearray();
 });
 
@@ -183,7 +183,6 @@ function chargearray () {
         var circleAngle = parseInt (circle.dataset.angle);
         var totalAngle = angle + circleAngle;
         var style = "rotate(" + totalAngle + "deg) translate(" + (screen_width_2) + "px)";
-        console.log(screen_width_2);
         totalAngle = - totalAngle;
         style = style + " rotate(" + totalAngle + "deg)"
         circle.style.webkitTransform = style;
