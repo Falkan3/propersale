@@ -35,37 +35,42 @@
                 <ul class="slides clear">
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider1.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Oferujemy <span class="strong">marketing efektywnościowy</span> nowej
-                                generacji!</h2>
+                            <h2 class="heading">Oferujemy marketing efektywnościowy nowej generacji!</h2>
+                            <h2><span class="strong">Efektywnościowy, czyli skuteczny!</span></h2>
+                            <p>Reklamujesz się w prasie, radiu czy Internecie, a pieniądze zainwestowane w działania
+                                marketingowe nie przynoszą oczekiwanych rezultatów? Skorzystaj z Naszej oferty i płać
+                                tylko za <span class="strong underline">zweryfikowane kontakty</span> do
+                                zainteresowanych Twoim produktem lub usługą
+                                klientów! </p>
                             <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading"><span class="strong">Gwarantujemy</span> wielokanałowe <span
-                                        class="strong">dotarcie do klienta!</span></h2>
+                            <h2 class="heading">Gwarantujemy wielokanałowe dotarcie do klienta!</h2>
+                            <p>Nie skupiaj się na jednym kanale dotarcia do klienta – to nigdy nie przyniesie Ci
+                                oczekiwanych efektów. Najlepsze rezultaty osiągniesz, reklamując się w kilku miejscach
+                                jednocześnie!</p>
+                            <p>Dzięki wieloletniemu doświadczeniu zdobytemu w pozyskiwaniu klienta dla branży finansowej
+                                oraz ubezpieczeniowej, wypracowaliśmy najskuteczniejsze metody i najlepsze stawki w
+                                działaniach marketingowych na rynku!</p>
                             <p><a class="btn" href="#">Lorem ipsum</a></p>
-                        </article>
-                    </li>
-                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
-                        <article class="centered flex-content">
-                            <h2 class="heading"><span
-                                        class="strong">Weryfikujemy dane</span> poprzez Call Center - <span
-                                        class="strong">dostarczamy zainteresowanego klienta!</span></h2>
-                            <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider4.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading"><span
-                                        class="strong">Stomatologia</span></h2>
+                            <h2 class="heading">Stomatologia</h2>
+                            <p>Zaufały nam najlepsze kliniki stomatologiczne w Trójmieście! Ich atrakcyjna oferta
+                                promocyjna przygotowana w trakcie współpracy z ProperSale spotkała się z
+                                zainteresowaniem wielu klientów.</p>
                             <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider5.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading"><span
-                                        class="strong">Nieruchomości</span></h2>
+                            <h2 class="heading">Nieruchomości</h2>
+                            <p>Pomogliśmy znaleźć miejsce na Ziemi wielu klientom deweloperów jak i pośredników w branży
+                                nieruchomości.</p>
                             <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>

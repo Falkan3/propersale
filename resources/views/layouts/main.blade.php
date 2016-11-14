@@ -21,7 +21,7 @@
     <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
     <?php /*<script src="{{ URL::asset('js/npm.js') }}"></script>*/ ?>
 </head>
-<body id="top">
+<body id="top" class="zebra">
 <!-- header -->
 @include('main.header')
 

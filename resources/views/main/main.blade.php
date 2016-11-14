@@ -13,38 +13,48 @@
                 <div class="row padding_medium">
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon4-b.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz sprzedaż</span></p>
-                            <p>efektywnie reklamujesz się w Internecie</p>
+                            <p>Efektywnie reklamujesz się w Internecie.</p>
+                            <p>Koncentrujesz się na obsłudze klientów, a nie na ich pozyskaniu.</p>
+                            <p>Zyskujesz też dodatkowy czas na rozwój firmy.</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon2-b.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon2-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zmniejszasz koszty</span></p>
-                            <p>nie martwisz się o cenę reklamy i nie musisz opłacać pracownika</p>
+                            <p>Nie martwisz się o cenę reklamy, bo to bierzemy na siebie. Rozliczasz się z nami tylko za
+                                efekt, nie za miejsce reklamowe. Dodatkowo oszczędzasz pieniądze, bo nie musisz opłacać
+                                marketingowca w firmie.</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon3-b.png') }}" alt="icon"/>
-                            <p><span class="strong uppercase">Docierasz do klienta</span></p>
-                            <p>wielokanałowo</p>
+                            <img src="{{ URL::asset('images/demo/icon1-b2.png') }}" alt="icon"/>
+                            <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
+                            <p>Zarówno poprzez reklamę w wyszukiwarce Google jak i reklamę na portalach zasięgowych i
+                                społecznościowych jak WP.pl, Onet.pl, Facebook czy bazy mailingowe.</p>
                         </li>
                     </div>
                 </div>
                 <div class="row padding_medium">
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
-                            <img src="{{ URL::asset('images/demo/icon1-b.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon3-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zyskujesz zweryfikowane kontakty</span></p>
+                            <p>Call Center dedykowane ProperSale weryfikuje i potwierdza dane kontaktowe i
+                                zainteresowanie Twoją usługą / produktem potencjalnego klienta. Jeśli zajdzie taka
+                                potrzeba, zbiera też podczas rozmowy dodatkowe potrzebne Ci dane.</p>
                         </li>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon5-b.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon5-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
-                            <p>którą możesz wykorzystać na przyszłość</p>
+                            <p>Pozyskane dane do klienta możesz wykorzystać do zbudowania bazy, która może być Ci
+                                przydatna do wysyłki informacji o nowych ofertach i promocjach. Im większą bazą będziesz
+                                dysponować, tym większa szansa na dotarcie do klienta i zwiększenie sprzedaży.</p>
                         </li>
                     </div>
                 </div>
@@ -55,143 +65,49 @@
     <section id="page2" class="">
         <div class="content container">
             <h1>Jak działamy</h1>
-            <h2 class="center">Najlepiej zorganizowana reklama w Internecie</h2>
+            <h2 class="center">Proper<span class="big">Sale</span> to najlepiej zorganizowana reklama w Internecie.</h2>
 
-            <div class="circle-big hide_on_mobile">
-                <img src="{{ URL::asset('images/logo-n.png') }}" class="middle_logo"/>
-                <div class="rotate_item four" data-angle=0>
-                    <p>Portale</p>
-                    <img src="{{ URL::asset('images/demo/diagram/Wp.png') }}" class="inline_img"/>
-                    <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class="inline_img"/>
-                    <img src="{{ URL::asset('images/demo/diagram/interia.png') }}" class="inline_img"/>
-                </div>
-                <div class="rotate_item seven" data-angle=60>
-                    <p>Bazy mailingowe</p>
-                    <img src="{{ URL::asset('images/demo/diagram/mailing-b.png') }}"/>
-                </div>
-                <div class="rotate_item seven" data-angle=120>
-                    <p>Mobile</p>
-                    <img src="{{ URL::asset('images/demo/diagram/mobile-b.png') }}"/>
-                </div>
-                <div class="rotate_item seven" data-angle=180>
-                    <p>Blogi</p>
-                    <img src="{{ URL::asset('images/demo/diagram/blogging-b.png') }}"/>
-                </div>
-                <div class="rotate_item ten" data-angle=240>
-                    <img src="{{ URL::asset('images/demo/diagram/abcs-of-adwords-google-adwords-logo.png') }}"/>
-                </div>
-                <div class="rotate_item one" data-angle=300>
-                    <p>Media społecznościowe</p>
-                    <img src="{{ URL::asset('images/demo/diagram/facebook.png') }}" class="inline_img"/>
-                    <img src="{{ URL::asset('images/demo/diagram/instagram-Logo-PNG-Transparent-Background-download.png') }}"
-                         class="inline_img"/>
-                    <img src="{{ URL::asset('images/demo/diagram/twitter-icon.png') }}" class="inline_img"/>
-                </div>
-            </div>
-
-            <div class="show_on_mobile center-block center">
-                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
-                    <h3>Google Adwords</h3>
-                    <img src="{{ URL::asset('images/demo/diagram/abcs-of-adwords-google-adwords-logo.png') }}"
-                         class="big_icon"/>
-                </div>
-
-                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
-                    <h3>Portale</h3>
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/Wp.png') }}" class=""/>
-                    </div>
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/trojmiasto.png') }}" class=""/>
-                    </div>
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/interia.png') }}" class=""/>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
-                    <h3>Media społecznościowe</h3>
-
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/facebook.png') }}" class=""/>
-                    </div>
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/instagram-Logo-PNG-Transparent-Background-download.png') }}"
-                             class="inline_img"/>
-                    </div>
-                    <div style="display: inline-block; width: 30%;">
-                        <img src="{{ URL::asset('images/demo/diagram/twitter-icon.png') }}" class=""/>
-                    </div>
-                </div>
-
-                <div class="col-sm-12 col-sm-12 col-md-12 margin_medium_ver">
-                    <div style="display: inline-block; width: 30%;">
-                        <p class="no_margin">Bazy mailingowe</p>
-                        <img src="{{ URL::asset('images/demo/diagram/mailing-b.png') }}" class="small_icon"/>
-                    </div>
-
-                    <div style="display: inline-block; width: 30%;">
-                        <p class="no_margin">Mobile</p>
-                        <img src="{{ URL::asset('images/demo/diagram/mobile-b.png') }}" class="small_icon"/>
-                    </div>
-
-                    <div style="display: inline-block; width: 30%;">
-                        <p class="no_margin">Blogi</p>
-                        <img src="{{ URL::asset('images/demo/diagram/blogging-b.png') }}" class="small_icon"/>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-12 col-sm-12 col-md-12 center-block" style="padding-left: 25px !important;">
-                <svg version="1.1" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;"
-                     xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="150px"
-                     viewBox="0 0 255 296" enable-background="new 0 0 255 296" xml:space="preserve">
-                    <g>
-                        <path fill="#3975b9"
-                              d="M 154.3 126.3 L 204.1 126.3 L 104.5 249 L 5 126.3 L 54.7 126.3 L 54.7 3.6 L 154.3 3.6Z"></path>
-                    </g>
-                </svg>
-            </div>
-
-            <div class="col-sm-12 col-sm-12 col-md-12 center center-block padding_medium_ver">
-                <h3>Nasz Call Center</h3>
-                <img src="{{ URL::asset('images/demo/icon3-b.png') }}" alt="Call center icon" class="icon"/>
-            </div>
-
-            <div class="col-sm-12 col-sm-12 col-md-12 center-block" style="padding-left: 25px !important;">
-                <svg version="1.1" id="Layer_1" xmlns:x="&amp;ns_extend;" xmlns:i="&amp;ns_ai;"
-                     xmlns:graph="&amp;ns_graphs;" xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="150px"
-                     viewBox="0 0 255 296" enable-background="new 0 0 255 296" xml:space="preserve">
-                    <g>
-                        <path fill="#3975b9"
-                              d="M 154.3 126.3 L 204.1 126.3 L 104.5 249 L 5 126.3 L 54.7 126.3 L 54.7 3.6 L 154.3 3.6Z"></path>
-                    </g>
-                </svg>
-            </div>
-
-            <div class="col-sm-12 col-sm-12 col-md-12 center center-block padding_medium_ver">
-                <h3 class="no_margin"><span class="strong">Nowi klienci</span></h3>
-                <p>I większa sprzedaż</p>
-                <img src="{{ URL::asset('images/demo/diagram/klienci-b.png') }}" alt="Klienci icon"
-                     class="icon padding_small_ver"/>
+            <ul class="vertical_eq">
+                <li><h2>TEST</h2></li>
+                <li><h2>TEST</h2></li>
+                <li><h2>TEST</h2></li>
+                <li><h2>TEST</h2></li>
+                <li><h2>FINAL</h2></li>
+            </ul>
+            <div class="tab-gallery">
+                <ul>
+                    <li>
+                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta1"/>
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/>
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/>
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="page3" class="">
-        <div class="content container padding_small_ver">
-            <h1>Nasi klienci</h1>
-            <!-- ################################################################################################ -->
-        </div>
 
         <div class="wrapper flex-wrapper bgded"
-             <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?> style="background-color: #232830;">
+        <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?>>
+
+            <div class="content container padding_small_ver">
+                <h1>Nasi klienci</h1>
+                <!-- ################################################################################################ -->
+            </div>
+
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
                 <ul class="carousel-items">
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
@@ -202,6 +118,13 @@
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
                 <!-- ################################################################################################ -->
             </section>
@@ -212,8 +135,8 @@
     <section id="email_form">
         <div class="container">
             <div id="content_contact" class="content">
-                <h1>Chcesz poznać ofertę dla Twojej firmy?</h1>
-                <h3>Zostaw dane, a skontaktujemy się z Tobą!</h3>
+                <h1>Zainteresowała Cię nasza oferta?</h1>
+                <h3>Jeśli chcesz poznać szczegółową ofertę dla Twojej firmy pozostaw do siebie kontakt, a skontaktujemy się z Tobą!</h3>
 
                 <div class="row">
                     <div class="email_form">

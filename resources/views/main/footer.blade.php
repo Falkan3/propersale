@@ -1,5 +1,5 @@
 <!--footer-->
-<div class="wrapper row4 overlay overlay-2 bgded" <?php /* style="background-image:url('images/demo/backgrounds/01.png');"*/?>>
+<div class="wrapper row4 overlay overlay-2 bgded" <?php /* style="background-image:url('images/swirl_pattern.png');"*/?>>
     <footer id="footer" class="clear">
         <!-- ################################################################################################ -->
         <div class="group btmspace-50">
@@ -18,7 +18,7 @@
             </div>
             <div class="one_quarter"> <i class="icon fa fa-envelope-o"></i>
                 <ul class="nospace">
-                    <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE" target="_top">kontakt@propersale.pl</li>
+                    <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE" target="_top">kontakt@propersale.pl</a></li>
                 </ul>
             </div>
             <div class="one_quarter"> <i class="icon fa fa-clock-o"></i>
@@ -47,6 +47,7 @@
                         <button type="submit" value="submit">Wyślij</button>
                     </fieldset>
                 </form>
+                <?php /*
                 <ul class="faico clear">
                     <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -55,6 +56,7 @@
                     <li><a class="faicon-instagram" href="#"><i class="fa fa-instagram"></i></a></li>
                     <li><a class="faicon-tumblr" href="#"><i class="fa fa-tumblr"></i></a></li>
                 </ul>
+                */ ?>
             </div>
         </div>
         <!-- ################################################################################################ -->

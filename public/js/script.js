@@ -3,10 +3,6 @@ var $root = $('html, body');
 var animated_list = $('.animated_list');
 var last_child_of_anim_list = animated_list.find('li').last().find('img');
 var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 2;
-var circleContainer = $('.circle-big');
-var circleArray = $('.rotate_item');
-var screen_width_2 = 35 + circleArray.width()*1.25;
-var angle = 0;
 
 $(document).ready(function () {
     $(window).stellar();
@@ -20,13 +16,11 @@ $(document).ready(function () {
 });
 
 $( window ).load(function() {
-    screen_width_2 = 35 + circleArray.width()*1.25;
-    chargearray();
+
 });
 
 $(window).resize(function () {
     advantages_slider();
-    screen_width_2 =  35 + circleArray.width()*1.25;
 });
 
 function advantages_slider() {
@@ -127,14 +121,8 @@ $("#slider_advantages").swipeleft(function () {
 function animateList() {
     //$(children[i])
 
-    var items = $('.animated_list').children();
-
-    for (var i = 0; i < items.length; i++) {
-        $(items[i]).animate({
-            width:"show",
-            opacity:"show"
-        },1500);
-    }
+    var items = animated_list.children();
+    items.show('slide', {direction: 'left'}, 1500);
 
     //last_child_of_anim_list.animate({height: '150px', width: '150px'}, 1500);
 
@@ -177,22 +165,12 @@ function pulse(obj) {
  }];
  */
 
-function chargearray () {
-    for (var i = 0, j = circleArray.length; i < j; i++) {
-        var circle = circleArray[i];
-        var circleAngle = parseInt (circle.dataset.angle);
-        var totalAngle = angle + circleAngle;
-        var style = "rotate(" + totalAngle + "deg) translate(" + (screen_width_2) + "px)";
-        totalAngle = - totalAngle;
-        style = style + " rotate(" + totalAngle + "deg)"
-        circle.style.webkitTransform = style;
-        circle.style.Transform = style;
-    }
+function switchTab () {
+
 }
 
 window.setInterval(function(){
-    angle = angle + 1;
-    chargearray ();
+
 }, 100);
 
 
