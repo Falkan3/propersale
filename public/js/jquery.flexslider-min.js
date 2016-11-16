@@ -36,7 +36,4 @@ $(window).load(function() {
 /* Workaround to stop carousels from losing (no-longer displaying) content on viewport re-size - re-sets slides to 1 */
 $(window).bind("resize", function(){
     $("#pageintro").flexslider(0);
-    //$("#testimonials").flexslider(0);
-    //$("#latest").flexslider(0);
-    $("#clients").flexslider(0);
 });

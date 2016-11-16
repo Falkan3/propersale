@@ -300,7 +300,6 @@ ul.animated_list li p:first-of-type {
     width: 30%;
 
     float: left;
-    margin: 60px 0 0;
     text-align: center;
     list-style: none;
 }
@@ -325,7 +324,7 @@ ul.animated_list li p:first-of-type {
 
 .vertical_eq li:last-child {
     border-radius: 30px;
-    background: #fff;
+    background: #3975b9;
 }
 
 .vertical_eq li:last-child:before {
@@ -333,9 +332,9 @@ ul.animated_list li p:first-of-type {
 }
 
 .vertical_eq li:last-child h2 {
-    color: #000;
+    color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 5px 0;
 }
 
 .vertical_eq li:last-child h2:first-letter {
