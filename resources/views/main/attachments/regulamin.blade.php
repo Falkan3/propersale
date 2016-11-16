@@ -6,6 +6,7 @@
     <section class="">
         <div class="container">
             <h1>Regulamin Serwisu Internetowego</h1>
+            <p>Pobierz dokument: <i class="icon fa fa-download margin_small"></i><a href="{{url('documents/regulamin_serwisu_propersale.docx')}}">Link</a></p>
 
             <div>
                 <ol class="regulation_list">

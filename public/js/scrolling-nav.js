@@ -8,21 +8,3 @@ $(function() {
         event.preventDefault();
     });
 });
-
-var links = $('nav .page-scroll');
-var sections = new Array();
-links.each(function(e) {
-    sections.push($('section' + $(this).attr('href')));
-});
-
-$(window).scroll(function () {
-    links.each(function(e) {
-        if ($(window).scrollTop() >= sections[links.index($(this))].offset().top) {
-            $(this).parent().addClass('active');
-        }
-        else {
-            $(this).parent().removeClass('active');
-        }
-    });
-});
-

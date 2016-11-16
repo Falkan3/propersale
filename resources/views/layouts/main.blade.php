@@ -31,6 +31,7 @@
 @include('main.footer')
 
 <a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
+<div class="modal"></div>
 
 <script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <!-- IE9 Placeholder Support -->
@@ -42,6 +43,7 @@
 <script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.mobile.custom.min.js') }}"></script>
+<script src="{{ URL::asset('js/mainscript.js') }}"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
 
 </body>

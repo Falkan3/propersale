@@ -15,9 +15,21 @@
 
 //Index route
 Route::get('/', 'MainController@index');
-Route::get('/att/prywatnosc', 'MainController@prywatnosc');
-Route::get('/att/regulamin', 'MainController@regulamin');
-Route::get('/att/cookies', 'MainController@cookies');
+
+Route::group(['prefix' => 'att'], function () {
+    Route::group(['prefix' => 'prywatnosc'], function () {
+        Route::get('/', 'MainController@prywatnosc');
+    });
+    Route::group(['prefix' => 'regulamin'], function () {
+        Route::get('/', 'MainController@regulamin');
+    });
+    Route::group(['prefix' => 'cookies'], function () {
+        Route::get('/', 'MainController@cookies');
+    });
+});
+
+
+
 
 /*
 Route::get('/', function () {

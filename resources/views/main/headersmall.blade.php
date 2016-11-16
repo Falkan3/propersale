@@ -17,6 +17,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="/">Powrót do strony głównej</a></li>
+                    <li><a href="#footer" class="page-scroll">Kontakt</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

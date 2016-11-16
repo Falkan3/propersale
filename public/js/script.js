@@ -5,13 +5,12 @@ var last_child_of_anim_list = animated_list.find('li').last().find('img');
 var list_position = animated_list.position().top - animated_list.outerHeight()/2;
 
 $(document).ready(function () {
-    $(window).stellar();
-    //enableNiceScrolling();
-
     /* Animated list*/
     animated_list.children().hide();
     /* /Animated list*/
+});
 
+$( window ).load(function() {
     advantages_slider();
 
     $('.bxslider').bxSlider({
@@ -22,17 +21,14 @@ $(document).ready(function () {
         auto: true,
         speed: 8000,
         pause: 0,
-        minSlides: 3,
+        minSlides: 1,
         maxSlides: 4,
-        slideWidth: 222,
+        slideWidth: 260,
         slideMargin: 30,
         infiniteLoop: true,
         moveSlide:1,
+        startSlide:0
     });
-});
-
-$( window ).load(function() {
-
 });
 
 $(window).resize(function () {
@@ -70,39 +66,24 @@ function enableNiceScrolling() {
     });
 }
 
-$("#backtotop").click(function (e) {
-    e.preventDefault();
-    $("body,html").animate({
-        scrollTop: 0
-    }, 600);
-    return false;
+var links = $('nav .page-scroll');
+var sections = new Array();
+links.each(function(e) {
+    sections.push($('section' + $(this).attr('href')));
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 150) {
-        $("#backtotop").addClass("visible");
-    } else {
-        $("#backtotop").removeClass("visible");
-    }
     if ($(this).scrollTop() >= list_position) {
         animateList();
     }
-
-    var transparenHeader = 10;
-    if($( window ).width() > 768) {
-        if ($(this).scrollTop() >= transparenHeader) {
-            $('header nav').removeClass('transparent_nav');
+    links.each(function(e) {
+        if ($(window).scrollTop() >= sections[links.index($(this))].offset().top) {
+            $(this).parent().addClass('active');
         }
         else {
-            $('header nav').addClass('transparent_nav');
+            $(this).parent().removeClass('active');
         }
-    }
-});
-
-$("nav b").click(function (e) {
-    e.preventDefault();
-    $(this).toggleClass("visible");
-    $(this).next('div').toggleClass("visible");
+    });
 });
 
 $('#slider_advantages').carousel({
@@ -188,7 +169,6 @@ function switchTab () {
 window.setInterval(function(){
 
 }, 100);
-
 
 
 
