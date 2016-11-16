@@ -173,6 +173,17 @@ nav #logo {
 }
 
 #pageintro .slides li {
+    display: table  !important;
+    position: absolute  !important;
+    height: 100%  !important;
+    width: 100%  !important;
+}
+
+#pageintro .slides li article {
+    display: table-cell !important;
+    vertical-align: middle  !important;
+    padding: 0  !important;
+    margin: 0  !important;
 }
 
 #pageintro .slides li::after {
