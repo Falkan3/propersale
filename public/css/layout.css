@@ -874,8 +874,20 @@ table a, #comments a {
     margin: 100px 0 0 0;
 }
 
+ol.regulation_list {
+    list-style-position:inside;
+}
+
+ol.regulation_list:first-of-type li {
+    margin: 10px 0;
+}
+
 ol.regulation_list ol {
     margin-left: 40px;
+}
+
+ol.regulation_list ol li p {
+    margin: 0;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */

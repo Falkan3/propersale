@@ -47,15 +47,37 @@
         <!-- ################################################################################################ -->
         <div class="group">
             <h6 class="title">Informacje</h6>
-            <div class="col-xs-12 col-sm-4 col-md-4 center">
-                <p><a href="{{url('prywatnosc')}}">Polityka prywatności</a></p>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <i class="icon fa fa-info first"></i>
+                <p><a href="{{url('att/informacje')}}">Informacje</a></p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 center">
-                <p><a href="{{url('cookies')}}">Polityka cookies</a></p>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <i class="icon fa fa-user-secret first"></i>
+                <p><a href="{{url('att/prywatnosc')}}">Polityka prywatności</a></p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 center">
-                <p><a href="{{url('regulamin')}}">Regulamin</a></p>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <i class="icon fa fa-certificate first"></i>
+                <p><a href="{{url('att/cookies')}}">Polityka cookies</a></p>
             </div>
+            <div class="col-xs-6 col-sm-3 col-md-3">
+                <i class="icon fa fa-gavel first"></i>
+                <p><a href="{{url('att/regulamin')}}">Regulamin</a></p>
+            </div>
+
+            <?php /*
+            <div class="one_quarter first"><i class="icon fa fa-info"></i>
+                <p><a href="{{url('att/informacje')}}">Informacje</a></p>
+            </div>
+            <div class="one_quarter"><i class="icon fa fa-user-secret"></i>
+                <p><a href="{{url('att/prywatnosc')}}">Polityka prywatności</a></p>
+            </div>
+            <div class="one_quarter"><i class="icon fa fa-certificate"></i>
+                <p><a href="{{url('att/cookies')}}">Polityka cookies</a></p>
+            </div>
+            <div class="one_quarter"><i class="icon fa fa-gavel"></i>
+                <p><a href="{{url('att/regulamin')}}">Regulamin</a></p>
+            </div>
+            */ ?>
         </div>
         <!-- ################################################################################################ -->
     </footer>

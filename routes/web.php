@@ -15,9 +15,9 @@
 
 //Index route
 Route::get('/', 'MainController@index');
-Route::get('/prywatnosc', 'MainController@prywatnosc');
-Route::get('/regulamin', 'MainController@regulamin');
-Route::get('/cookies', 'MainController@cookies');
+Route::get('/att/prywatnosc', 'MainController@prywatnosc');
+Route::get('/att/regulamin', 'MainController@regulamin');
+Route::get('/att/cookies', 'MainController@cookies');
 
 /*
 Route::get('/', function () {

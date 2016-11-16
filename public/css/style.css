@@ -290,6 +290,18 @@ ul.animated_list li p:first-of-type {
     margin: 30px 0 !important;
 }
 
+.margin_small {
+    margin: 0 15px !important;
+}
+
+.margin_small_percentage {
+    margin: 0 1% !important;
+}
+
+.margin_medium {
+    margin: 0 30px !important;
+}
+
 .no_margin {
     margin: 0 !important;
 }
