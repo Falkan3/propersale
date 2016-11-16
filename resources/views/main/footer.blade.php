@@ -16,7 +16,7 @@
                 <ul class="nospace">
                     <li>
                         <p>Opiekun klienta biznesowego</p>
-                        <p>505 632 507</p>
+                        <p>505-632-507</p>
                     </li>
                     <hr class="margin_small_ver">
                     <li>

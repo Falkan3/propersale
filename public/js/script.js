@@ -2,7 +2,7 @@ var $root = $('html, body');
 
 var animated_list = $('.animated_list');
 var last_child_of_anim_list = animated_list.find('li').last().find('img');
-var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 1.5;
+var list_position = animated_list.position().top - animated_list.outerHeight()/2;
 
 $(document).ready(function () {
     $(window).stellar();

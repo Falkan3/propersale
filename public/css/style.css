@@ -323,13 +323,13 @@ ul.animated_list li p:first-of-type {
     display: none;
 }
 
-.vertical_eq li:last-child:before {
-    margin:100px;
-}
-
 .vertical_eq li:last-child {
     border-radius: 30px;
     background: #fff;
+}
+
+.vertical_eq li:last-child:before {
+    margin:100px;
 }
 
 .vertical_eq li:last-child h2 {
@@ -350,7 +350,7 @@ ul.animated_list li p:first-of-type {
 @media screen and (max-width: 768px) {
     div.screen-height, #pageintro .slides li {
         height: auto;
-        min-height: 630px;
+        min-height: 676px;
     }
 
     div.screen-height .slides li, section.screen-height .slides li article {
