@@ -2,7 +2,7 @@ var $root = $('html, body');
 
 var animated_list = $('.animated_list');
 var last_child_of_anim_list = animated_list.find('li').last().find('img');
-var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 2;
+var list_position = animated_list.position().top + (animated_list.outerHeight() - animated_list.position().top) / 1.5;
 
 $(document).ready(function () {
     $(window).stellar();
@@ -13,6 +13,22 @@ $(document).ready(function () {
     /* /Animated list*/
 
     advantages_slider();
+
+    $('.bxslider').bxSlider({
+        mode: 'horizontal',
+        easing: 'linear',
+        pager: false,
+        controls: false,
+        auto: true,
+        speed: 8000,
+        pause: 0,
+        minSlides: 3,
+        maxSlides: 4,
+        slideWidth: 222,
+        slideMargin: 30,
+        infiniteLoop: true,
+        moveSlide:1,
+    });
 });
 
 $( window ).load(function() {

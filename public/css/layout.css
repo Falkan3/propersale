@@ -6,8 +6,8 @@
 
 body, input, textarea, select {
     /*font-family: Verdana, Geneva, sans-serif;*/
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -205,19 +205,21 @@ nav #logo {
 #pageintro .slides li .flex-content p {
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-size: 28px;
+    line-height: 135%;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/*
 #pageintro .slides li .flex-content p:first-of-type {
+    margin-top: 90px !important;
+    /*
     max-width: 50%;
     margin: 0 auto 0;
     line-height: 1.4;
+    */
 }
-*/
 
 #pageintro .slides li .flex-content p:last-of-type {
     margin-top: 30px;
@@ -854,6 +856,14 @@ table a, #comments a {
     background-color: inherit;
 }
 
+.header_margin {
+    margin: 100px 0 0 0;
+}
+
+ol.regulation_list ol {
+    margin-left: 40px;
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -901,11 +911,13 @@ table a, #comments a {
     }
 
     #pageintro .slides li .flex-content p {
-        font-size: 18px;
+        font-size: 24px;
+        line-height: 125%;
     }
 
     #pageintro .slides li .flex-content p:first-of-type {
         max-width: 75%;
+        margin-top: 60px;
     }
 
     #testimonials .slides li .flex-content blockquote {
@@ -971,7 +983,8 @@ table a, #comments a {
     }
 
     #pageintro .slides li .flex-content p {
-        font-size: 16px;
+        font-size: 20px;
+        line-height: 125%;
     }
 
     #pageintro .slides li .flex-content p:first-of-type {

@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" href="{{ URL::asset('css/jquery.bxslider.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
 
     <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
@@ -24,7 +22,7 @@
 </head>
 <body id="top" class="zebra">
 <!-- header -->
-@include('main.header')
+@include('main.headersmall')
 
 @yield('content')
 
@@ -37,12 +35,9 @@
 <script src="{{ URL::asset('js/jquery.placeholder.min.js') }}"></script>
 <!-- / IE9 Placeholder Support -->
 <!-- Homepage specific -->
-<script src="{{ URL::asset('js/jquery.flexslider-min.js') }}"></script>
-<script src="{{ URL::asset('js/jquery.bxslider.min.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.mobile.custom.min.js') }}"></script>
-<script src="{{ URL::asset('js/script.js') }}"></script>
 
 </body>
 </html>

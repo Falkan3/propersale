@@ -19,15 +19,15 @@
 .content h1 {
     font-size: 40px;
     color: #464646;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     /*font-weight: 600;*/
     margin: 30px 40px;
 }
 
 .content p {
-    font-size: 20px;
+    font-size: 18px;
     color: #343434;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
     margin: 30px 60px;
 }
@@ -142,7 +142,9 @@
 /* FULL HEIGHT SECTIONS */
 
 div.screen-height {
+    min-height: 100vh;
     height: 100%;
+    height: calc(100%);
     overflow: hidden;
 }
 
@@ -252,7 +254,7 @@ img.img-arrow-left-down {
 }
 
 ul.animated_list li p:first-of-type {
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 /* /animated list ---------------------*/
@@ -271,9 +273,9 @@ ul.animated_list li p:first-of-type {
 
 .zebra > section:nth-child(odd) {
     background: #232830; /* For browsers that do not support gradients */
-    background: -webkit-gradient(linear,0 0, 0 40%, from(#323a48), to(#232830));
-    background: -webkit-linear-gradient(top,#323a48 0, #232830 40%); /* For Safari 5.1 to 6.0 */
-    background: linear-gradient(to bottom, #323a48 0, #232830 40%); /* Standard syntax */
+    background: -webkit-gradient(linear,0 0, 0 30%, from(#384848), to(#232830));
+    background: -webkit-linear-gradient(top,#384848 0, #232830 30%); /* For Safari 5.1 to 6.0 */
+    background: linear-gradient(to bottom, #384848 0, #232830 30%); /* Standard syntax */
 }
 
 .zebra > section:nth-child(odd) h1, .zebra > section:nth-child(odd) h2, .zebra > section:nth-child(odd) h3, .zebra > section:nth-child(odd) p {
@@ -321,9 +323,47 @@ ul.animated_list li p:first-of-type {
     display: none;
 }
 
+.vertical_eq li:last-child:before {
+    margin:100px;
+}
+
+.vertical_eq li:last-child {
+    border-radius: 30px;
+    background: #fff;
+}
+
+.vertical_eq li:last-child h2 {
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.vertical_eq li:last-child h2:first-letter {
+    font-size: inherit;
+    color: inherit;
+}
+
 /* /vertical list ---------------------*/
 
 /* media queries ---------------------*/
+
+@media screen and (max-width: 768px) {
+    div.screen-height, #pageintro .slides li {
+        height: auto;
+        min-height: 630px;
+    }
+
+    div.screen-height .slides li, section.screen-height .slides li article {
+        min-height: 600px;
+    }
+
+    .no_margin_on_mobile {
+        margin: 0;
+    }
+    .hide_on_mobile {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 720px) {
     .page-section .image {
@@ -343,7 +383,7 @@ ul.animated_list li p:first-of-type {
     }
 
     .content p {
-        font-size: 16px;
+        font-size: 22px;
     }
 
     .content #slider_advantages.carousel .carousel-caption p {
@@ -351,21 +391,29 @@ ul.animated_list li p:first-of-type {
     }
 }
 
-@media screen and (max-width: 768px) {
-    div.screen-height, #pageintro .slides li {
-        height: auto;
-        min-height: 630px;
+@media screen and (max-width: 480px) {
+    .page-section .image {
+        height: 150px;
     }
 
-    div.screen-height .slides li, section.screen-height .slides li article {
-        min-height: 600px;
+    .page-section .content h1 {
+        margin: 15px 2%;
     }
 
-    .no_margin_on_mobile {
-        margin: 0;
+    .page-section .content p {
+        margin: 15px 5%;
     }
-    .hide_on_mobile {
-        display: none;
+
+    .content h1 {
+        font-size: 24px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .content #slider_advantages.carousel .carousel-caption p {
+        font-size: 12px;
     }
 }
 

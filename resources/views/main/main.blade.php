@@ -10,7 +10,7 @@
             <h1>Korzyści dla Twojego biznesu</h1>
 
             <ul class="animated_list padding_medium_ver">
-                <div class="row padding_medium">
+                <div class="row padding_medium_ver">
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
@@ -65,14 +65,15 @@
     <section id="page2" class="">
         <div class="content container">
             <h1>Jak działamy</h1>
-            <h2 class="center">Proper<span class="big">Sale</span> to najlepiej zorganizowana reklama w Internecie.</h2>
+            <h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w Internecie.</h2>
 
             <ul class="vertical_eq">
-                <li><h2>TEST</h2></li>
-                <li><h2>TEST</h2></li>
-                <li><h2>TEST</h2></li>
-                <li><h2>TEST</h2></li>
-                <li><h2>FINAL</h2></li>
+                <li><h2>Reklama w Google</h2></li>
+                <li><h2>Portale zasięgowe</h2></li>
+                <li><h2>Media społecznościowe</h2></li>
+                <li><h2>Serwisy partnerskie</h2></li>
+                <li><h2>Dedykowany landing page</h2></li>
+                <li><h2>Efektywny Performance e-Marketing</h2></li>
             </ul>
             <div class="tab-gallery">
                 <ul>
@@ -95,16 +96,40 @@
 
     <section id="page3" class="">
 
-        <div class="wrapper flex-wrapper bgded"
+        <div class="wrapper flex-wrapper bgded screen-height"
         <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?>>
 
             <div class="content container padding_small_ver">
                 <h1>Nasi klienci</h1>
+                <h2>Wieloletnia współpraca z firmami z branży finansowej i ubezpieczeniowej pozwoliła nam na zdobycie
+                    zaufania wśród klientów.</h2>
                 <!-- ################################################################################################ -->
             </div>
 
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
+                <ul class="bxslider">
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
+                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
+                </ul>
+                <?php /*
                 <ul class="carousel-items">
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
@@ -126,6 +151,7 @@
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
+                */ ?>
                 <!-- ################################################################################################ -->
             </section>
             <!-- ################################################################################################ -->
@@ -136,7 +162,8 @@
         <div class="container">
             <div id="content_contact" class="content">
                 <h1>Zainteresowała Cię nasza oferta?</h1>
-                <h3>Jeśli chcesz poznać szczegółową ofertę dla Twojej firmy pozostaw do siebie kontakt, a skontaktujemy się z Tobą!</h3>
+                <h3>Jeśli chcesz poznać szczegółową ofertę dla Twojej firmy pozostaw do siebie kontakt, a skontaktujemy
+                    się z Tobą!</h3>
 
                 <div class="row">
                     <div class="email_form">

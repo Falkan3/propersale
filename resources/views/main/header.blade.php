@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img id="logo" src="{{ URL::asset('images/logo-n-jasne.png') }}"/></a>
+                <a class="navbar-brand" href="/"><img id="logo" src="{{ URL::asset('images/logo-n-jasne.png') }}"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,7 +42,7 @@
                                 tylko za <span class="strong underline">zweryfikowane kontakty</span> do
                                 zainteresowanych Twoim produktem lub usługą
                                 klientów! </p>
-                            <p><a class="btn" href="#">Test</a></p>
+                            <?php /*<p><a class="btn" href="#">Test</a></p>*/ ?>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
@@ -54,7 +54,6 @@
                             <p>Dzięki wieloletniemu doświadczeniu zdobytemu w pozyskiwaniu klienta dla branży finansowej
                                 oraz ubezpieczeniowej, wypracowaliśmy najskuteczniejsze metody i najlepsze stawki w
                                 działaniach marketingowych na rynku!</p>
-                            <p><a class="btn" href="#">Lorem ipsum</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider4.jpg')">
@@ -63,7 +62,6 @@
                             <p>Zaufały nam najlepsze kliniki stomatologiczne w Trójmieście! Ich atrakcyjna oferta
                                 promocyjna przygotowana w trakcie współpracy z ProperSale spotkała się z
                                 zainteresowaniem wielu klientów.</p>
-                            <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider5.jpg')">
@@ -71,7 +69,6 @@
                             <h2 class="heading">Nieruchomości</h2>
                             <p>Pomogliśmy znaleźć miejsce na Ziemi wielu klientom deweloperów jak i pośredników w branży
                                 nieruchomości.</p>
-                            <p><a class="btn" href="#">Test</a></p>
                         </article>
                     </li>
                 </ul>

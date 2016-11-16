@@ -22,4 +22,19 @@ class MainController extends Controller
     {
         return view('main.main');
     }
+
+    public function prywatnosc()
+    {
+        return view('main.attachments.prywatnosc');
+    }
+
+    public function cookies()
+    {
+        return view('main.attachments.cookies');
+    }
+
+    public function regulamin()
+    {
+        return view('main.attachments.regulamin');
+    }
 }

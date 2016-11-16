@@ -26,7 +26,7 @@ $(window).load(function() {
         touch: true,
         smoothHeight: true,
         slideshow: true,
-		slideshowSpeed: 3000,
+		slideshowSpeed: 7000,
         start: function(slider) {
             $('body').removeClass('loading');
         }
@@ -76,29 +76,25 @@ $(window).load(function() {
         }
     }); */
 
+    /*
     $("#clients").flexslider({
         selector: ".carousel-items > li",
         animation: "slide",
         animationLoop: false,
-        pauseOnHover: true,
+        easing: "linear",
+        useCSS: false,
+        slideshowSpeed: 1,
+        animationSpeed: 8000,
         controlNav: false,
-        directionNav: true,
-        prevText: '<em class="hidden">Poprzedni</em>',
-        nextText: '<em class="hidden">Następny</em>',
-        touch: true,
-        smoothHeight: false,
-        slideshow: true,
-		slideshowSpeed: 3000,
+        directionNav: false,
         itemWidth: 222, // must be the same in the CSS file
         itemMargin: 30, // must be the same in the CSS file
-        minItems: 1,
-        maxItems: 4,
-        move: 1,
         allowOneSlide: false,
         start: function(slider) {
             $('body').removeClass('loading');
-        }
+        },
     });
+    */
 });
 
 /* Workaround to stop carousels from losing (no-longer displaying) content on viewport re-size - re-sets slides to 1 */
