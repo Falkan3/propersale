@@ -395,9 +395,11 @@ ul.animated_list li p:first-of-type {
     box-shadow: 0 0 2px #ded7d7;
 }
 
+/*
 .bx-wrapper, .bx-viewport {
     height: 200px !important; //provide height of slider
 }
+*/
 
 /* media queries ---------------------*/
 
