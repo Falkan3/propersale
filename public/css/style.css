@@ -200,6 +200,7 @@ div.darkened {
 }
 
 div.screen-height .slides li, section.screen-height .slides li article {
+    min-height: 800px;
     min-height: 100vh;
     height: 100%;
     height: calc(100%);
@@ -306,6 +307,10 @@ ul.animated_list li p:first-of-type {
     margin: 0 !important;
 }
 
+.no_padding {
+    padding: 0 !important;
+}
+
 /* vertical list ---------------------*/
 
 .vertical_eq {
@@ -332,29 +337,67 @@ ul.animated_list li p:first-of-type {
 
 .tab-gallery ul li {
     display: none;
+    opacity: 0;
+    transition: 1s;
 }
 
-.vertical_eq li:last-child {
+.tab-gallery ul , .tab-gallery ul li, .tab-gallery ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.tab-gallery ul li.active {
+    display: block;
+    opacity: 1;
+}
+
+.vertical_eq li {
+    border-radius: 30px;
+    background: #fff;
+    margin: 25px 0;
+    transition: 1s;
+}
+
+.vertical_eq li:last-child, .vertical_eq li.active {
     border-radius: 30px;
     background: #3975b9;
+}
+
+.vertical_eq li h2 {
+    color: #000 !important;
+    margin: 0;
+    padding: 5px 0;
+    transition: 1s;
 }
 
 .vertical_eq li:last-child:before {
     margin:100px;
 }
 
-.vertical_eq li:last-child h2 {
-    color: #fff;
-    margin: 0;
-    padding: 5px 0;
+.vertical_eq li:last-child h2, .vertical_eq li.active h2 {
+    color: #fff !important;
 }
 
-.vertical_eq li:last-child h2:first-letter {
+.vertical_eq li h2:first-letter {
     font-size: inherit;
     color: inherit;
 }
 
 /* /vertical list ---------------------*/
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: -60px;
+}
+
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 2px #ded7d7;
+    -webkit-box-shadow: 0 0 2px #ded7d7;
+    box-shadow: 0 0 2px #ded7d7;
+}
+
+.bx-wrapper, .bx-viewport {
+    height: 200px !important; //provide height of slider
+}
 
 /* media queries ---------------------*/
 

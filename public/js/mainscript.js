@@ -2,12 +2,14 @@ var $root = $('html, body');
 var $body = $('body');
 
 $(document).on({
+    /*
     ajaxStart: function() { $body.addClass('loading'); },
     ajaxStop: function() { $body.removeClass('loading'); }
+    */
 });
 
 $(document).ready(function () {
-    $(window).stellar();
+    //$(window).stellar();
 });
 
 $( window ).load(function() {

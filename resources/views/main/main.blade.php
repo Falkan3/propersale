@@ -15,9 +15,9 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz sprzedaż</span></p>
-                            <p>Efektywnie reklamujesz się w Internecie.</p>
-                            <p>Koncentrujesz się na obsłudze klientów, a nie na ich pozyskaniu.</p>
-                            <p>Zyskujesz też dodatkowy czas na rozwój firmy.</p>
+                            <p class="no_margin">Efektywnie reklamujesz się w Internecie.</p>
+                            <p class="no_margin">Koncentrujesz się na obsłudze klientów, a nie na ich pozyskaniu.</p>
+                            <p class="no_margin">Zyskujesz też dodatkowy czas na rozwój firmy.</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
@@ -68,26 +68,29 @@
             <h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w Internecie.</h2>
 
             <ul class="vertical_eq">
-                <li><h2>Reklama w Google</h2></li>
-                <li><h2>Portale zasięgowe</h2></li>
-                <li><h2>Media społecznościowe</h2></li>
-                <li><h2>Serwisy partnerskie</h2></li>
-                <li><h2>Dedykowany landing page</h2></li>
+                <li index-number="0"><h2>Reklama w Google</h2></li>
+                <li index-number="1"><h2>Portale zasięgowe</h2></li>
+                <li index-number="2"><h2>Media społecznościowe</h2></li>
+                <li index-number="3"><h2>Serwisy partnerskie</h2></li>
+                <li index-number="4"><h2>Dedykowany landing page</h2></li>
                 <li><h2>Efektywny Performance e-Marketing</h2></li>
             </ul>
             <div class="tab-gallery">
                 <ul>
                     <li>
-                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta1"/>
+                        <img src="{{ URL::asset('images/demo/tabscreens/google.png') }}" alt="oferta1"/>
                     </li>
                     <li>
-                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/>
+                        <img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie1.png') }}" alt="oferta2"/>
                     </li>
                     <li>
-                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/>
+                        <img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.png') }}" alt="oferta3"/>
                     </li>
                     <li>
-                        <img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/>
+                        <img src="{{ URL::asset('images/demo/tabscreens/serwisypartnerskie.png') }}" alt="oferta4"/>
+                    </li>
+                    <li>
+                        <img src="{{ URL::asset('images/demo/tabscreens/dedykowanyformularzkontaktowy.png') }}" alt="oferta5"/>
                     </li>
                 </ul>
             </div>
@@ -96,7 +99,7 @@
 
     <section id="page3" class="">
 
-        <div class="wrapper flex-wrapper bgded screen-height"
+        <div class="wrapper flex-wrapper bgded"
         <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?>>
 
             <div class="content container padding_small_ver">
@@ -129,7 +132,8 @@
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
-                <?php /*
+
+            <?php /*
                 <ul class="carousel-items">
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
@@ -152,7 +156,7 @@
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
                 */ ?>
-                <!-- ################################################################################################ -->
+            <!-- ################################################################################################ -->
             </section>
             <!-- ################################################################################################ -->
         </div>
@@ -165,13 +169,13 @@
                 <h3>Jeśli chcesz poznać szczegółową ofertę dla Twojej firmy pozostaw do siebie kontakt, a skontaktujemy
                     się z Tobą!</h3>
 
-                <div class="row">
-                    <div class="email_form">
+                <div class="row" style="margin-top: 100px">
+                    <div class="email_form no_margin">
                         <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
                         <form class="btmspace-30" method="post" action="#">
                             <fieldset>
                                 <legend>Kontakt:</legend>
-                                <div class="col-xs-12 col-sm-4 col-md-4">
+                                <div class="col-xs-12 col-sm-4 col-md-3">
                                     <input class="btmspace-15" type="text" value="" placeholder="E-mail">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
@@ -180,7 +184,7 @@
                                 <div class="col-xs-12 col-sm-3 col-md-3">
                                     <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu">
                                 </div>
-                                <div class="col-xs-12 col-sm-2 col-md-2">
+                                <div class="col-xs-12 col-sm-2 col-md-3">
                                     <button type="submit" value="submit" class="center_mrg">Wyślij</button>
                                 </div>
                             </fieldset>
