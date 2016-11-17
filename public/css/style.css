@@ -428,7 +428,7 @@ ul.animated_list li p:first-of-type {
 
     .tab-gallery {
         width: 100%;
-        height: 400px;
+        height: 350px;
         float: none;
     }
 }
@@ -482,6 +482,12 @@ ul.animated_list li p:first-of-type {
 
     .content #slider_advantages.carousel .carousel-caption p {
         font-size: 12px;
+    }
+
+    .tab-gallery {
+        width: 100%;
+        height: 300px;
+        float: none;
     }
 }
 
