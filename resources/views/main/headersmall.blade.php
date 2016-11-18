@@ -16,8 +16,11 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{url('/')}}">Powrót do strony głównej</a></li>
                     <li><a href="#footer" class="page-scroll">Kontakt</a></li>
+                    <li><a href="{{url('att/informacje')}}">Informacje</a></li>
+                    <li><a href="{{url('att/prywatnosc')}}">Polityka prywatności</a></li>
+                    <li><a href="{{url('att/cookies')}}">Polityka cookies</a></li>
+                    <li><a href="{{url('att/regulamin')}}">Regulamin</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

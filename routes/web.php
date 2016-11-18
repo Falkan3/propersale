@@ -17,6 +17,9 @@
 Route::get('/', 'MainController@index');
 
 Route::group(['prefix' => 'att'], function () {
+    Route::group(['prefix' => 'informacje'], function () {
+        Route::get('/', 'MainController@informacje');
+    });
     Route::group(['prefix' => 'prywatnosc'], function () {
         Route::get('/', 'MainController@prywatnosc');
     });

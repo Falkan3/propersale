@@ -10,7 +10,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{url('/')}}"><img id="logo" src="{{ URL::asset('images/logo-n-jasne.png') }}"/></a>
+                <a class="navbar-brand" href="{{url('/')}}"><img id="logo"
+                                                                 src="{{ URL::asset('images/logo-n-jasne.png') }}"/></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -35,27 +36,29 @@
                 <ul class="slides clear">
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider1.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Oferujemy marketing efektywnościowy nowej generacji!</h2>
-                            <h2><span class="strong">Efektywnościowy, czyli skuteczny!</span></h2>
-                            <p>Reklamujesz się w prasie, radiu czy Internecie, a pieniądze zainwestowane w działania
-                                marketingowe nie przynoszą oczekiwanych rezultatów? Skorzystaj z Naszej oferty i płać
-                                tylko za <span class="strong underline">zweryfikowane kontakty</span> do
-                                zainteresowanych Twoim produktem lub usługą
-                                klientów! </p>
+                            <h2 class="heading">Performance Marketing</h2>
+                            <p>Efektywnościowy, czyli skuteczny – nowoczesny model eMarketingu online, gdzie płacisz za
+                                efekt, a nie za same wyświetlenia, jak w tradycyjnej reklamie online</p>
                             <?php /*<p><a class="btn" href="#">Test</a></p>*/ ?>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Gwarantujemy wielokanałowe dotarcie do klienta!</h2>
-                            <p>Nie skupiaj się na jednym kanale dotarcia do klienta – to nigdy nie przyniesie Ci
-                                oczekiwanych efektów. Najlepsze rezultaty osiągniesz, reklamując się w kilku miejscach
-                                jednocześnie!</p>
-                            <p>Dzięki wieloletniemu doświadczeniu zdobytemu w pozyskiwaniu klienta dla branży finansowej
-                                oraz ubezpieczeniowej, wypracowaliśmy najskuteczniejsze metody i najlepsze stawki w
-                                działaniach marketingowych na rynku!</p>
+                            <h2 class="heading">Multi-kanałowe targetowanie klienta</h2>
+                            <p>Skutecznie docierasz do klienta z wykorzystaniem wielu kanałów digital i mobile</p>
+                            <p>
+                                Reklamujemy Twój produkt w wielu miejscach jednocześnie - Google, Portale Zasięgowe
+                                (Onet, WP, Interia, itp.), Social Media, Blogi, Serwisy Tematyczne</p>
                         </article>
                     </li>
+                    <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
+                        <article class="centered flex-content">
+                            <h2 class="heading">Sprawdzona platforma e-Marketingu</h2>
+                            <p>Wykorzystujesz model sprawdzony dla klientów biznesowych, działający od wielu lat na
+                                zaawansowanych rynkach online - USA, UK, Skandynawia</p>
+                        </article>
+                    </li>
+                    <?php /*
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider4.jpg')">
                         <article class="centered flex-content">
                             <h2 class="heading">Stomatologia</h2>
@@ -71,6 +74,7 @@
                                 nieruchomości.</p>
                         </article>
                     </li>
+                    */ ?>
                 </ul>
                 <!-- ################################################################################################ -->
             </div>

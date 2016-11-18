@@ -5,11 +5,10 @@
         <div class="group btmspace-50">
             <div class="one_quarter first"><i class="icon fa fa-map-marker"></i>
                 <address class="btmspace-15">
-                    <p>Webfield sp. z o.o.</p>
+                    <p>ProperSALE.pl</p>
                     <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
-                    <p>ul. Lęborska 3B</p>
-                    <p>80-755 Gdańsk</p>
-                    <p>NIP 583-319-08-89</p>
+                    <p>ul. Lęborska 3B <a href="https://goo.gl/SLM9VF" target="_blank" class="margin_small_left"><i class="icon fa fa-map-o first"></i></a></p>
+                    <p>80-386 Gdańsk</p>
                 </address>
             </div>
             <div class="one_quarter"><i class="icon fa fa-phone"></i>
@@ -32,6 +31,7 @@
                         <p>Webfield sp. z o.o.</p>
                         <p>Szafarnia 11, F8</p>
                         <p>80-755 Gdańsk</p>
+                        <p>NIP 583-319-08-89</p>
                     </li>
                 </ul>
             </div>

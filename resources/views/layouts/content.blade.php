@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"@yield('appendage')>
 <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="{{ URL::asset('css/jquery-ui-themes-1.12.1/themes/smoothness/jquery-ui.min.css') }}" type="text/css" media="all"/>
-    <link rel="stylesheet" href="{{ URL::asset('css/fontawesome-4.3.0.min.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>

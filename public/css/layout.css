@@ -230,8 +230,8 @@ nav #logo {
 
 #pageintro .slides li .flex-content .heading {
     margin-bottom: 15px;
-    font-size: 42px;
-    max-width: 90%;
+    font-size: 72px;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -239,15 +239,15 @@ nav #logo {
 #pageintro .slides li .flex-content p {
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 28px;
+    font-size: 42px;
     line-height: 135%;
-    max-width: 90%;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #pageintro .slides li .flex-content p:first-of-type {
-    margin-top: 90px !important;
+    margin-top: 45px !important;
     /*
     max-width: 50%;
     margin: 0 auto 0;
@@ -351,7 +351,7 @@ nav #logo {
 /* Clients
 --------------------------------------------------------------------------------------------------------------- */
 #clients.centered {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #clients .carousel-items li {
@@ -730,7 +730,7 @@ input:focus, textarea:focus, *:required:focus {
 
 .overlay::after {
     color: inherit;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, .85);
 }
 
 .overlay-2::after {
@@ -909,6 +909,14 @@ ol.regulation_list ol li p {
     margin: 0;
 }
 
+.regulations div > p {
+    margin: 15px 0;
+}
+
+.regulations div > p:first-child {
+    margin-top: 0;
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -952,17 +960,17 @@ ol.regulation_list ol li p {
     }
 
     #pageintro .slides li .flex-content .heading {
-        font-size: 38px;
+        font-size: 56px;
     }
 
     #pageintro .slides li .flex-content p {
-        font-size: 24px;
+        font-size: 32px;
         line-height: 125%;
     }
 
     #pageintro .slides li .flex-content p:first-of-type {
         max-width: 75%;
-        margin-top: 60px;
+        margin-top: 30px;
     }
 
     #testimonials .slides li .flex-content blockquote {
@@ -992,6 +1000,14 @@ ol.regulation_list ol li p {
 
     #copyright p:first-of-type {
         margin-bottom: 10px;
+    }
+
+    .regulations table {
+        overflow-x: auto;
+        display: block;
+    }
+    .regulations table > tbody > tr td:nth-of-type(2) p {
+        width: 600px;
     }
 }
 
@@ -1024,11 +1040,11 @@ ol.regulation_list ol li p {
     }
 
     #pageintro .slides li .flex-content .heading {
-        font-size: 28px;
+        font-size: 32px;
     }
 
     #pageintro .slides li .flex-content p {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 125%;
     }
 
@@ -1055,8 +1071,16 @@ ol.regulation_list ol li p {
     }
 }
 
+.verticalLine {
+    margin: 0 15px;
+    border-left: 1px solid #384848;
+    opacity: 0.5;
+}
+
+
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
+
 @media screen and (max-width: 650px) {
     .scrollable {
         display: block;

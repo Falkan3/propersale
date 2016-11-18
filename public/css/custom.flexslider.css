@@ -85,7 +85,7 @@ File: Custom Flexslider CSS
 .flex-wrapper .flex-direction-nav {
     display: block;
     position: absolute;
-    bottom: 15px;
+    bottom: 40px;
     width: 100%;
     text-align: center;
     z-index: 2;

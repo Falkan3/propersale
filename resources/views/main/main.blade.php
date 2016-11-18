@@ -9,32 +9,32 @@
         <div class="content container">
             <h1>Korzyści dla Twojego biznesu</h1>
 
-            <ul class="animated_list padding_medium_ver">
+            <ul class="animated_list">
                 <div class="row padding_medium_ver">
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
-                            <p><span class="strong uppercase">Zwiększasz sprzedaż</span></p>
-                            <p class="no_margin">Efektywnie reklamujesz się w Internecie.</p>
-                            <p class="no_margin">Koncentrujesz się na obsłudze klientów, a nie na ich pozyskaniu.</p>
-                            <p class="no_margin">Zyskujesz też dodatkowy czas na rozwój firmy.</p>
+                            <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
+                            <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
+                                Koncentrujesz się na tym co znasz, czyli Twoim biznesie i obsłudze klientów, a nie na
+                                ich pozyskaniu</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon2-b2.png') }}" alt="icon"/>
-                            <p><span class="strong uppercase">Zmniejszasz koszty</span></p>
-                            <p>Nie martwisz się o cenę reklamy, bo to bierzemy na siebie. Rozliczasz się z nami tylko za
-                                efekt, nie za miejsce reklamowe. Dodatkowo oszczędzasz pieniądze, bo nie musisz opłacać
-                                marketingowca w firmie.</p>
+                            <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
+                            <p>Reklamując się w Internecie rozliczasz się tylko za efekt sprzedażowy - a nie za samo
+                                miejsce
+                                i działania reklamowe bez żadnej gwarancji efektu tych działań</p>
                         </li>
                     </div>
                     <div class="col-xs-4 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon1-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
-                            <p>Zarówno poprzez reklamę w wyszukiwarce Google jak i reklamę na portalach zasięgowych i
-                                społecznościowych jak WP.pl, Onet.pl, Facebook czy bazy mailingowe.</p>
+                            <p>Skutecznie docierasz do klienta dzięki reklamę w Google, na portalach zasięgowych, w
+                                mediach społecznościowych - wykorzystując nowoczesne formy reklamowe</p>
                         </li>
                     </div>
                 </div>
@@ -42,19 +42,17 @@
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
                             <img src="{{ URL::asset('images/demo/icon3-b2.png') }}" alt="icon"/>
-                            <p><span class="strong uppercase">Zyskujesz zweryfikowane kontakty</span></p>
-                            <p>Call Center dedykowane ProperSale weryfikuje i potwierdza dane kontaktowe i
-                                zainteresowanie Twoją usługą / produktem potencjalnego klienta. Jeśli zajdzie taka
-                                potrzeba, zbiera też podczas rozmowy dodatkowe potrzebne Ci dane.</p>
+                            <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
+                            <p>Dedykowane Call-Centre potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
+                                lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta</p>
                         </li>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon5-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
-                            <p>Pozyskane dane do klienta możesz wykorzystać do zbudowania bazy, która może być Ci
-                                przydatna do wysyłki informacji o nowych ofertach i promocjach. Im większą bazą będziesz
-                                dysponować, tym większa szansa na dotarcie do klienta i zwiększenie sprzedaży.</p>
+                            <p>Pozyskane dane wykorzystujesz do zbudowania swojej bazy klientów, dzięki której
+                                optymalizujesz swoje działania sprzedażowe</p>
                         </li>
                     </div>
                 </div>
@@ -65,35 +63,85 @@
     <section id="page2" class="">
         <div class="content container">
             <h1>Jak działamy</h1>
-            <h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w Internecie.</h2>
 
-            <ul class="vertical_eq">
-                <li index-number="0"><h2>Reklama w Google</h2></li>
-                <li index-number="1"><h2>Portale zasięgowe</h2></li>
-                <li index-number="2"><h2>Media społecznościowe</h2></li>
-                <li index-number="3"><h2>Serwisy partnerskie</h2></li>
-                <li index-number="4"><h2>Dedykowany landing page</h2></li>
-                <li><h2>Efektywny Performance e-Marketing</h2></li>
-            </ul>
-            <div class="tab-gallery">
-                <ul>
-                    <li>
-                        <img src="{{ URL::asset('images/demo/tabscreens/google.png') }}" alt="oferta1"/>
-                    </li>
-                    <li>
-                        <img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie1.png') }}" alt="oferta2"/>
-                    </li>
-                    <li>
-                        <img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.png') }}" alt="oferta3"/>
-                    </li>
-                    <li>
-                        <img src="{{ URL::asset('images/demo/tabscreens/serwisypartnerskie.png') }}" alt="oferta4"/>
-                    </li>
-                    <li>
-                        <img src="{{ URL::asset('images/demo/tabscreens/dedykowanyformularzkontaktowy.png') }}" alt="oferta5"/>
-                    </li>
+            <div class="vertical_eq_container">
+                <ul class="vertical_eq">
+                    <li index-number="0"><h2>Reklama w Google</h2></li>
+                    <li index-number="1"><h2>Portale zasięgowe</h2></li>
+                    <li index-number="2"><h2>Media społecznościowe</h2></li>
+                    <li index-number="3"><h2>Serwisy partnerskie</h2></li>
+                    <li index-number="4"><h2>Dedykowany landing page</h2></li>
+                    <li index-number="5"><h2>Efektywny Performance e-Marketing</h2></li>
                 </ul>
             </div>
+            <div class="tab-gallery_container">
+                <ul class="description">
+                    <li><h2 class="center">Dotrzesz z ofertą Twojej firmy  do szerokiego grona odbiorców</h2></li>
+                    <li><h2 class="center">Twoja reklama będzie widoczna na znanych portalach ogólnopolskich</h2></li>
+                    <li><h2 class="center">Zrealizujesz cel sprzedażowy poprzez wyraźne komunikaty do użytkowników social media</h2></li>
+                    <li><h2 class="center">Zwiększysz zasięg reklamy w naszym programie afiliacyjnym</h2></li>
+                    <li><h2 class="center">Pozyskasz uwagę klienta w celu skorzystania z Twojej oferty</h2></li>
+                    <li><h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w
+                            Internecie</h2></li>
+                </ul>
+
+                <div class="tab-gallery">
+                    <ul class="images">
+                        <li>
+                            <ul class="subimages">
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/google.png') }}" alt="oferta1"/>
+                                </li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subimages">
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie1.png') }}"
+                                         alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie2.png') }}"
+                                         alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie3.png') }}"
+                                         alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subimages">
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.png') }}"
+                                         alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe2.png') }}"
+                                         alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subimages">
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/serwisypartnerskie.png') }}"
+                                         alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subimages">
+                                <li>
+                                    <img src="{{ URL::asset('images/demo/tabscreens/dedykowanyformularzkontaktowy.png') }}"
+                                         alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="subimages">
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="clear margin_medium_ver"></div>
         </div>
     </section>
 
@@ -112,27 +160,28 @@
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
                 <ul class="bxslider">
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
-                    <li><a href="#"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
+                    <li><a href="http://www.aviva.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
+                    <li><a href="https://www.aliorbank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
+                    <li><a href="https://www.getinbank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
+                    <li><a href="http://www.grand-dental.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
+                    <li><a href="https://www.link4.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
+                    <li><a href="https://www.open.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
+                    <li><a href="https://www.pkobp.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
+                    <li><a href="http://www.projektusmiech.pl/en/" target="_blank"><img src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
+                    <li><a href="http://www.prudential.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
+                    <li><a href="http://raiffeisenpolbank.com/" target="_blank"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
+                    <li><a href="https://taktofinanse.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
+                    <li><a href="http://www.vivadental.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
+                    <li><a href="https://www.bzwbk.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
+                    <li><a href="http://www.bgzbnpparibas.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
+                    <li><a href="http://www.magicsmile.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
+                    <li><a href="https://www.mbank.pl/indywidualny/" target="_blank"><img src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
+                    <li><a href="https://www.provident.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
+                    <li><a href="https://www.kredito24.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
+                    <li><a href="http://www.citibank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
 
+                <div class="clear margin_big_ver"></div>
             <?php /*
                 <ul class="carousel-items">
                     <li><a href="#"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
@@ -163,11 +212,11 @@
     </section>
 
     <section id="email_form">
-        <div class="container">
+        <div class="container" style="padding-bottom: 0;">
             <div id="content_contact" class="content">
-                <h1>Zainteresowała Cię nasza oferta?</h1>
-                <h3>Jeśli chcesz poznać szczegółową ofertę dla Twojej firmy pozostaw do siebie kontakt, a skontaktujemy
-                    się z Tobą!</h3>
+                <h1>Kontakt</h1>
+                <h3>Skorzystaj z możliwości, które oferujemy Twojej firmie.
+                    Wypełnij poniższe dane - a my skontaktujemy się z Tobą.</h3>
 
                 <div class="row" style="margin-top: 100px">
                     <div class="email_form no_margin">

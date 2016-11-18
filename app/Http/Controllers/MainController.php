@@ -23,6 +23,11 @@ class MainController extends Controller
         return view('main.main');
     }
 
+    public function informacje()
+    {
+        return view('main.attachments.informacje');
+    }
+
     public function prywatnosc()
     {
         return view('main.attachments.prywatnosc');
