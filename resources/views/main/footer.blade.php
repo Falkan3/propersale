@@ -47,19 +47,19 @@
         <!-- ################################################################################################ -->
         <div class="group">
             <h6 class="title">Informacje</h6>
-            <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="col-xs-6 col-sm-3 col-md-3 no_padding">
                 <i class="icon fa fa-info first"></i>
                 <p><a href="{{url('att/informacje')}}">Informacje</a></p>
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="col-xs-6 col-sm-3 col-md-3 no_padding">
                 <i class="icon fa fa-user-secret first"></i>
                 <p><a href="{{url('att/prywatnosc')}}">Polityka prywatności</a></p>
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="col-xs-6 col-sm-3 col-md-3 no_padding">
                 <i class="icon fa fa-certificate first"></i>
                 <p><a href="{{url('att/cookies')}}">Polityka cookies</a></p>
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-3">
+            <div class="col-xs-6 col-sm-3 col-md-3 no_padding">
                 <i class="icon fa fa-gavel first"></i>
                 <p><a href="{{url('att/regulamin')}}">Regulamin</a></p>
             </div>
