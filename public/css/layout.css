@@ -728,10 +728,12 @@ input:focus, textarea:focus, *:required:focus {
     background-color: inherit;
 }
 
+/*
 .overlay::after {
     color: inherit;
     background-color: rgba(0, 0, 0, .85);
 }
+*/
 
 .overlay-2::after {
     color: inherit;

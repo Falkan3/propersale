@@ -19,6 +19,51 @@
                             href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
                             target="_top">kontakt@propersale.pl</a>.
                 </p>
+                <p>Kontakt:</p>
+                <ol class="regulation_list">
+                    <li>
+                        <p>Telefoniczny:</p>
+                        <ol>
+                            <li><p>Opiekun klienta biznesowego</p>
+                                <p>505-632-507</p></li>
+                            <li><p>Kontakt ogólny</p>
+                                <p>690-435-825</p></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>Email:</p>
+                        <ol>
+                            <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
+                                   target="_top"><p>kontakt@propersale.pl</p></a>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>Adres:</p>
+                        <ol>
+                            <li>
+                                <p>ProperSALE.pl</p>
+                                <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
+                                <p>ul. Lęborska 3B <a href="https://goo.gl/SLM9VF" target="_blank" class="margin_small_left"><i class="icon fa fa-map-o first"></i></a></p>
+                                <p>80-386 Gdańsk</p>
+                            </li>
+                            <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
+                                   target="_top"><p>kontakt@propersale.pl</p></a>
+                                <p>Webfield sp. z o.o.</p>
+                                <p>Szafarnia 11, F8</p>
+                                <p>80-755 Gdańsk</p>
+                                <p>NIP 583-319-08-89</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <p>Dostępność:</p>
+                        <ol>
+                            <li><p>Pon - Pt: 9:00 do 17:00</p></li>
+                            <li><p>Sob - Nie: Nieczynne</p></li>
+                        </ol>
+                    </li>
+                </ol>
             </div>
         </div>
     </section>
