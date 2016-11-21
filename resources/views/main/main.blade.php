@@ -80,9 +80,9 @@
                             słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense</h2></li>
                     <li><h2 class="center">Reklama widoczna na horyzontalnych portalach ogólnopolskich poprzez
                             dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display</h2></li>
-                    <li><h2 class="center">Indywidualnie dopasowana kampania reklama targetowana do użytkowników
+                    <li><h2 class="center">Indywidualnie dopasowana kampania reklamowa targetowana do użytkowników
                             serwisów social media typu Facebook, Instagram, Twitter</h2></li>
-                    <li><h2 class="center">Zasięgowa kampania reklamowa w wykorzystaniem sieci afiliacyjnych - promocja
+                    <li><h2 class="center">Zasięgowa kampania reklamowa z wykorzystaniem sieci afiliacyjnych - promocja
                             produktów i usług na dedykowanych placementach reklamowych (strony www, blogi tematyczne,
                             fora dyskusyjne, mailingi)</h2></li>
                     <li><h2 class="center">Nowoczesne formy reklamowe optymalizujące konwersje sprzedażowe i
