@@ -456,6 +456,10 @@ ul.animated_list li p:first-of-type {
         margin: 0;
     }
 
+    .no_padding_on_mobile {
+        padding: 0 !important;
+    }
+
     .hide_on_mobile {
         display: none;
     }

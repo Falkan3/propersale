@@ -10,17 +10,16 @@
             <h1>Korzyści dla Twojego biznesu</h1>
 
             <ul class="animated_list">
-                <div class="row padding_medium_ver">
-                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                <div class="row padding_medium_ver no_padding_on_mobile">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
                             <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
-                                Koncentrujesz się na tym co znasz, czyli Twoim biznesie i obsłudze klientów, a nie na
-                                ich pozyskaniu</p>
+                                - koncentrujesz się na Twoim biznesie i obsłudze klientów, a nie na ich pozyskaniu</p>
                         </li>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon2-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
@@ -29,30 +28,31 @@
                                 i działania reklamowe bez żadnej gwarancji efektu tych działań</p>
                         </li>
                     </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4 center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon1-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
-                            <p>Skutecznie docierasz do klienta dzięki reklamę w Google, na portalach zasięgowych, w
-                                mediach społecznościowych - wykorzystując nowoczesne formy reklamowe</p>
+                            <p>Skutecznie docierasz do klienta dzięki efektywnej reklamie m.in. w Google, na portalach
+                                zasięgowych, w mediach społecznościowych</p>
                         </li>
                     </div>
                 </div>
-                <div class="row padding_medium">
-                    <div class="col-xs-6 col-sm-6 col-md-6 center">
+                <div class="row padding_medium no_padding_on_mobile">
+                    <div class="col-xs-12 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
                             <img src="{{ URL::asset('images/demo/icon3-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
-                            <p>Dedykowane Call-Centre potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
+                            <p>Dedykowane Call-Center potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
                                 lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta</p>
                         </li>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 center">
+                    <div class="col-xs-12 col-sm-6 col-md-6 center">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon5-b2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
-                            <p>Pozyskane dane wykorzystujesz do zbudowania swojej bazy klientów, dzięki której
-                                optymalizujesz swoje działania sprzedażowe</p>
+                            <p>Pozyskane dane wykorzystujesz do zbudowania własnej bazy klientów, dzięki której
+                                optymalizujesz swoje działania sprzedażowe poprzez np. targetowany mailing do
+                                klientów</p>
                         </li>
                     </div>
                 </div>
@@ -76,11 +76,17 @@
             </div>
             <div class="tab-gallery_container">
                 <ul class="description">
-                    <li><h2 class="center">Dotrzesz z ofertą Twojej firmy  do szerokiego grona odbiorców</h2></li>
-                    <li><h2 class="center">Twoja reklama będzie widoczna na znanych portalach ogólnopolskich</h2></li>
-                    <li><h2 class="center">Zrealizujesz cel sprzedażowy poprzez wyraźne komunikaty do użytkowników social media</h2></li>
-                    <li><h2 class="center">Zwiększysz zasięg reklamy w naszym programie afiliacyjnym</h2></li>
-                    <li><h2 class="center">Pozyskasz uwagę klienta w celu skorzystania z Twojej oferty</h2></li>
+                    <li><h2 class="center">Targetowana kampania reklamowa Google pozycjonowana pod wybrane branżowe
+                            słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense</h2></li>
+                    <li><h2 class="center">Reklama widoczna na horyzontalnych portalach ogólnopolskich poprzez
+                            dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display</h2></li>
+                    <li><h2 class="center">Indywidualnie dopasowana kampania reklama targetowana do użytkowników
+                            serwisów social media typu Facebook, Instagram, Twitter</h2></li>
+                    <li><h2 class="center">Zasięgowa kampania reklamowa w wykorzystaniem sieci afiliacyjnych - promocja
+                            produktów i usług na dedykowanych placementach reklamowych (strony www, blogi tematyczne,
+                            fora dyskusyjne, mailingi)</h2></li>
+                    <li><h2 class="center">Nowoczesne formy reklamowe optymalizujące konwersje sprzedażowe i
+                            zainteresowanie ofertą sprzedażową po stronie klienta indywidualnego</h2></li>
                     <li><h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w
                             Internecie</h2></li>
                 </ul>
@@ -152,33 +158,52 @@
 
             <div class="content container padding_small_ver">
                 <h1>Nasi klienci</h1>
-                <h2>Wieloletnia współpraca z firmami z branży finansowej i ubezpieczeniowej pozwoliła nam na zdobycie
-                    zaufania wśród klientów.</h2>
+                <h2>Poniżej lista klientów biznesowych, z którymi współpracujemy w modelu e-Marketingu efektywnościowego
+                    w zakresie promocji produktów/usług online oraz mobile</h2>
                 <!-- ################################################################################################ -->
             </div>
 
             <section id="clients" class="flexslider centered">
                 <!-- ################################################################################################ -->
                 <ul class="bxslider">
-                    <li><a href="http://www.aviva.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
-                    <li><a href="https://www.aliorbank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
-                    <li><a href="https://www.getinbank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
-                    <li><a href="http://www.grand-dental.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
-                    <li><a href="https://www.link4.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
-                    <li><a href="https://www.open.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
-                    <li><a href="https://www.pkobp.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
-                    <li><a href="http://www.projektusmiech.pl/en/" target="_blank"><img src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
-                    <li><a href="http://www.prudential.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
-                    <li><a href="http://raiffeisenpolbank.com/" target="_blank"><img src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
-                    <li><a href="https://taktofinanse.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
-                    <li><a href="http://www.vivadental.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
-                    <li><a href="https://www.bzwbk.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
-                    <li><a href="http://www.bgzbnpparibas.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
-                    <li><a href="http://www.magicsmile.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
-                    <li><a href="https://www.mbank.pl/indywidualny/" target="_blank"><img src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
-                    <li><a href="https://www.provident.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
-                    <li><a href="https://www.kredito24.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
-                    <li><a href="http://www.citibank.pl/" target="_blank"><img src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
+                    <li><a href="http://www.aviva.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
+                    <li><a href="https://www.aliorbank.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
+                    <li><a href="https://www.getinbank.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
+                    <li><a href="http://www.grand-dental.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/grand.png') }}" alt=""></a></li>
+                    <li><a href="https://www.link4.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/link4.png') }}" alt=""></a></li>
+                    <li><a href="https://www.open.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/openfinance.png') }}" alt=""></a></li>
+                    <li><a href="https://www.pkobp.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/bankpolski.png') }}" alt=""></a></li>
+                    <li><a href="http://www.projektusmiech.pl/en/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/projekt.png') }}" alt=""></a></li>
+                    <li><a href="http://www.prudential.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/prudential.png') }}" alt=""></a></li>
+                    <li><a href="http://raiffeisenpolbank.com/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/raifeissen.png') }}" alt=""></a></li>
+                    <li><a href="https://taktofinanse.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/takto.png') }}" alt=""></a></li>
+                    <li><a href="http://www.vivadental.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/vivadental.png') }}" alt=""></a></li>
+                    <li><a href="https://www.bzwbk.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/bzwbk.png') }}" alt=""></a></li>
+                    <li><a href="http://www.bgzbnpparibas.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/bankbgz.png') }}" alt=""></a></li>
+                    <li><a href="http://www.magicsmile.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/magicsmile.png') }}" alt=""></a></li>
+                    <li><a href="https://www.mbank.pl/indywidualny/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/mbank.png') }}" alt=""></a></li>
+                    <li><a href="https://www.provident.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/provident.png') }}" alt=""></a></li>
+                    <li><a href="https://www.kredito24.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/kredito24.png') }}" alt=""></a></li>
+                    <li><a href="http://www.citibank.pl/" target="_blank"><img
+                                    src="{{ URL::asset('images/demo/clients/citi.png') }}" alt=""></a></li>
                 </ul>
 
                 <div class="clear margin_big_ver"></div>

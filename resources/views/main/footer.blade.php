@@ -38,7 +38,6 @@
             <div class="one_quarter"><i class="icon fa fa-clock-o"></i>
                 <ul class="nospace">
                     <li>Pon - Pt: 9:00 do 17:00</li>
-                    <li>Sob - Nie: Nieczynne</li>
                 </ul>
             </div>
         </div>

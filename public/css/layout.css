@@ -375,7 +375,7 @@ nav #logo {
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
 .container {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 /* Content */
@@ -1064,8 +1064,8 @@ ol.regulation_list ol li p {
     }
 
     .container, #footer {
-        padding-bottom: 40px;
-        padding-top: 40px;
+        padding-bottom: 20px;
+        padding-top: 20px;
     }
 
     #footer .group:first-of-type div:last-child {
