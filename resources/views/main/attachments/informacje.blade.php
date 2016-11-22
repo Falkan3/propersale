@@ -20,7 +20,7 @@
                             target="_top">kontakt@propersale.pl</a>.
                 </p>
 
-                <div class="group btmspace-50">
+                <div class="group btmspace-50 no_margin">
                     <div class="one_quarter first"><i class="icon fa fa-map-marker"></i>
                         <address class="btmspace-15">
                             <p>ProperSALE.pl</p>
@@ -57,7 +57,8 @@
                     </div>
                     <div class="one_quarter"><i class="icon fa fa-clock-o"></i>
                         <ul class="nospace">
-                            <li>Pon - Pt: 9:00 do 17:00</li>
+                            <li><p>Pon - Pt: 9:00 do 17:00</p>
+                            </li>
                         </ul>
                     </div>
                 </div>

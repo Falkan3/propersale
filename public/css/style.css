@@ -40,6 +40,16 @@
     margin: 0 20px;
 }
 
+.container .no_margin p{
+    margin: 0;
+}
+
+.animated_list hr {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #wall_1 {
     background: url(../images/anchors.png) repeat;
     background-attachment: fixed;
@@ -77,7 +87,10 @@
 
 .content span.big {
     font-size: 36px;
-    font-weight: 400;
+    font-weight: bold;
+}
+
+.content span.colored {
     color: #3975b9;
 }
 
@@ -473,6 +486,13 @@ ul.animated_list li p:first-of-type {
         margin: 0;
     }
 
+    .margin_on_mobile {
+        margin-top: 15px;
+    }
+    .margin_on_mobile:first-child {
+        margin-top: 0;
+    }
+
     .no_padding_on_mobile {
         padding: 0 !important;
     }
@@ -588,7 +608,7 @@ ul.animated_list li p:first-of-type {
     }
 
     .vertical_eq {
-        margin-top: 60px;
+        margin-top: 115px;
     }
 
     .bx-wrapper .bx-prev {

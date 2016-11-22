@@ -11,45 +11,50 @@
 
             <ul class="animated_list">
                 <div class="row padding_medium_ver no_padding_on_mobile">
-                    <div class="col-xs-12 col-sm-4 col-md-4 center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
+                            <hr />
                             <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
                                 - koncentrujesz się na Twoim biznesie i obsłudze klientów, a nie na ich pozyskaniu.</p>
                         </li>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
+                            <hr />
                             <p>Reklamując się w Internecie rozliczasz się tylko za efekt sprzedażowy - a nie za samo
                                 miejsce
                                 i działania reklamowe bez żadnej gwarancji efektu tych działań.</p>
                         </li>
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-4 center">
+                    <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
+                            <hr />
                             <p>Skutecznie docierasz do klienta dzięki efektywnej reklamie m.in. w Google, na portalach
                                 zasięgowych, w mediach społecznościowych.</p>
                         </li>
                     </div>
                 </div>
                 <div class="row padding_medium no_padding_on_mobile">
-                    <div class="col-xs-12 col-sm-6 col-md-6 center">
+                    <div class="col-xs-12 col-sm-6 col-md-6 center margin_on_mobile">
                         <li class="right_mrg">
                             <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
+                            <hr />
                             <p>Dedykowane Call-Center potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
                                 lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta.</p>
                         </li>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 center">
+                    <div class="col-xs-12 col-sm-6 col-md-6 center margin_on_mobile">
                         <li>
                             <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
+                            <hr />
                             <p>Pozyskane dane wykorzystujesz do zbudowania własnej bazy klientów, dzięki której
                                 optymalizujesz swoje działania sprzedażowe poprzez np. targetowany mailing do
                                 klientów.</p>
@@ -77,17 +82,17 @@
             <div class="tab-gallery_container">
                 <ul class="description">
                     <li><h2 class="center">Targetowana kampania reklamowa Google pozycjonowana pod wybrane branżowe
-                            słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense</h2></li>
+                            słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense.</h2></li>
                     <li><h2 class="center">Reklama widoczna na horyzontalnych portalach ogólnopolskich poprzez
-                            dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display</h2></li>
+                            dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display.</h2></li>
                     <li><h2 class="center">Indywidualnie dopasowana kampania reklamowa targetowana do użytkowników
-                            serwisów social media typu Facebook, Instagram, Twitter</h2></li>
+                            serwisów social media typu Facebook, Instagram, Twitter.</h2></li>
                     <li><h2 class="center">Zasięgowa kampania reklamowa z wykorzystaniem sieci afiliacyjnych - promocja
                             produktów i usług na dedykowanych placementach reklamowych (strony www, blogi tematyczne,
-                            fora dyskusyjne, mailingi)</h2></li>
+                            fora dyskusyjne, mailingi).</h2></li>
                     <li><h2 class="center">Nowoczesne formy reklamowe optymalizujące konwersje sprzedażowe i
-                            zainteresowanie ofertą sprzedażową po stronie klienta indywidualnego</h2></li>
-                    <li><h2 class="center">Proper<span class="big">SALE</span> - dostarczamy efektywny performance e-Marketing dla Biznesu, w
+                            zainteresowanie ofertą sprzedażową po stronie klienta indywidualnego.</h2></li>
+                    <li><h2 class="center"><span class="big">Proper<span class="colored">SALE</span></span> - dostarczamy efektywny performance e-Marketing dla Biznesu, w
                             którym rozliczenie następuje za efekt realizowanej kampanii online i mobile, a nie za samo
                             zrealizowanie kampanii marketingowej.</h2></li>
                 </ul>
@@ -163,7 +168,7 @@
             <div class="content container padding_small_ver">
                 <h1>Nasi klienci</h1>
                 <h2>Poniżej lista klientów biznesowych, z którymi współpracujemy w modelu e-Marketingu efektywnościowego
-                    w zakresie promocji produktów/usług online oraz mobile</h2>
+                    w zakresie promocji produktów/usług online oraz mobile.</h2>
                 <!-- ################################################################################################ -->
             </div>
 
