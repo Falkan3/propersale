@@ -13,7 +13,7 @@
                 <div class="row padding_medium_ver no_padding_on_mobile">
                     <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/ikonka1.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
                             <hr />
                             <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/ikonka2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
                             <hr />
                             <p>Reklamując się w Internecie rozliczasz się tylko za efekt sprzedażowy - a nie za samo
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 center margin_on_mobile">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/ikonka3.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
                             <hr />
                             <p>Skutecznie docierasz do klienta dzięki efektywnej reklamie m.in. w Google, na portalach
@@ -43,7 +43,7 @@
                 <div class="row padding_medium no_padding_on_mobile">
                     <div class="col-xs-12 col-sm-6 col-md-6 center margin_on_mobile">
                         <li class="right_mrg">
-                            <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/ikonka4.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
                             <hr />
                             <p>Dedykowane Call-Center potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 center margin_on_mobile">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/ikonka5.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
                             <hr />
                             <p>Pozyskane dane wykorzystujesz do zbudowania własnej bazy klientów, dzięki której
@@ -101,7 +101,7 @@
                     <ul class="images">
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/google.png') }}" alt="oferta1"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense1.jpg') }}" alt="oferta1"/>
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta2"/>
                                 </li>
