@@ -494,6 +494,10 @@ ul.animated_list li p:first-of-type {
     .tab-gallery {
         height: 300px;
     }
+
+    .description li {
+        min-height: 170px;
+    }
 }
 
 @media screen and (max-width: 720px) {
