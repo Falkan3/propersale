@@ -13,46 +13,46 @@
                 <div class="row padding_medium_ver no_padding_on_mobile">
                     <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon4-b2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon4.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
                             <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
-                                - koncentrujesz się na Twoim biznesie i obsłudze klientów, a nie na ich pozyskaniu</p>
+                                - koncentrujesz się na Twoim biznesie i obsłudze klientów, a nie na ich pozyskaniu.</p>
                         </li>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon2-b2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
                             <p>Reklamując się w Internecie rozliczasz się tylko za efekt sprzedażowy - a nie za samo
                                 miejsce
-                                i działania reklamowe bez żadnej gwarancji efektu tych działań</p>
+                                i działania reklamowe bez żadnej gwarancji efektu tych działań.</p>
                         </li>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon1-b2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon1.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
                             <p>Skutecznie docierasz do klienta dzięki efektywnej reklamie m.in. w Google, na portalach
-                                zasięgowych, w mediach społecznościowych</p>
+                                zasięgowych, w mediach społecznościowych.</p>
                         </li>
                     </div>
                 </div>
                 <div class="row padding_medium no_padding_on_mobile">
                     <div class="col-xs-12 col-sm-6 col-md-6 center">
                         <li class="right_mrg">
-                            <img src="{{ URL::asset('images/demo/icon3-b2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon3.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
                             <p>Dedykowane Call-Center potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
-                                lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta</p>
+                                lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta.</p>
                         </li>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 center">
                         <li>
-                            <img src="{{ URL::asset('images/demo/icon5-b2.png') }}" alt="icon"/>
+                            <img src="{{ URL::asset('images/demo/icon5.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
                             <p>Pozyskane dane wykorzystujesz do zbudowania własnej bazy klientów, dzięki której
                                 optymalizujesz swoje działania sprzedażowe poprzez np. targetowany mailing do
-                                klientów</p>
+                                klientów.</p>
                         </li>
                     </div>
                 </div>
@@ -87,8 +87,9 @@
                             fora dyskusyjne, mailingi)</h2></li>
                     <li><h2 class="center">Nowoczesne formy reklamowe optymalizujące konwersje sprzedażowe i
                             zainteresowanie ofertą sprzedażową po stronie klienta indywidualnego</h2></li>
-                    <li><h2 class="center">Proper<span class="big">SALE</span> to najlepiej zorganizowana reklama w
-                            Internecie</h2></li>
+                    <li><h2 class="center">Proper<span class="big">SALE</span> - dostarczamy efektywny performance e-Marketing dla Biznesu, w
+                            którym rozliczenie następuje za efekt realizowanej kampanii online i mobile, a nie za samo
+                            zrealizowanie kampanii marketingowej.</h2></li>
                 </ul>
 
                 <div class="tab-gallery">
@@ -97,17 +98,19 @@
                             <ul class="subimages">
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/google.png') }}" alt="oferta1"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta2"/>
+                                </li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense3.jpg') }}" alt="oferta3"/>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie1.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/wp.jpg') }}"
                                          alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie2.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/gw.jpg') }}"
                                          alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portaleogolnopolskie3.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/onet.jpg') }}"
                                          alt="oferta3"/></li>
                             </ul>
                         </li>
@@ -115,26 +118,27 @@
                             <ul class="subimages">
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.png') }}"
                                          alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe2.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/fb.jpg') }} "
                                          alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/instagram.jpg') }}" alt="oferta3"/>
+                                </li>
                             </ul>
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/serwisypartnerskie.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/td.jpg') }}"
                                          alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/zx.jpg') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/ap.jpg') }}" alt="oferta3"/></li>
                             </ul>
                         </li>
                         <li>
                             <ul class="subimages">
                                 <li>
-                                    <img src="{{ URL::asset('images/demo/tabscreens/dedykowanyformularzkontaktowy.png') }}"
+                                    <img src="{{ URL::asset('images/demo/tabscreens/dfk.jpg') }}"
                                          alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/np.jpg') }}" alt="oferta2"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/np2.jpg') }}" alt="oferta3"/></li>
                             </ul>
                         </li>
                         <li>

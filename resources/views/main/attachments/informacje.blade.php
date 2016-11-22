@@ -11,8 +11,7 @@
 
             <div>
 
-                <p>WebField Sp. z o.o.</p>
-                <p>z siedzibą w Gdańsku (80-755), ul. Szafarnia nr
+                <p>WebField Sp. z o.o. z siedzibą w Gdańsku (80-755), ul. Szafarnia nr
                     11. lok. F8, NIP: 5833190889, REGON: 363241225, wpisaną do rejestru przedsiębiorców
                     Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy miasta Gdańsk, 
                     VII wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000591826, o
@@ -22,15 +21,17 @@
                 </p>
 
                 <div class="group btmspace-50">
-                    <div class="one_quarter first center"><i class="icon fa fa-map-marker"></i>
+                    <div class="one_quarter first"><i class="icon fa fa-map-marker"></i>
                         <address class="btmspace-15">
                             <p>ProperSALE.pl</p>
                             <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
-                            <p>ul. Lęborska 3B <a href="https://goo.gl/SLM9VF" target="_blank" class="margin_small_left"><i class="icon fa fa-map-o first"></i></a></p>
+                            <p>ul. Lęborska 3B <a href="https://goo.gl/SLM9VF" target="_blank"
+                                                  class="margin_small_left"><i class="icon fa fa-map-o first"></i></a>
+                            </p>
                             <p>80-386 Gdańsk</p>
                         </address>
                     </div>
-                    <div class="one_quarter center"><i class="icon fa fa-phone"></i>
+                    <div class="one_quarter"><i class="icon fa fa-phone"></i>
                         <ul class="nospace">
                             <li>
                                 <p>Opiekun klienta biznesowego</p>
@@ -43,7 +44,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="one_quarter center"><i class="icon fa fa-envelope-o"></i>
+                    <div class="one_quarter"><i class="icon fa fa-envelope-o"></i>
                         <ul class="nospace">
                             <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
                                    target="_top"><p>kontakt@propersale.pl</p></a>
@@ -54,7 +55,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="one_quarter center"><i class="icon fa fa-clock-o"></i>
+                    <div class="one_quarter"><i class="icon fa fa-clock-o"></i>
                         <ul class="nospace">
                             <li>Pon - Pt: 9:00 do 17:00</li>
                         </ul>

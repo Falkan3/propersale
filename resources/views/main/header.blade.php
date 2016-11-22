@@ -38,7 +38,7 @@
                         <article class="centered flex-content">
                             <h2 class="heading">Performance e-Marketing</h2>
                             <p>Efektywnościowy, czyli skuteczny – nowoczesny model e-Marketingu online, gdzie płacisz za
-                                efekt, a nie za same wyświetlenia reklamy</p>
+                                efekt, a nie za same wyświetlenia reklamy.</p>
                             <?php /*<p><a class="btn" href="#">Test</a></p>*/ ?>
                         </article>
                     </li>
@@ -46,14 +46,14 @@
                         <article class="centered flex-content">
                             <h2 class="heading">Multi-kanałowe targetowanie klienta</h2>
                             <p>Skutecznie docierasz do klienta z wykorzystaniem nowoczesnych form reklamowych w wielu
-                                kanałach online i mobile jednocześnie</p>
+                                kanałach online i mobile jednocześnie.</p>
                         </article>
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
                         <article class="centered flex-content">
                             <h2 class="heading">Sprawdzona platforma e-Marketingu</h2>
                             <p>Wykorzystujesz model sprawdzony dla klientów biznesowych na zaawansowanych rynkach online
-                                - USA, UK, Skandynawia</p>
+                                - USA, UK, Skandynawia.</p>
                         </article>
                     </li>
                     <?php /*

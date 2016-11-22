@@ -223,13 +223,13 @@ nav #logo {
 }
 
 #pageintro .slides li .flex-content * {
-    margin: 0;
+    /*margin: 0;*/
     white-space: normal;
     word-wrap: break-word;
 }
 
 #pageintro .slides li .flex-content .heading {
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     font-size: 72px;
     max-width: 50%;
     margin-left: auto;
@@ -1036,6 +1036,13 @@ ol.regulation_list ol li p {
     #header {
         text-align: center;
     }
+
+    /*
+    #pageintro .slides li article h2 {
+        margin-top: -100px;
+        position: relative;
+    }
+    */
 
     #pageintro .slides li .flex-content {
         padding: 120px 0 0 0;
