@@ -116,7 +116,7 @@
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.png') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.jpg') }}"
                                          alt="oferta1"/></li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/fb.jpg') }} "
                                          alt="oferta2"/></li>
