@@ -93,7 +93,7 @@
                     <li><h2 class="center">Zasięgowe kampanie reklamowe z wykorzystaniem sieci afiliacyjnych - promocja
                             produktów i usług na dedykowanych placementach reklamowych takich jak strony www, blogi
                             tematyczne, fora dyskusyjne, mailingi.</h2></li>
-                    <li><h2 class="center">Nowoczesne formy reklamowe dopasowane do kanałów komunikacja i standardów
+                    <li><h2 class="center">Nowoczesne formy reklamowe dopasowane do kanałów komunikacji i standardów
                             reklamy efektywnościowej – optymalizacja wskaźników zainteresowania ofertą po stronie
                             klienta indywidualnego i konwersji sprzedażowej.</h2></li>
                     <li><h2 class="center">Dedykowane Call-Centre typu in-house w zakresie obsługi wygenerowanych
@@ -105,11 +105,11 @@
                     <ul class="images">
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense1.jpg') }}" alt="oferta1"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/ga.jpg') }}" alt="oferta1"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta2"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense1.jpg') }}" alt="oferta2"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense3.jpg') }}" alt="oferta3"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta3"/>
                                 </li>
                             </ul>
                         </li>
@@ -125,9 +125,9 @@
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/portalespolecznosciowe1.jpg') }}"
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/fb1.jpg') }}"
                                          alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/fb.jpg') }} "
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/fb2.jpg') }} "
                                          alt="oferta2"/></li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/instagram.jpg') }}" alt="oferta3"/>
                                 </li>
@@ -152,9 +152,9 @@
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta2"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/01.png') }}" alt="oferta3"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
                             </ul>
                         </li>
                     </ul>
@@ -277,7 +277,8 @@
                             </fieldset>
                         </form>
 
-                        <p class="margin_small invisible">Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu 24h.</p>
+                        <p class="margin_small invisible">Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
+                            24h.</p>
                     </div>
                 </div>
             </div>
