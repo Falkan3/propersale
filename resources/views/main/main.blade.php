@@ -15,7 +15,7 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/ikonka1.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Zwiększasz swoją sprzedaż</span></p>
-                            <hr />
+                            <hr/>
                             <p class="no_margin">Efektywnie reklamujesz się w Internecie, docierając do nowych klientów
                                 - koncentrujesz się na Twoim biznesie i obsłudze klientów, a nie na ich pozyskaniu.</p>
                         </li>
@@ -24,7 +24,7 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/ikonka2.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Optymalizujesz koszty marketingowe</span></p>
-                            <hr />
+                            <hr/>
                             <p>Reklamując się w Internecie rozliczasz się tylko za efekt sprzedażowy - a nie za samo
                                 miejsce
                                 i działania reklamowe bez żadnej gwarancji efektu tych działań.</p>
@@ -34,7 +34,7 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/ikonka3.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Docierasz do klienta wielokanałowo</span></p>
-                            <hr />
+                            <hr/>
                             <p>Skutecznie docierasz do klienta dzięki efektywnej reklamie m.in. w Google, na portalach
                                 zasięgowych, w mediach społecznościowych.</p>
                         </li>
@@ -45,7 +45,7 @@
                         <li class="right_mrg">
                             <img src="{{ URL::asset('images/demo/ikonka4.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Otrzymujesz zweryfikowane kontakty</span></p>
-                            <hr />
+                            <hr/>
                             <p>Dedykowane Call-Center potwierdza dane kontaktowe i zainteresowanie klienta Twoją usługą
                                 lub produktem w celu dodatkowej weryfikacji wartości sprzedażowej klienta.</p>
                         </li>
@@ -54,7 +54,7 @@
                         <li>
                             <img src="{{ URL::asset('images/demo/ikonka5.png') }}" alt="icon"/>
                             <p><span class="strong uppercase">Budujesz bazę klientów</span></p>
-                            <hr />
+                            <hr/>
                             <p>Pozyskane dane wykorzystujesz do zbudowania własnej bazy klientów, dzięki której
                                 optymalizujesz swoje działania sprzedażowe poprzez np. targetowany mailing do
                                 klientów.</p>
@@ -75,26 +75,30 @@
                     <li index-number="1"><h2>Portale zasięgowe</h2></li>
                     <li index-number="2"><h2>Media społecznościowe</h2></li>
                     <li index-number="3"><h2>Serwisy partnerskie</h2></li>
-                    <li index-number="4"><h2>Dedykowany landing page</h2></li>
-                    <li index-number="5"><h2>Efektywny Performance e-Marketing</h2></li>
+                    <li index-number="4"><h2>Dedykowane mikro-serwisy</h2></li>
+                    <li index-number="5"><h2>Weryfikacja Call-Centre</h2></li>
                 </ul>
             </div>
             <div class="tab-gallery_container">
                 <ul class="description">
                     <li><h2 class="center">Targetowana kampania reklamowa Google pozycjonowana pod wybrane branżowe
-                            słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense.</h2></li>
-                    <li><h2 class="center">Reklama widoczna na horyzontalnych portalach ogólnopolskich poprzez
-                            dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display.</h2></li>
-                    <li><h2 class="center">Indywidualnie dopasowana kampania reklamowa targetowana do użytkowników
-                            serwisów social media typu Facebook, Instagram, Twitter.</h2></li>
-                    <li><h2 class="center">Zasięgowa kampania reklamowa z wykorzystaniem sieci afiliacyjnych - promocja
-                            produktów i usług na dedykowanych placementach reklamowych (strony www, blogi tematyczne,
-                            fora dyskusyjne, mailingi).</h2></li>
-                    <li><h2 class="center">Nowoczesne formy reklamowe optymalizujące konwersje sprzedażowe i
-                            zainteresowanie ofertą sprzedażową po stronie klienta indywidualnego.</h2></li>
-                    <li><h2 class="center"><span class="big">Proper<span class="colored">SALE</span></span> - dostarczamy efektywny performance e-Marketing dla Biznesu, w
-                            którym rozliczenie następuje za efekt realizowanej kampanii online i mobile, a nie za samo
-                            zrealizowanie kampanii marketingowej.</h2></li>
+                            słowa kluczowe z wykorzystaniem Google AdWords oraz Google AdSense. Optymalizacja zakresu
+                            fraz branżowych i kosztu pozyskania (CPC). </h2></li>
+                    <li><h2 class="center">Kampanie reklamowe na horyzontalnych portalach ogólnopolskich poprzez
+                            dopasowaną reklamę kontekstową oraz wizerunkowe kampanie typu display – optymalizacja form
+                            graficznych i placementów reklamowych.</h2></li>
+                    <li><h2 class="center">Kampanie reklamowe w mediach społecznościowych - Facebook, Instagram,
+                            Twitter. Przekaz marketingowy dopasowany do indywidualnego profilu użytkownika. Możliwość
+                            geotargetowania i definiowania kryteriów socialowych.</h2></li>
+                    <li><h2 class="center">Zasięgowe kampanie reklamowe z wykorzystaniem sieci afiliacyjnych - promocja
+                            produktów i usług na dedykowanych placementach reklamowych takich jak strony www, blogi
+                            tematyczne, fora dyskusyjne, mailingi.</h2></li>
+                    <li><h2 class="center">Nowoczesne formy reklamowe dopasowane do kanałów komunikacja i standardów
+                            reklamy efektywnościowej – optymalizacja wskaźników zainteresowania ofertą po stronie
+                            klienta indywidualnego i konwersji sprzedażowej.</h2></li>
+                    <li><h2 class="center">Dedykowane Call-Centre typu in-house w zakresie obsługi wygenerowanych
+                            kontaktów sprzedażowych - w celu dodatkowej weryfikacji danych klienta, zainteresowania
+                            produktem i wartości sprzedażowej.</h2></li>
                 </ul>
 
                 <div class="tab-gallery">
@@ -252,7 +256,7 @@
                 <h3>Skorzystaj z możliwości, które oferujemy Twojej firmie.
                     Wypełnij poniższe dane - a my skontaktujemy się z Tobą.</h3>
 
-                <div class="row" style="margin-top: 100px">
+                <div class="row" style="margin-top: 60px">
                     <div class="email_form no_margin">
                         <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
                         <form class="btmspace-30" method="post" action="#">
@@ -272,6 +276,8 @@
                                 </div>
                             </fieldset>
                         </form>
+
+                        <p class="margin_small invisible">Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu 24h.</p>
                     </div>
                 </div>
             </div>
