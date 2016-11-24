@@ -1,6 +1,9 @@
 $(document).ready(function() {
 	var form = $("form#email_form");
 	var status = $("#email_form_response");
+	var email=$("form#email_form [name='email']");
+	var nazwafirmy=$("form#email_form [name='nazwafirmy']");
+	var nrtelefonu=$("form#email_form [name='nrtelefonu']");
 
   	form.submit(function(e) {
   		e.preventDefault();
@@ -54,4 +57,49 @@ $(document).ready(function() {
 	    });
 
 	});
+
+	email.on("input", function() {
+		if(!isEmail(email.val()))
+		{
+			email.addClass("wrong_input");
+		}
+		else
+		{
+			email.removeClass("wrong_input");
+		}
+		if(email.val().length==0) {
+			email.removeClass("wrong_input");
+		}
+	});
+
+	nrtelefonu.on("input", function() {
+		if(!isTelephoneNumber(nrtelefonu.val()))
+		{
+			nrtelefonu.addClass("wrong_input");
+		}
+		else
+		{
+			nrtelefonu.removeClass("wrong_input");
+		}
+		if(nrtelefonu.val().length==0) {
+			nrtelefonu.removeClass("wrong_input");
+		}
+	});
 });
+
+function isEmail(email) {
+	var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	return regex.test(email);
+}
+
+function isTelephoneNumber(number) {
+	var isTrue=false;
+	var regex = /^[0-9]{3}-?[0-9]{3}-?[0-9]{3}$/;
+	isTrue = regex.test(number);
+	if(isTrue!=1)
+	{
+		regex = /^[0-9]{3}-?[0-9]{2}-?[0-9]{2}$/;
+		isTrue = regex.test(number);
+	}
+	return regex.test(number);
+}
