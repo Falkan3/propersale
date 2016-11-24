@@ -4,6 +4,7 @@ $(document).ready(function() {
 	var email=$("form#email_form [name='email']");
 	var nazwafirmy=$("form#email_form [name='nazwafirmy']");
 	var nrtelefonu=$("form#email_form [name='nrtelefonu']");
+	var url = $("form#email_form").attr("action");
 
   	form.submit(function(e) {
   		e.preventDefault();
@@ -21,7 +22,7 @@ $(document).ready(function() {
 	        }
 	    });  
 	    $.ajax({
-	        url: "/mail",//form.attr('action'),
+	        url: url,//form.attr('action'),
 	        type: "POST",    
 	        data: formdata, 
             enctype:'multipart/form-data',
