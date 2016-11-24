@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=latin-ext" rel="stylesheet">
@@ -43,6 +44,7 @@
 <script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.mobile.custom.min.js') }}"></script>
+<script src="{{ URL::asset('js/contactform.js') }}"></script>
 <script src="{{ URL::asset('js/mainscript.js') }}"></script>
 <script src="{{ URL::asset('js/script.js') }}"></script>
 

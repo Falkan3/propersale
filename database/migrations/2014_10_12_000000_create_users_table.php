@@ -25,8 +25,8 @@ class CreateUsersTable extends Migration
         DB::table('users')->insert(
             array(
                 'name' => 'admin',
-                'email' => 'adam.kocic@automatkredytowy.pl',
-                'password' => '$2y$10$8jmfqkFGPq6RLzm/Vn8Vw.EAXs1aoEM.HRn7JIIEAH20H9KTj6B..'
+                'email' => 'kontakt@propersale.pl',
+                'password' => bcrypt('password')
             )
         );
     }

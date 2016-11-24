@@ -16,6 +16,8 @@
 //Index route
 Route::get('/', 'MainController@index');
 
+Route::post('/mail', 'MainController@mail');
+
 Route::group(['prefix' => 'att'], function () {
     Route::group(['prefix' => 'informacje'], function () {
         Route::get('/', 'MainController@informacje');

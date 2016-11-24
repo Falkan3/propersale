@@ -259,17 +259,18 @@
                 <div class="row" style="margin-top: 60px">
                     <div class="email_form no_margin">
                         <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
-                        <form class="btmspace-30" method="post" action="#">
+                        <form id="email_form" class="btmspace-30" method="post" action="{{url('/mail')}}" enctype="multipart/form-data" role="form">
                             <fieldset>
+                                {!! csrf_field() !!}
                                 <legend>Kontakt:</legend>
                                 <div class="col-xs-12 col-sm-4 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="E-mail">
+                                    <input class="btmspace-15" type="text" value="" placeholder="E-mail" name="email">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy" name="nazwafirmy">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu" name="nrtelefonu">
                                 </div>
                                 <div class="col-xs-12 col-sm-2 col-md-3">
                                     <button type="submit" value="submit" class="center_mrg">Wyślij</button>
@@ -277,8 +278,7 @@
                             </fieldset>
                         </form>
 
-                        <p class="margin_small invisible">Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
-                            24h.</p>
+                        <div id="email_form_response" class="margin_small invisible status"></div>
                     </div>
                 </div>
             </div>
