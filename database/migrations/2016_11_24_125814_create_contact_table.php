@@ -18,6 +18,7 @@ class CreateContactTable extends Migration
             $table->string('email')->unique();
             $table->string('nazwafirmy');
             $table->string('nrtelefonu');
+            $table->timestamps();
         });
     }
 

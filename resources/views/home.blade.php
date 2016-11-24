@@ -12,9 +12,10 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th class="col-xs-12 col-sm-4 col-md-4">E-mail</th>
-                                <th class="col-xs-12 col-sm-4 col-md-4">Nazwa firmy</th>
-                                <th class="col-xs-12 col-sm-4 col-md-4">Nr telefonu</th>
+                                <th class="col-xs-12 col-sm-3 col-md-3">E-mail</th>
+                                <th class="col-xs-12 col-sm-3 col-md-3">Nazwa firmy</th>
+                                <th class="col-xs-12 col-sm-3 col-md-3">Nr telefonu</th>
+                                <th class="col-xs-12 col-sm-3 col-md-3">Data</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -30,6 +31,9 @@
                                 </td>
                                 <td>
                                     {{$item->nrtelefonu}}
+                                </td>
+                                <td>
+                                    {{$item->created_at}}
                                 </td>
                             </tr>
                             <?php

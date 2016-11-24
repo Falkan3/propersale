@@ -54,12 +54,20 @@ class MainController extends Controller
         $nrtelefonu = $request['nrtelefonu'];
 
         $subject = "Kontakt ze strony ProperSale.pl";
-        if(empty($this->validateMail($email,$nrtelefonu))) {
+
+        $response = $this->validateMail($email,$nrtelefonu);
+
+        if(empty($response)) {
             $contact = new Contact;
             $contact->email = $email;
             $contact->nazwafirmy = $nazwafirmy;
             $contact->nrtelefonu = $nrtelefonu;
             $contact->save();
+            return response()->json([
+                'success' => true,
+                'message' => ["Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
+                            24h."]
+            ]);
         }
         try {
             if (empty($this->validateMail($email, $nrtelefonu))) {
