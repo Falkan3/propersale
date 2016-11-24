@@ -11,8 +11,8 @@
 
             <div>
 
-                <p>WebField Sp. z o.o. z siedzibą w Gdańsku (80-755), ul. Szafarnia nr
-                    11. lok. F8, NIP: 5833190889, REGON: 363241225, wpisaną do rejestru przedsiębiorców
+                <p>WebField Sp. z o.o. z siedzibą w Gdańsku (80-755), ul. Lęborska 3B, NIP: 5833190889, REGON:
+                    363241225, wpisaną do rejestru przedsiębiorców
                     Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy miasta Gdańsk, 
                     VII wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000591826, o
                     kapitale zakładowym w wysokości 5.000 złotych, adres e-mail: <a
