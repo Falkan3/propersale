@@ -1092,7 +1092,7 @@ ol.regulation_list ol li p {
 
 .email_form input.wrong_input {
     background-color: #da6262;
-    border: solid 2px #3D4247;
+    border-color: #d41818;
 }
 
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
@@ -1100,19 +1100,19 @@ ol.regulation_list ol li p {
 
 .alert-danger.status {
     background-color: #e86363;
-    border-color: #9e0820;
+    border: solid 2px #3D4247;
 }
 
 .alert-danger.status p {
     color: #710a08 !important;
 }
 
-.alert-success {
+.alert-success.status {
     background-color: #88c370;
     border: solid 2px #3D4247;
 }
 
-.alert-success p {
+.alert-success.status p {
     color: #3c763d !important;
 }
 
