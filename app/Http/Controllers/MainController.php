@@ -55,9 +55,9 @@ class MainController extends Controller
 
         $subject = "Kontakt ze strony ProperSale.pl";
 
-        $response = $this->validateMail($email,$nrtelefonu,$nazwafirmy);
+        $response = $this->validateMail($email, $nrtelefonu, $nazwafirmy);
 
-        if(empty($response)) {
+        if (empty($response)) {
             $contact = new Contact;
             $contact->email = $email;
             $contact->nazwafirmy = $nazwafirmy;
@@ -65,8 +65,7 @@ class MainController extends Controller
             $contact->save();
             return response()->json([
                 'success' => true,
-                'message' => ["Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
-                            24h."]
+                'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
             ]);
         }
         try {
@@ -83,15 +82,12 @@ class MainController extends Controller
                 }
                 return response()->json([
                     'success' => true,
-                    'message' => ["Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
-                            24h."]
+                    'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
                 ]);
-            }
-            else
-            {
+            } else {
                 return response()->json([
                     'success' => false,
-                    'message' => $this->validateMail($email,$nrtelefonu, $nazwafirmy)
+                    'message' => $this->validateMail($email, $nrtelefonu, $nazwafirmy)
                 ]);
             }
         } catch (\Exception $ex) {
@@ -108,13 +104,13 @@ class MainController extends Controller
     private function validateMail($email, $nrtelefonu, $nazwafirmy)
     {
         $response = array();
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($email)>35) {
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($email) > 35) {
             $response[] = "Adres e-mail jest nieprawidłowy";
         }
-        if (strlen($nrtelefonu)>14 || !preg_match("/^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/", $nrtelefonu) && !preg_match("/^[0]?([0-9]{2})(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/", $nrtelefonu)) {
+        if (strlen($nrtelefonu) > 14 || !preg_match("/^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/", $nrtelefonu) && !preg_match("/^[0]?([0-9]{2})(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/", $nrtelefonu)) {
             $response[] = "Numer telefonu jest nieprawidłowy";
         }
-        if (strlen($nazwafirmy)>50) {
+        if (strlen($nazwafirmy) > 50) {
             $response[] = "Nazwa firmy jest za długa";
         }
 

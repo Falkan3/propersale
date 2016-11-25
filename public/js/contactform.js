@@ -30,10 +30,13 @@ $(document).ready(function() {
 	        processData: false, 
 		    success: function(data){
 				status.html("");
+				status.html('<p>' + data['message'] + '</p>');
+				/*
 				for (var index in data.message){
 					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
-					status.append('<p>' + data.message[index] + '</p>');
+					status.append("<p>" + data.message[index]+'</p>');
 				}
+				*/
 				if (data != null && data.success) {
 					//status.html('<p>' + data['message'] + '</p>');
 					//form.reset();

@@ -469,7 +469,9 @@ ul.animated_list li p:first-of-type {
     margin: 0;
 }
 #pageintro {
-    background-color: #000;
+    background-color: #000 !important;
+    background-image: url('../images/demo/backgrounds/slider1.jpg') !important;
+    background-size: cover;
 }
 #pageintro ul {
     visibility: hidden;

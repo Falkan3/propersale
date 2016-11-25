@@ -270,7 +270,7 @@
                                     <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy" name="nazwafirmy" maxlength="50">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu [123-456-789]" name="nrtelefonu" maxlength="14">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu [000-000-000]" name="nrtelefonu" maxlength="14">
                                 </div>
                                 <div class="col-xs-12 col-sm-2 col-md-3">
                                     <button type="submit" value="submit" class="center_mrg">Wyślij</button>
