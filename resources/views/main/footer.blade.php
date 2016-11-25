@@ -15,12 +15,12 @@
                 <ul class="nospace">
                     <li>
                         <p>Opiekun klienta biznesowego</p>
-                        <p>505-632-507</p>
+                        <p><a href="tel:+505632507">505-632-507</a></p>
                     </li>
                     <hr class="margin_small_ver">
                     <li>
                         <p>Kontakt ogólny</p>
-                        <p>690-435-825</p>
+                        <p><a href="tel:+690435825">690-435-825</a></p>
                     </li>
                 </ul>
             </div>
