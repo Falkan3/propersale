@@ -116,7 +116,7 @@ class MainController extends Controller
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $response[] = "Adres e-mail jest nieprawidłowy";
         }
-        if (!preg_match("/^[0-9]{3}-?[0-9]{2,3}-?[0-9]{2,3}$/", $nrtelefonu)) {
+        if (!preg_match("/^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/", $nrtelefonu) && !preg_match("/^[0]?([0-9]{2})?(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/", $nrtelefonu)) {
             $response[] = "Numer telefonu jest nieprawidłowy";
         }
 

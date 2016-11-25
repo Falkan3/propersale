@@ -95,11 +95,11 @@ function isEmail(email) {
 
 function isTelephoneNumber(number) {
 	var isTrue=false;
-	var regex = /^[0-9]{3}-?[0-9]{3}-?[0-9]{3}$/;
+	var regex = /^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/;
 	isTrue = regex.test(number);
 	if(isTrue!=1)
 	{
-		regex = /^[0-9]{3}-?[0-9]{2}-?[0-9]{2}$/;
+		regex = /^[0]?([0-9]{2})?(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/;
 		isTrue = regex.test(number);
 	}
 	return regex.test(number);
