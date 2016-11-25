@@ -468,7 +468,7 @@ ul.animated_list li p:first-of-type {
 .description li h2 {
     margin: 0;
 }
-#pageintro {
+header .screen-height {
     background-color: #000 !important;
     background-image: url('../images/demo/backgrounds/slider1.jpg') !important;
     background-size: cover;
