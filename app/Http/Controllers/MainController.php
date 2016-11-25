@@ -55,7 +55,7 @@ class MainController extends Controller
 
         $subject = "Kontakt ze strony ProperSale.pl";
 
-        $response = $this->validateMail($email,$nrtelefonu);
+        $response = $this->validateMail($email,$nrtelefonu,$nazwafirmy);
 
         if(empty($response)) {
             $contact = new Contact;
@@ -70,7 +70,7 @@ class MainController extends Controller
             ]);
         }
         try {
-            if (empty($this->validateMail($email, $nrtelefonu))) {
+            if (empty($this->validateMail($email, $nrtelefonu, $nazwafirmy))) {
                 if (isset($admins)) {
                     foreach ($admins as $admin) {
                         Mail::queue('emails.reminder', ['email' => $email, 'nazwafirmy' => $nazwafirmy, 'nrtelefonu' => $nrtelefonu],
@@ -92,7 +92,7 @@ class MainController extends Controller
             {
                 return response()->json([
                     'success' => false,
-                    'message' => $this->validateMail($email,$nrtelefonu)
+                    'message' => $this->validateMail($email,$nrtelefonu, $nazwafirmy)
                 ]);
             }
         } catch (\Exception $ex) {
@@ -110,14 +110,17 @@ class MainController extends Controller
         //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
     }
 
-    private function validateMail($email, $nrtelefonu)
+    private function validateMail($email, $nrtelefonu, $nazwafirmy)
     {
         $response = array();
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($email)>35) {
             $response[] = "Adres e-mail jest nieprawidłowy";
         }
-        if (!preg_match("/^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/", $nrtelefonu) && !preg_match("/^[0]?([0-9]{2})?(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/", $nrtelefonu)) {
+        if (strlen($nrtelefonu)>14 || !preg_match("/^[0-9]{3}(-|\s)?[0-9]{3}(-|\s)?[0-9]{3}$/", $nrtelefonu) && !preg_match("/^[0]?([0-9]{2})(-|\s)?[0-9]{3}(-|\s)?[0-9]{2}(-|\s)?[0-9]{2}$/", $nrtelefonu)) {
             $response[] = "Numer telefonu jest nieprawidłowy";
+        }
+        if (strlen($nazwafirmy)>50) {
+            $response[] = "Nazwa firmy jest za długa";
         }
 
         return $response;
