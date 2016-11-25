@@ -70,7 +70,7 @@ class MainController extends Controller
             ]);
         }
         try {
-            if (empty($this->validateMail($email, $nrtelefonu, $nazwafirmy))) {
+            if (empty($response)) {
                 if (isset($admins)) {
                     foreach ($admins as $admin) {
                         Mail::queue('emails.reminder', ['email' => $email, 'nazwafirmy' => $nazwafirmy, 'nrtelefonu' => $nrtelefonu],
@@ -80,13 +80,12 @@ class MainController extends Controller
                                 $m->to($admin->email)->subject($subject);
                             });
                     }
-                    return response()->json([
-                        'success' => true,
-                        'message' => ["Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
-                            24h."]
-                    ]);
-                    //return redirect(App::getLocale() . '/about')->with('message', 'Thanks for contacting us!');
                 }
+                return response()->json([
+                    'success' => true,
+                    'message' => ["Dziękujemy za informacje - skontaktujemy się z Tobą w ciągu
+                            24h."]
+                ]);
             }
             else
             {
@@ -103,10 +102,6 @@ class MainController extends Controller
             //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
         }
 
-        return response()->json([
-            'success' => false,
-            'message' => ["Nie udało się wysłać wiadomości. Proszę spróbować ponownie później."]
-        ]);
         //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
     }
 

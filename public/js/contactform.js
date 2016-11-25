@@ -30,28 +30,30 @@ $(document).ready(function() {
 	        processData: false, 
 		    success: function(data){
 				status.html("");
+				for (var index in data.message){
+					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
+					status.append('<p>' + data.message[index] + '</p>');
+				}
 				if (data != null && data.success) {
 					//status.html('<p>' + data['message'] + '</p>');
 					//form.reset();
 					//form[0].reset();
 
-					for (var index in data.message){
-						// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
-						status.append('<p>' + data.message[index] + '</p>');
-					}
+					status.removeClass("alert-danger");
+					status.addClass("alert-success");
 					$("input[type=text], textarea").val("");
 				}
 				else
 				{
-					for (var index in data.message){
-						// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
-						status.append('<p>' + data.message[index] + '</p>');
-					}
+					status.removeClass("alert-success");
+					status.addClass("alert-danger");
 				}
 				status.removeClass("invisible");
 		        },
 	        error: function(data){
 			    // Error...
+				status.removeClass("alert-success");
+				status.addClass("alert-danger");
 				status.html('<p>' + data['message'] + '</p>');
 				status.removeClass("invisible");
 			}
@@ -74,7 +76,7 @@ $(document).ready(function() {
 	});
 
 	nrtelefonu.on("input", function() {
-		if(nrtelefonu.val().length>9 && !isTelephoneNumber(nrtelefonu.val()))
+		if(nrtelefonu.val().length>7 && !isTelephoneNumber(nrtelefonu.val()))
 		{
 			nrtelefonu.addClass("wrong_input");
 		}

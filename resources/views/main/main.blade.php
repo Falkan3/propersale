@@ -278,7 +278,7 @@
                             </fieldset>
                         </form>
 
-                        <div id="email_form_response" class="margin_small invisible status"></div>
+                        <div id="email_form_response" class="alert margin_small invisible status center"></div>
                     </div>
                 </div>
             </div>

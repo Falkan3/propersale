@@ -1098,6 +1098,27 @@ ol.regulation_list ol li p {
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
 .flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
 
+.alert-danger.status {
+    background-color: #e86363;
+    border-color: #9e0820;
+}
+
+.alert-danger.status p {
+    font-weight: bold !important;
+    color: #a94442 !important;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #88c370;
+    border-color: #35650d;
+}
+
+.alert-success p {
+    font-weight: bold !important;
+    color: #3c763d !important;
+}
+
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
