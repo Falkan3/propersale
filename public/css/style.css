@@ -471,6 +471,8 @@ ul.animated_list li p:first-of-type {
 header .screen-height {
     background-color: #000 !important;
     background-image: url('../images/demo/backgrounds/slider1.jpg') !important;
+    background-position: top center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 #pageintro ul {
@@ -483,7 +485,7 @@ header .screen-height {
 @media screen and (max-width: 767px) {
     div.screen-height, #pageintro .slides li {
         height: auto;
-        min-height: 676px;
+        min-height: 800px;
     }
 
     div.screen-height .slides li, section.screen-height .slides li article {
