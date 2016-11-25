@@ -31,6 +31,7 @@ $(window).load(function() {
             $('body').removeClass('loading');
         }
     });
+    $("#pageintro ul").css("visibility", "visible");
 });
 
 /* Workaround to stop carousels from losing (no-longer displaying) content on viewport re-size - re-sets slides to 1 */

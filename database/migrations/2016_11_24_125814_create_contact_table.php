@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
+use Illuminate\Database\Eloquent\SoftDeletes;
+
 class CreateContactTable extends Migration
 {
     /**
@@ -18,6 +20,9 @@ class CreateContactTable extends Migration
             $table->string('email');
             $table->string('nazwafirmy');
             $table->string('nrtelefonu');
+            $table->boolean('confirmed')->default(0);
+            //$table->boolean('active')->default(1);
+            $table->softDeletes();
             $table->timestamps();
         });
     }

@@ -11,6 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Styles -->
+    <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css" media="all"/>
     <link href="{{URL::asset('css/app.css')}}" rel="stylesheet">
 
     <!-- Scripts -->
@@ -19,6 +20,9 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
+    <!--/scripts-->
+
 </head>
 <body>
     <div id="app">
@@ -59,6 +63,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#confirmed" class="page-scroll">Potwierdzone</a></li>
+                                    <li><a href="#unconfirmed" class="page-scroll">Niepotwierdzone</a></li>
+                                    <li></li>
                                     <li>
                                         <a href="{{ url('/logout') }}"
                                             onclick="event.preventDefault();
@@ -82,6 +89,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
     <script src="{{URL::asset('js/app.js')}}"></script>
 </body>
 </html>

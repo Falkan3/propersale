@@ -33,6 +33,12 @@ Route::group(['prefix' => 'att'], function () {
     });
 });
 
+Route::group(['prefix' => 'contact'], function () {
+    Route::get('/delete/{id}', 'ContactController@deleteContact');
+    Route::get('/validate/{id}', 'ContactController@validateContact');
+    Route::get('/invalidate/{id}', 'ContactController@invalidateContact');
+});
+
 
 
 

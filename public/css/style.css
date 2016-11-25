@@ -468,6 +468,12 @@ ul.animated_list li p:first-of-type {
 .description li h2 {
     margin: 0;
 }
+#pageintro {
+    background-color: #000;
+}
+#pageintro ul {
+    visibility: hidden;
+}
 /* media queries ---------------------*/
 
 

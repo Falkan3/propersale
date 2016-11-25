@@ -1087,7 +1087,7 @@ ol.regulation_list ol li p {
 }
 
 .status {
-    min-height: 120px;
+    /*min-height: 120px;*/
 }
 
 .email_form input.wrong_input {

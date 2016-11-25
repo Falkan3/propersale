@@ -24,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $contacts = Contact::orderBy("created_at", "DESC")->get();
-        return view('home', ['contacts' => $contacts]);
+        $contacts = Contact::where("confirmed", 1)->orderBy("created_at", "DESC")->get();
+        $xcontacts = Contact::where("confirmed", 0)->orderBy("created_at", "DESC")->get();
+        return view('home', ['contacts' => $contacts, 'xcontacts' => $xcontacts ]);
     }
 }
