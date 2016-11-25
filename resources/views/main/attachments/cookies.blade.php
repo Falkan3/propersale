@@ -19,27 +19,27 @@
                     ProperSale.pl. Jednocześnie pragniemy zwrócić Państwa uwagę na fakt, iż bez umieszczenie plików
                     Cookie i/lub podobnych technologii w Państwa urządzeniu nie jesteśmy w stanie oferować w pełni
                     funkcjonalności naszego Serwisu. Z tego względu wyrażają Państwo zgodę na stosowanie przez nas
-                    plików Cookie podczas korzystania przez Państwa z Serwisu ProperSale.pl za pomocą domyślnych
+                    plików Cookies podczas korzystania przez Państwa z Serwisu ProperSale.pl za pomocą domyślnych
                     ustawień przeglądarki (zgodnie z art. 173 ust. 2 Ustawy Prawo Telekomunikacyjne).
                     Jednakże mogą Państwo zrezygnować z wykorzystywania tego rodzaju plików poprzez odpowiednie
                     skonfigurowanie ustawień przeglądarki.</p>
 
-                <p>Niniejsza polityka Cookie składa się z następujących części:</p>
+                <p>Niniejsza polityka Cookies składa się z następujących części:</p>
                 <ol class="regulation_list">
                     <li>
-                        <p>Czym są pliki Cookie?</p>
+                        <p>Czym są pliki Cookies?</p>
                     </li>
                     <li>
-                        <p>Do czego używamy plików Cookie?</p>
+                        <p>Do czego używamy plików Cookies?</p>
                     </li>
                     <li>
-                        <p>Jakiego rodzaju plików Cookie używamy?</p>
+                        <p>Jakiego rodzaju plików Cookies używamy?</p>
                     </li>
                     <li>
-                        <p>Czy mogę sterować plikami Cookie lub je usunąć?</p>
+                        <p>Czy mogę sterować plikami Cookies lub je usunąć?</p>
                     </li>
                     <li>
-                        <p>Czy używamy plików Cookie?</p>
+                        <p>Czy używamy plików Cookies?</p>
                     </li>
                 </ol>
 
@@ -47,7 +47,7 @@
 
                 <ol class="regulation_list">
                     <li>
-                        <h1>Czym są pliki Cookie?</h1>
+                        <h1>Czym są pliki Cookies?</h1>
 
                         <p>Pliki cookies (tzw. "ciasteczka") stanowią dane informatyczne, w szczególności pliki
                             tekstowe, które przechowywane są w urządzeniu końcowym Użytkownika Serwisu i przeznaczone są
@@ -65,11 +65,11 @@
                                     Państwa zainteresowań i potrzeb.</p>
                             </li>
                             <li>
-                                <p>Pliki Cookie mogą również być używane do przyśpieszenia Państwa przyszłych aktywności
+                                <p>Pliki Cookies mogą również być używane do przyśpieszenia Państwa przyszłych aktywności
                                     i doświadczeń na naszych Stronach.</p>
                             </li>
                             <li>
-                                <p>Pliki Cookie pozwalają także zapamiętać Państwa sesje logowania ułatwiając tym samym
+                                <p>Pliki Cookies pozwalają także zapamiętać Państwa sesje logowania ułatwiając tym samym
                                     dostęp do treści wymagających rejestracji.</p>
                             </li>
                             <li>
@@ -78,20 +78,20 @@
                                     zawartości.</p>
                             </li>
                             <li>
-                                <p>Pliki Cookie mogą służyć także dostosowania zawartości stron internetowych Serwisu do
+                                <p>Pliki Cookies mogą służyć także dostosowania zawartości stron internetowych Serwisu do
                                     preferencji Użytkownika oraz optymalizacji korzystania ze stron internetowych. W
                                     szczególności pliki te pozwalają rozpoznać urządzenie Użytkownika Serwisu i
                                     odpowiednio wyświetlić stronę internetową, dostosowaną do jego indywidualnych
                                     potrzeb.</p>
                             </li>
                             <li>
-                                <p>Pliki Cookie są niezbędne do poprawnej integracji witryny z usługami
+                                <p>Pliki Cookies są niezbędne do poprawnej integracji witryny z usługami
                                     społecznościowymi, takimi jak Facebook.com czy Twitter.com.</p>
                             </li>
                         </ol>
                     </li>
                     <li>
-                        <h1>Jakiego rodzaju plików Jakiego rodzaju plików Cookie używamy?</h1>
+                        <h1>Jakiego rodzaju plików Cookies używamy?</h1>
 
                         <table>
                             <tr>
@@ -103,7 +103,7 @@
                             </tr>
                             <tr>
                                 <td><p>Konieczność</p></td>
-                                <td><p>Te pliki Cookie są niezbędne do prawidłowego funkcjonowania Serwisu
+                                <td><p>Te pliki Cookies są niezbędne do prawidłowego funkcjonowania Serwisu
                                         ProperSale.pl, pozwalają na poruszanie się po naszej stronie oraz używania jej
                                         elementów. Przykłady wliczają zapamiętywanie poprzednich akcji (np. otwartych
                                         tekstów) podczas wracania na stronę w tej samej sesji.</p>
@@ -118,7 +118,7 @@
                                     <p>Wydajność</p>
                                 </td>
                                 <td>
-                                    <p>Te pliki Cookie pomagają nam zrozumieć jak odwiedzający wchodzą w interakcje z
+                                    <p>Te pliki Cookies pomagają nam zrozumieć jak odwiedzający wchodzą w interakcje z
                                         naszą stroną internetową, poprzez dostarczanie informacji na temat obszarów,
                                         które odwiedzili, czas jaki spędzili na stronie oraz problemy jakie na niej
                                         napotkali, jak np. komunikaty o błędach. To pomaga nam polepszać działanie
@@ -126,7 +126,7 @@
                                         Analytics</p>
                                 </td>
                                 <td>
-                                    <p>Te pliki Cookie nie Identyfikują Państwa personalnie. Wszystkie dane są zbierane
+                                    <p>Te pliki Cookies nie Identyfikują Państwa personalnie. Wszystkie dane są zbierane
                                         i agregowane anonimowo.</p>
                                 </td>
                             </tr>
@@ -135,7 +135,7 @@
                                     <p>Funkcjonalność</p>
                                 </td>
                                 <td>
-                                    <p>Te pliki Cookie pozwalają naszym stronom internetowym na zapamiętywanie Państwa
+                                    <p>Te pliki Cookies pozwalają naszym stronom internetowym na zapamiętywanie Państwa
                                         wyborów (jak np. nazwa użytkownika, język czy region) by dostarczyć bardziej
                                         spersonalizowane działania online. Pozwalają również odwiedzającym na oglądanie
                                         filmów i animacji, używanie narzędzi społecznościowych, np. blogów, chatów i
@@ -155,7 +155,7 @@
                                     <p>Bezpieczeństwo</p>
                                 </td>
                                 <td>
-                                    <p>Pliki cookie służące do zapewnienia bezpieczeństwa, np. wykorzystywane do
+                                    <p>Pliki Cookies służące do zapewnienia bezpieczeństwa, np. wykorzystywane do
                                         wykrywania nadużyć w zakresie uwierzytelniania w ramach Serwisu</p>
                                 </td>
                                 <td>
@@ -168,7 +168,7 @@
                                     <p>Pozycjonowanie/reklama</p>
                                 </td>
                                 <td>
-                                    <p>Te pliki Cookie są używane do dostarczania Państwu zawartości odpowiednich dla
+                                    <p>Te pliki Cookies są używane do dostarczania Państwu zawartości odpowiednich dla
                                         zainteresowań i szukanych informacji. Mogą być używane do dostarczania
                                         pozycjonowanych reklam lub ograniczenia liczby wyświetleń danej reklamy.
                                         Pomagają nam także zmierzyć efektywność danej kampanii reklamowej na Serwisie
@@ -187,7 +187,7 @@
                         </table>
 
                         <p>W ramach Serwisu ProperSale.pl stosowane są dwa rodzaje plików cookies: "sesyjne" (session
-                            cookies) oraz "stałe" (persistent cookies). Cookies "sesyjne" są plikami tymczasowymi, które
+                            Cookies) oraz "stałe" (persistent cookies). Cookies "sesyjne" są plikami tymczasowymi, które
                             przechowywane są w urządzeniu końcowym Użytkownika do czasu, opuszczenia strony internetowej
                             lub wyłączenia oprogramowania (przeglądarki internetowej). "Stałe" pliki cookies
                             przechowywane są w urządzeniu końcowym Użytkownika przez czas określony w parametrach plików
@@ -202,7 +202,7 @@
                         </p>
                     </li>
                     <li>
-                        <h1>Czy mogę sterować plikami Cookie lub je usunąć?</h1>
+                        <h1>Czy mogę sterować plikami Cookies lub je usunąć?</h1>
 
                         <p>
                             W wielu przypadkach oprogramowanie służące do przeglądania stron internetowych (przeglądarka
@@ -213,12 +213,12 @@
                             informować o ich każdorazowym zamieszczeniu w urządzeniu Użytkownika Serwisu. Szczegółowe
                             informacje o możliwości i sposobach obsługi plików Cookies dostępne są w ustawieniach
                             oprogramowania (przeglądarki internetowej). W tym celu prosimy byście Państwo odnieśli  się
-                            do instrukcji swojejprzeglądarki internetowej lub wyświetlili pomoc, aby dowiedzieć się jak
+                            do instrukcji swojej przeglądarki internetowej lub wyświetlili pomoc, aby dowiedzieć się jak
                             dostosowywać lub zmieniać ustawienia swojej przeglądarki. Jeżeli zablokujecie używane przez
                             nas pliki Cookie, może to wpłynąć na pogorszenie jakości Serwisu ProperSale.pl , na przykład
                             odwiedzenie pewnych obszarów naszych strona nie będzie dostępne bądź nie otrzymacie
                             Państwo spersonalizowanych informacji podczas ich przeglądania. Jeżeli używacie różnych
-                            urządzeń do przeglądania Serwisu ProperSale.pl (np. komputera, tabletu czy smartphon’a)
+                            urządzeń do przeglądania Serwisu ProperSale.pl (np. komputera, tabletu czy smartphone’a)
                             musicie się upewnić, że każda z przeglądarek na każdym z urządzeń jest odpowiednio
                             dopasowana do Waszych preferencji.
                         </p>
@@ -236,18 +236,18 @@
                         </ul>
                     </li>
                     <li>
-                        <h1>Czy używamy plików Cookie?</h1>
+                        <h1>Czy używamy plików Cookies?</h1>
 
-                        <p>Korzystamy z usług wielu dostawców, którzy także mogą zakładać pliki Cookie w naszym imieniu,
+                        <p>Korzystamy z usług wielu dostawców, którzy także mogą zakładać pliki Cookies w naszym imieniu,
                             gdy odwiedzają Państwo Serwis ProperSale.pl Pozwalają one im na dostarczanie usług, które
                             zapewniają Ci dostawcy. Aby dowiedzieć się więcej o tych plikach lub aby zrezygnować
                             (opt-out) z ich otrzymywania, prosimy o zapoznanie się z poniższymi informacjami.
                         </p>
                         <p>
-                            Gdy odwiedzają Państwo Serwis ProperSale.pl mogą Państwo otrzymywać pliki Cookie pochodzące
+                            Gdy odwiedzają Państwo Serwis ProperSale.pl mogą Państwo otrzymywać pliki Cookies pochodzące
                             od podmiotów trzecich – ich stron internetowych lub domen. Staramy się identyfikować te
                             pliki zanim wejdą w użycie, aby mogli Państwo sami zdecydować czy chcą je włączyć czy też
-                            nie. Więcej informacji na temat tych plików Cookie może być dostępnych na poszczególnych
+                            nie. Więcej informacji na temat tych plików Cookies może być dostępnych na poszczególnych
                             stronach internetowych podmiotów trzecich.
                         </p>
                     </li>

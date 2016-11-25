@@ -627,4 +627,7 @@ header .screen-height {
     .bx-wrapper .bx-next {
         right: -39px;
     }
+    .animated_list li p {
+        min-height: 56px;
+    }
 }

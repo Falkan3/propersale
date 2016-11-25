@@ -12,7 +12,7 @@
                         href="{{url('documents/regulamin_serwisu_propersale.pdf')}}" target="_blank">PDF</a>
             </p>
 
-            <hr />
+            <hr/>
 
             <div>
                 <ol class="regulation_list">
@@ -30,7 +30,7 @@
                         <ol>
                             <li>
                                 <p>Użytkownik – Oznacza każdy podmiot korzystający z Serwisu, na rzecz którego
-                                    Administrator Serwisu świadczą usługi.</p>
+                                    Administrator Serwisu świadczy usługi.</p>
                             </li>
                             <li>
                                 <p>Regulamin – oznacza regulamin świadczenia usług przez Administratora Serwisu.</p>
@@ -42,7 +42,8 @@
                             </li>
                             <li>
                                 <p>
-                                    Usługodawca - WebField Sp. z o.o. z siedzibą w Gdańsku (80-386), ul. Lęborska 3B, NIP: 5833190889, REGON: 363241225, wpisaną do rejestru przedsiębiorców
+                                    Usługodawca - WebField Sp. z o.o. z siedzibą w Gdańsku (80-386), ul. Lęborska 3B,
+                                    NIP: 5833190889, REGON: 363241225, wpisaną do rejestru przedsiębiorców
                                     Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy miasta Gdańsk, 
                                     VII wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000591826, o
                                     kapitale zakładowym w wysokości 5.000 złotych, adres e-mail: <a
@@ -100,8 +101,8 @@
                             </li>
                             <li>
                                 <p>Administrator Serwisu zastrzega sobie prawo do zmiany, usuwania i dodawania
-                                    informacji, treści i zawartości Serwisu bez uprzedniego informowania o ich
-                                    wprowadzeniu Użytkowników.</p>
+                                    informacji, treści i zawartości Serwisu 6. bez uprzedniego informowania Użytkowników
+                                    o ich wprowadzeniu.</p>
                             </li>
                             <li>
                                 <p>Administrator Serwisu nie ponosi odpowiedzialności za treści i zawartość innych
@@ -119,7 +120,7 @@
                         <p>Prawa i obowiązki Użytkownika</p>
                         <ol>
                             <li>
-                                <p>Całkowitą i wyłączna odpowiedzialność za prawdziwość i poprawność wprowadzonych do
+                                <p>Całkowitą i wyłączną odpowiedzialność za prawdziwość i poprawność wprowadzonych do
                                     Serwisu danych ponosi Użytkownik.</p>
                             </li>
                             <li>
