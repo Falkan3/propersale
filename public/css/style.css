@@ -480,7 +480,7 @@ ul.animated_list li p:first-of-type {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     div.screen-height, #pageintro .slides li {
         height: auto;
         min-height: 676px;
