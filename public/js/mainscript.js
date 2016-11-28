@@ -42,7 +42,7 @@ $(window).scroll(function () {
     }
 });
 
-$('.navbar-collapse a').click(function (e) {
+$('.navbar-toggle').click(function (e) {
     if($( window ).width() <= 768) {
         $('.navbar-collapse').collapse('toggle');
     }
