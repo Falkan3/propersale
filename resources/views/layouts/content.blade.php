@@ -26,7 +26,7 @@
             "message": "Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie.",
             "dismiss": "Zgoda",
             "learnMore": "Polityka prywatności",
-            "link": "http://www.propersale.pl/att/prywatnosc",
+            "link": "http://www.propersale.pl/att/cookies",
             "theme": "dark-bottom"
         };
     </script>
