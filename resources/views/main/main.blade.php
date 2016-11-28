@@ -5,7 +5,7 @@
 @section('content')
 
     <!-- Intro Section -->
-    <section id="page1" class="">
+    <section id="page1" class="themed">
         <div class="content container">
             <h1>Korzyści dla Twojego biznesu</h1>
 
@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <section id="page2" class="">
+    <section id="page2" class="themed">
         <div class="content container">
             <h1>Jak działamy</h1>
 
@@ -164,7 +164,7 @@
         </div>
     </section>
 
-    <section id="page3" class="">
+    <section id="page3" class="themed">
 
         <div class="wrapper flex-wrapper bgded"
         <?php /*style="background-image:url('images/demo/backgrounds/03.png')"*/?>>
@@ -249,7 +249,7 @@
         </div>
     </section>
 
-    <section id="email_form">
+    <section id="email_form" class="themed">
         <div class="container" style="padding-bottom: 0;">
             <div id="content_contact" class="content">
                 <h1>Kontakt</h1>
