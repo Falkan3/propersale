@@ -311,14 +311,14 @@ ul.animated_list li p:first-of-type {
     background-color: #3975b9;
 }
 
-.zebra > section:nth-child(odd) {
+.zebra > section:nth-child(even) {
     background: #232830; /* For browsers that do not support gradients */
     background: -webkit-gradient(linear,0 0, 0 30%, from(#384848), to(#232830));
     background: -webkit-linear-gradient(top,#384848 0, #232830 30%); /* For Safari 5.1 to 6.0 */
     background: linear-gradient(to bottom, #384848 0, #232830 30%); /* Standard syntax */
 }
 
-.zebra > section:nth-child(odd) h1, .zebra > section:nth-child(odd) h2, .zebra > section:nth-child(odd) h3, .zebra > section:nth-child(odd) p {
+.zebra > section:nth-child(even) h1, .zebra > section:nth-child(even) h2, .zebra > section:nth-child(even) h3, .zebra > section:nth-child(even) p {
     color: #fff;
 }
 

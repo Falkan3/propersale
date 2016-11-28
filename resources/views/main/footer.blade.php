@@ -29,7 +29,7 @@
                     <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
                            target="_top"><p>kontakt@propersale.pl</p></a>
                         <p>Webfield sp. z o.o.</p>
-                        <p>Lęborska 3B</p>
+                        <p>Lęborska 3B, lok 1.24</p>
                         <p>80-386 Gdańsk</p>
                         <p>NIP 583-319-08-89</p>
                     </li>

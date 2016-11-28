@@ -63,13 +63,8 @@ class MainController extends Controller
             $contact->nazwafirmy = $nazwafirmy;
             $contact->nrtelefonu = $nrtelefonu;
             $contact->save();
-            return response()->json([
-                'success' => true,
-                'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
-            ]);
-        }
-        try {
-            if (empty($response)) {
+
+            try {
                 if (isset($admins)) {
                     foreach ($admins as $admin) {
                         Mail::queue('emails.reminder', ['email' => $email, 'nazwafirmy' => $nazwafirmy, 'nrtelefonu' => $nrtelefonu],
@@ -84,19 +79,26 @@ class MainController extends Controller
                     'success' => true,
                     'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
                 ]);
-            } else {
+            } catch (\Exception $ex) {
+                /*
                 return response()->json([
                     'success' => false,
-                    'message' => $this->validateMail($email, $nrtelefonu, $nazwafirmy)
+                    'message' => ["Nie udało się wysłać wiadomości. Proszę spróbować ponownie później."]
                 ]);
+                */
+                //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
             }
-        } catch (\Exception $ex) {
+        } else {
             return response()->json([
                 'success' => false,
-                'message' => ["Nie udało się wysłać wiadomości. Proszę spróbować ponownie później."]
+                'message' => $this->validateMail($email, $nrtelefonu, $nazwafirmy)
             ]);
-            //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
         }
+
+        return response()->json([
+            'success' => false,
+            'message' => $this->validateMail($email, $nrtelefonu, $nazwafirmy)
+        ]);
 
         //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
     }
