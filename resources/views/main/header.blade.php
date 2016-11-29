@@ -36,7 +36,7 @@
                 <ul class="slides clear">
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider1.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Performance e-Marketing</h2>
+                            <h2 class="heading">Performance <span class="text-nowrap">e-Marketing</span></h2>
                             <p>Efektywnościowy, czyli skuteczny – nowoczesny model e-Marketingu online, gdzie płacisz za
                                 efekt, a nie za same wyświetlenia reklamy.</p>
                             <?php /*<p><a class="btn" href="#">Test</a></p>*/ ?>
