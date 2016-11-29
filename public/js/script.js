@@ -12,7 +12,7 @@ var tab_gallery = $('.tab-gallery ul.images');
 var tab_gallery_subimages = $('.tab-gallery ul.images ul.subimages');
 var vertical_list = $('.vertical_eq');
 var vlist_index_max = vertical_list.children().length;
-var tab_images_index_max = 3;
+var tab_images_index_max = [5,3,3,3,3,1];
 
 $(document).ready(function () {
     /* Animated list*/
@@ -252,7 +252,7 @@ function switchTab () {
 }
 
 function switchImages () {
-    if(tab_images_index<tab_images_index_max) {
+    if(tab_images_index<tab_images_index_max[vlist_index]) {
         tab_gallery.children().eq(vlist_index).children().children().each(function() {
             $(this).removeClass('active');
         });

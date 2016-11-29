@@ -51,7 +51,7 @@
                     </li>
                     <li class="overlay bgded" style="background-image:url('images/demo/backgrounds/slider3.jpg')">
                         <article class="centered flex-content">
-                            <h2 class="heading">Sprawdzona platforma e-Marketingu</h2>
+                            <h2 class="heading">Sprawdzona platforma <span class="text-nowrap">e-Marketingu</span></h2>
                             <p>Wykorzystujesz model sprawdzony dla klientów biznesowych na zaawansowanych rynkach online
                                 - USA, UK, Skandynawia.</p>
                         </article>

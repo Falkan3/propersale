@@ -111,6 +111,10 @@
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta3"/>
                                 </li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/nieruchomosci.jpg') }}" alt="oferta4"/>
+                                </li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/rachunkowosc.jpg') }}" alt="oferta5"/>
+                                </li>
                             </ul>
                         </li>
                         <li>
@@ -152,9 +156,7 @@
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
-                                <li><img src="{{ URL::asset('images/demo/backgrounds/slider3.jpg') }}" alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/callcentre.jpg') }}" alt="oferta1"/></li>
                             </ul>
                         </li>
                     </ul>
