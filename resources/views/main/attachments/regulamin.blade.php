@@ -20,7 +20,7 @@
                         <p>Niniejszy regulamin określa ogólne warunki i sposób świadczenia usług drogą elektroniczną
                             przez
                             WebField
-                            Sp. z o.o. z siedzibą w Gdańsku, za pośrednictwem serwisu internetowego www. ProperSale.pl
+                            Sp. z o.o. z siedzibą w Gdańsku, za pośrednictwem serwisu internetowego www.ProperSale.pl
                             (zwanego
                             dalej
                             „Serwisem”).</p>

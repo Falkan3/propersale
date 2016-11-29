@@ -13,6 +13,7 @@ var tab_gallery_subimages = $('.tab-gallery ul.images ul.subimages');
 var vertical_list = $('.vertical_eq');
 var vlist_index_max = vertical_list.children().length;
 var tab_images_index_max = [5,3,3,3,3,1];
+var rand_image_array = [];
 
 $(document).ready(function () {
     /* Animated list*/
@@ -230,6 +231,7 @@ function pulse(obj) {
  */
 
 function switchTab () {
+    rand_image_array = shuffle(init_array(tab_images_index_max[vlist_index]));
     if(vlist_index<vlist_index_max) {
         vertical_list.children().each(function() {
             $(this).removeClass('active');
@@ -256,7 +258,7 @@ function switchImages () {
         tab_gallery.children().eq(vlist_index).children().children().each(function() {
             $(this).removeClass('active');
         });
-        tab_gallery.children().eq(vlist_index).children().children().eq(tab_images_index).addClass('active');
+        tab_gallery.children().eq(vlist_index).children().children().eq(rand_image_array[tab_images_index]).addClass('active');
     }
     else {
         tab_images_index = 0;
@@ -280,3 +282,31 @@ vertical_list.children().hover(function(e) {
         }, 2000);
     }
 });
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
+
+function init_array(length) {
+    var array = [];
+    for(var i=0; i<length; i++)
+    {
+        array.push(i);
+    }
+    return array;
+}
