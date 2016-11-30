@@ -75,10 +75,6 @@ class MainController extends Controller
                             });
                     }
                 }
-                return response()->json([
-                    'success' => true,
-                    'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
-                ]);
             } catch (\Exception $ex) {
                 /*
                 return response()->json([
@@ -88,6 +84,11 @@ class MainController extends Controller
                 */
                 //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
             }
+
+            return response()->json([
+                'success' => true,
+                'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
+            ]);
         } else {
             return response()->json([
                 'success' => false,

@@ -29,6 +29,7 @@ $(document).ready(function() {
             dataType : 'json',
 	        processData: false, 
 		    success: function(data){
+				console.log(data);
 				status.html("");
 				status.html('<p>' + data['message'] + '</p>');
 				/*
