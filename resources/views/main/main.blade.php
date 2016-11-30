@@ -109,9 +109,9 @@
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/asense1.jpg') }}" alt="oferta2"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta3"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/nieruchomosci.jpg') }}" alt="oferta3"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/nieruchomosci.jpg') }}" alt="oferta4"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta4"/>
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/rachunkowosc.jpg') }}" alt="oferta5"/>
                                 </li>

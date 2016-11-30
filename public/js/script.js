@@ -231,7 +231,31 @@ function pulse(obj) {
  */
 
 function switchTab () {
-    rand_image_array = shuffle(init_array(tab_images_index_max[vlist_index]));
+    if(vlist_index==0)
+    {
+        rand_image_array = [];
+        var part1 = shuffle([0,2,4]);
+        var part1_index = 0;
+        var part2 = shuffle([1,3]);
+        var part2_index = 0;
+        for(var i=0; i<5; i++)
+        {
+            if(i%2==0)
+            {
+                rand_image_array.push(part1[part1_index++]);
+            }
+            else
+            {
+                rand_image_array.push(part2[part2_index++]);
+            }
+        }
+        //rand_image_array = init_array(tab_images_index_max[vlist_index]);
+    }
+    else
+    {
+        rand_image_array = shuffle(init_array(tab_images_index_max[vlist_index]));
+    }
+
     if(vlist_index<vlist_index_max) {
         vertical_list.children().each(function() {
             $(this).removeClass('active');

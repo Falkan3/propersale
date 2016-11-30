@@ -87,7 +87,7 @@ class MainController extends Controller
 
             return response()->json([
                 'success' => true,
-                'message' => ["Dziekujemy za przesłanie formularza - nasz konsultant skontaktuje sie z Toba na podany nr telefonu."]
+                'message' => ["Dziękujemy za przesłanie formularza - nasz konsultant skontaktuje się z Tobą na podany nr telefonu."]
             ]);
         } else {
             return response()->json([
