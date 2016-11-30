@@ -7,7 +7,7 @@
                 <address class="btmspace-15">
                     <p>ProperSALE.pl</p>
                     <p>Gdański Inkubator Przedsiębiorczości STARTER</p>
-                    <p>Lęborska 3B, lok 1.24 <a href="https://goo.gl/SLM9VF" target="_blank" class="margin_small_left"><i class="icon fa fa-map-o first"></i></a></p>
+                    <p>Lęborska 3B, lok 1.24 <a href="https://goo.gl/SLM9VF" target="_blank" class="margin_small_left"><i class="icon fa fa-map-o no_margin"></i></a></p>
                     <p>80-386 Gdańsk</p>
                 </address>
             </div>
