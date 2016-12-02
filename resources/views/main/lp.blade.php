@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="screen-height">
+    <div class="screen-height" style="overflow: auto;">
         <div class="wrapper flex-wrapper">
             <!-- ################################################################################################ -->
             <div class="overlay bgded table-layout" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
@@ -67,11 +67,11 @@
                         </div>
 
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <p class="big-text">Zmonetyzuj swoją bazę mailingową</p>
+                            <p class="big-text">Zmonetyzuj<br />swoją<br />bazę mailingową</p>
                         </div>
 
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <p class="big-text">Osiągaj wyższe dochody dzięki swojej stronie</p>
+                            <p class="big-text">Osiągaj<br />wyższe dochody<br />dzięki swojej stronie</p>
                         </div>
 
                     </div>
