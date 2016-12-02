@@ -503,6 +503,11 @@ header .screen-height {
     .margin_on_mobile {
         margin-top: 15px;
     }
+
+    .margin_on_mobile_big {
+        margin-top: 35px;
+    }
+
     .margin_on_mobile:first-child {
         margin-top: 0;
     }

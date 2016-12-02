@@ -19,7 +19,6 @@ $(document).ready(function() {
   	form.submit(function(e) {
   		e.preventDefault();
 
-		status.addClass("invisible");
 	    //var formdata = form.serialize();//new FormData(form);
 		//var formdata = new FormData(document.getElementById('email_form'));
 		var formdata = $("form#email_form").serialize();
@@ -41,7 +40,10 @@ $(document).ready(function() {
 	        processData: false, 
 		    success: function(data){
 				status_text.html("");
-				status_text.html('<p>' + data['message'] + '</p>');
+				for (var index in data.message){
+					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
+					status_text.append("<p>" + data.message[index]+'</p>');
+				}
 				/*
 				for (var index in data.message){
 					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
@@ -63,16 +65,17 @@ $(document).ready(function() {
 					//status.addClass("alert-danger");
 				}
 				//status.removeClass("invisible");
-				status.removeClass("invisible");
 				status.css("display", "block");
 		        },
 	        error: function(data){
 			    // Error...
 				//status.removeClass("alert-success");
 				//status.addClass("alert-danger");
-				status_text.html('<p>' + data['message'] + '</p>');
+				for (var index in data.message){
+					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
+					status_text.append("<p>" + data.message[index]+'</p>');
+				}
 				//status.removeClass("invisible");
-				status.removeClass("invisible");
 				status.css("display", "block");
 			}
 	    });

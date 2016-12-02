@@ -882,6 +882,11 @@ input:focus, textarea:focus, *:required:focus {
     border: solid 2px transparent;
 }
 
+#footer button:hover, .email_form button:hover {
+    background-color: #0047b9;
+}
+
+
 #backtotop {
     color: #464646;
     background-color: #3975b9;
