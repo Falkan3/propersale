@@ -8,7 +8,7 @@
         <div class="wrapper flex-wrapper">
             <!-- ################################################################################################ -->
             <div class="overlay bgded table-layout" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
-                <article class="centered text-center table-layout-cell">
+                <article class="text-center table-layout-cell">
                     <div class="header_margin"></div>
                     <img src="{{ URL::asset('images/logo-n-jasne.png') }}"/>
                     <div class="big-text">
@@ -16,7 +16,7 @@
                     </div>
 
                     <div class="container" style="max-width:100%;">
-                        <div class="row" style="margin-top: 60px">
+                        <div class="row" style="margin: 60px 0;">
 
                             <p class="big-text medium" style="margin-bottom: 15px;">Wypełnij formularz, odezwiemy się do
                                 Ciebie</p>

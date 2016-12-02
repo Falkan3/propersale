@@ -943,6 +943,59 @@ ol.regulation_list ol li p {
     margin-top: 0;
 }
 
+.full_height {
+    height: 100%;
+}
+
+.verticalLine {
+    margin: 0 15px;
+    border-left: 1px solid #384848;
+    opacity: 0.5;
+}
+
+.status {
+    min-height: 85px;
+}
+
+.email_form input.wrong_input {
+    background-color: #da6262;
+    border-color: #d41818;
+}
+
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
+.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
+
+.alert-danger.status {
+    background-color: #e86363;
+    border: solid 2px #3D4247;
+}
+
+.alert-danger.status p {
+    color: #710a08 !important;
+}
+
+.alert-success.status {
+    background-color: #88c370;
+    border: solid 2px #3D4247;
+}
+
+.alert-success.status p {
+    color: #fff !important;
+}
+
+.table-layout {
+    display: table  !important;
+    height: 100%  !important;
+    width: 100%  !important;
+}
+
+.table-layout-cell {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    padding: 0 25px;
+    margin: 0 !important;
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -1039,6 +1092,10 @@ ol.regulation_list ol li p {
     .regulations table > tbody > tr td:nth-of-type(2) p {
         width: 600px;
     }
+
+    .status {
+        min-height: 90px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -1110,59 +1167,6 @@ ol.regulation_list ol li p {
     #footer .group:first-of-type div:last-child {
         margin-bottom: 0;
     }
-}
-
-.full_height {
-    height: 100%;
-}
-
-.verticalLine {
-    margin: 0 15px;
-    border-left: 1px solid #384848;
-    opacity: 0.5;
-}
-
-.status {
-    min-height: 85px;
-}
-
-.email_form input.wrong_input {
-    background-color: #da6262;
-    border-color: #d41818;
-}
-
-.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;}
-.flexslider .slides > li:first-child {display: block; -webkit-backface-visibility: visible;}
-
-.alert-danger.status {
-    background-color: #e86363;
-    border: solid 2px #3D4247;
-}
-
-.alert-danger.status p {
-    color: #710a08 !important;
-}
-
-.alert-success.status {
-    background-color: #88c370;
-    border: solid 2px #3D4247;
-}
-
-.alert-success.status p {
-    color: #fff !important;
-}
-
-.table-layout {
-    display: table  !important;
-    height: 100%  !important;
-    width: 100%  !important;
-}
-
-.table-layout-cell {
-    display: table-cell !important;
-    vertical-align: middle !important;
-    padding: 0 25px;
-    margin: 0 !important;
 }
 
 /* Other

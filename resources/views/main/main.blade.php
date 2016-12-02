@@ -264,7 +264,7 @@
                     Wypełnij poniższe dane - a my skontaktujemy się z Tobą.</h3>
 
                 <div class="row" style="margin-top: 60px">
-                    <div class="email_form no_margin">
+                    <div class="email_form no_margin text-center">
                         <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
                         <form id="email_form" class="btmspace-30" method="post" action="{{url('/mail')}}"
                               enctype="multipart/form-data" role="form">
@@ -291,7 +291,7 @@
 
                         <img id="loading_ajax"
                                 src="{{URL::asset('css/images/ajax-loader.gif')}}" alt="loading..."
-                                class="invisible"/>
+                                class="invisible centered-block"/>
 
                         <div id="email_form_response" class="alert margin_small invisible status center">
                         </div>
