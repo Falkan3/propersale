@@ -188,7 +188,7 @@
                                     src="{{ URL::asset('images/demo/clients/aviva.png') }}" alt=""></a></li>
                     <li><a href="https://www.aliorbank.pl/" target="_blank"><img
                                     src="{{ URL::asset('images/demo/clients/alior.png') }}" alt=""></a></li>
-                    <li><a href="http://www.aviva.pl/" target="_blank"><img
+                    <li><a href="http://www.alfa-floors.pl/" target="_blank"><img
                                     src="{{ URL::asset('images/demo/clients/af.png') }}" alt=""></a></li>
                     <li><a href="https://www.getinbank.pl/" target="_blank"><img
                                     src="{{ URL::asset('images/demo/clients/getin.jpg') }}" alt=""></a></li>
