@@ -160,6 +160,10 @@ nav #logo {
         border-top: none;
         border-left: solid 2px transparent;
     }
+
+    .table-layout-cell {
+        padding: 0px 15px;
+    }
 }
 
 /* /Header
@@ -228,7 +232,7 @@ nav #logo {
     word-wrap: break-word;
 }
 */
-#pageintro .slides li .flex-content .heading {
+#pageintro .slides li .flex-content .heading, .big-text h2, h2.big-text {
     margin-bottom: 60px;
     font-size: 72px;
     max-width: 50%;
@@ -236,7 +240,14 @@ nav #logo {
     margin-right: auto;
 }
 
-#pageintro .slides li .flex-content p {
+h2.big-text {
+    margin-bottom: 60px;
+    font-size: 72px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pageintro .slides li .flex-content p, .big-text p {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 42px;
@@ -246,17 +257,30 @@ nav #logo {
     margin-right: auto;
 }
 
-#pageintro .slides li .flex-content p:first-of-type {
-    margin-top: 45px !important;
+p.big-text {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 42px;
+    line-height: 135%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.big-text.medium p, p.big-text.medium {
+    font-size: 32px;
+}
+
+#pageintro .slides li .flex-content p:last-of-type, .big-text p:last-of-type {
+    margin-top: 30px;
+}
+
+#pageintro .slides li .flex-content p:first-of-type, .big-text p:first-of-type {
+    margin-top: 45px;
     /*
     max-width: 50%;
     margin: 0 auto 0;
     line-height: 1.4;
     */
-}
-
-#pageintro .slides li .flex-content p:last-of-type {
-    margin-top: 30px;
 }
 
 /* Testimonials
@@ -961,16 +985,20 @@ ol.regulation_list ol li p {
         padding: 140px 0 0;
     }
 
-    #pageintro .slides li .flex-content .heading {
+    #pageintro .slides li .flex-content .heading, .big-text h2, h2.big-text {
         font-size: 56px;
     }
 
-    #pageintro .slides li .flex-content p {
+    #pageintro .slides li .flex-content p, .big-text p, p.big-text {
         font-size: 32px;
         line-height: 125%;
     }
 
-    #pageintro .slides li .flex-content p:first-of-type {
+    p.big-text.medium {
+        font-size: 26px;
+    }
+
+    #pageintro .slides li .flex-content p:first-of-type, .big-text p:first-of-type {
         max-width: 75%;
         margin-top: 30px;
     }
@@ -1048,16 +1076,20 @@ ol.regulation_list ol li p {
         padding: 120px 0 0 0;
     }
 
-    #pageintro .slides li .flex-content .heading {
+    #pageintro .slides li .flex-content .heading, .big-text h2, h2.big-text {
         font-size: 32px;
     }
 
-    #pageintro .slides li .flex-content p {
+    #pageintro .slides li .flex-content p, .big-text p, p.big-text {
         font-size: 24px;
         line-height: 125%;
     }
 
-    #pageintro .slides li .flex-content p:first-of-type {
+    p.big-text.medium {
+        font-size: 20px;
+    }
+
+    #pageintro .slides li .flex-content p:first-of-type, .big-text p:first-of-type {
         max-width: none;
         width: 85%;
     }
@@ -1080,6 +1112,10 @@ ol.regulation_list ol li p {
     }
 }
 
+.full_height {
+    height: 100%;
+}
+
 .verticalLine {
     margin: 0 15px;
     border-left: 1px solid #384848;
@@ -1087,7 +1123,7 @@ ol.regulation_list ol li p {
 }
 
 .status {
-    /*min-height: 120px;*/
+    min-height: 85px;
 }
 
 .email_form input.wrong_input {
@@ -1116,6 +1152,18 @@ ol.regulation_list ol li p {
     color: #fff !important;
 }
 
+.table-layout {
+    display: table  !important;
+    height: 100%  !important;
+    width: 100%  !important;
+}
+
+.table-layout-cell {
+    display: table-cell !important;
+    vertical-align: middle !important;
+    padding: 0 25px;
+    margin: 0 !important;
+}
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */

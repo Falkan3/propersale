@@ -11,10 +11,9 @@
 |
 */
 
-//use \App\User;
-
 //Index route
 Route::get('/', 'MainController@index');
+Route::get('/lp', 'MainController@landingpage');
 
 Route::post('/mail', 'MainController@mail');
 

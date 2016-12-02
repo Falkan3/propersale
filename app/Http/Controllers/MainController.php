@@ -46,6 +46,11 @@ class MainController extends Controller
         return view('main.attachments.regulamin');
     }
 
+    public function landingpage()
+    {
+        return view('main.lp');
+    }
+
     public function mail(Request $request)
     {
         $admins = User::all();
@@ -76,12 +81,12 @@ class MainController extends Controller
                     }
                 }
             } catch (\Exception $ex) {
-                /*
+
                 return response()->json([
                     'success' => false,
-                    'message' => ["Nie udało się wysłać wiadomości. Proszę spróbować ponownie później."]
+                    'message' => [$ex->getMessage()]
                 ]);
-                */
+
                 //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
             }
 

@@ -109,11 +109,13 @@
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/asense1.jpg') }}" alt="oferta2"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/nieruchomosci.jpg') }}" alt="oferta3"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/nieruchomosci.jpg') }}"
+                                         alt="oferta3"/>
                                 </li>
                                 <li><img src="{{ URL::asset('images/demo/tabscreens/asense2.jpg') }}" alt="oferta4"/>
                                 </li>
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/rachunkowosc.jpg') }}" alt="oferta5"/>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/rachunkowosc.jpg') }}"
+                                         alt="oferta5"/>
                                 </li>
                             </ul>
                         </li>
@@ -156,7 +158,8 @@
                         </li>
                         <li>
                             <ul class="subimages">
-                                <li><img src="{{ URL::asset('images/demo/tabscreens/callcentre.jpg') }}" alt="oferta1"/></li>
+                                <li><img src="{{ URL::asset('images/demo/tabscreens/callcentre.jpg') }}" alt="oferta1"/>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -261,18 +264,22 @@
                 <div class="row" style="margin-top: 60px">
                     <div class="email_form no_margin">
                         <?php /*<h6 class="title">Podaj swój adres E-mail</h6>*/ ?>
-                        <form id="email_form" class="btmspace-30" method="post" action="{{url('/mail')}}" enctype="multipart/form-data" role="form">
+                        <form id="email_form" class="btmspace-30" method="post" action="{{url('/mail')}}"
+                              enctype="multipart/form-data" role="form">
                             <fieldset>
                                 {!! csrf_field() !!}
                                 <legend>Kontakt:</legend>
                                 <div class="col-xs-12 col-sm-4 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="E-mail [email@email.com]" name="email" maxlength="35">
+                                    <input class="btmspace-15" type="text" value=""
+                                           placeholder="E-mail [email@email.com]" name="email" maxlength="35">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy" name="nazwafirmy" maxlength="50">
+                                    <input class="btmspace-15" type="text" value="" placeholder="Nazwa firmy"
+                                           name="nazwafirmy" maxlength="50">
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3">
-                                    <input class="btmspace-15" type="text" value="" placeholder="Nr telefonu [000-000-000]" name="nrtelefonu" maxlength="14">
+                                    <input class="btmspace-15" type="text" value=""
+                                           placeholder="Nr telefonu [000-000-000]" name="nrtelefonu" maxlength="14">
                                 </div>
                                 <div class="col-xs-12 col-sm-2 col-md-3">
                                     <button type="submit" value="submit" class="center_mrg">Wyślij</button>
@@ -280,14 +287,19 @@
                             </fieldset>
                         </form>
 
-                        <div id="email_form_response" class="alert margin_small invisible status center"></div>
+                        <img id="loading_ajax"
+                                src="{{URL::asset('css/images/ajax-loader.gif')}}" alt="loading..."
+                                class="invisible"/>
+
+                        <div id="email_form_response" class="alert margin_small invisible status center">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <?php /*
+@stop
+<?php /*
         <section id="page1" class="page-section">
             <div class="screen-height">
                 <div class="content">
@@ -317,8 +329,6 @@
             </div>
         </section>
         */ ?>
-
-@stop
 
 
 <?php

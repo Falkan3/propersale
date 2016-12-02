@@ -1,19 +1,33 @@
+
+
+
+
 $(document).ready(function() {
 	var form = $("form#email_form");
 	var status = $("#email_form_response");
-	var email=$("form#email_form [name='email']");
-	var nazwafirmy=$("form#email_form [name='nazwafirmy']");
-	var nrtelefonu=$("form#email_form [name='nrtelefonu']");
+	var email= $("form#email_form [name='email']");
+	var nazwafirmy= $("form#email_form [name='nazwafirmy']");
+	var nrtelefonu= $("form#email_form [name='nrtelefonu']");
 	var url = $("form#email_form").attr("action");
+	var loading_gif = $("#loading_ajax");
+
+	$(document)
+		.ajaxStart(function () {
+			loading_gif.removeClass("invisible");
+	})
+		.ajaxStop(function () {
+			loading_gif.addClass("invisible");
+	});
 
   	form.submit(function(e) {
   		e.preventDefault();
+
+		status.addClass("invisible");
 	    //var formdata = form.serialize();//new FormData(form);
 		//var formdata = new FormData(document.getElementById('email_form'));
 		var formdata = $("form#email_form").serialize();
 
 	    status.html("");
-
 		$.ajaxSetup({
 	        headers: {
 	            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
@@ -28,7 +28,7 @@
         window.cookieconsent_options = {
             "message": "Ta strona korzysta z ciasteczek aby świadczyć usługi na najwyższym poziomie. Dalsze korzystanie ze strony oznacza, że zgadzasz się na ich użycie.",
             "dismiss": "Zgoda",
-            "learnMore": "Polityka prywatności",
+            "learnMore": "Polityka cookies",
             "link": "http://www.propersale.pl/att/cookies",
             "theme": "dark-bottom"
         };

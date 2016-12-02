@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pl"@yield('appendage')>
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css" media="all"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&amp;subset=latin-ext"
@@ -13,6 +14,8 @@
     <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/framework.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/layout.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/custom.flexslider.css') }}" type="text/css" media="all"/>
+    <link rel="stylesheet" href="{{ URL::asset('css/jquery.bxslider.css') }}" type="text/css" media="all"/>
     <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" type="text/css" media="all"/>
 
     <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
@@ -36,11 +39,9 @@
 </head>
 <body id="top">
 <!-- header -->
-@include('main.headersmall')
+@include('main.headerblank')
 
 @yield('content')
-
-@include('main.footer')
 
 <a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
 <div class="modal"></div>
@@ -49,11 +50,13 @@
 <!-- IE9 Placeholder Support -->
 <script src="{{ URL::asset('js/jquery.placeholder.min.js') }}"></script>
 <!-- / IE9 Placeholder Support -->
-<!-- Homepage specific -->
+<!-- Lp specific -->
 <script src="{{ URL::asset('js/jquery.easing.min.js') }}"></script>
 <script src="{{ URL::asset('js/scrolling-nav.js') }}"></script>
 <script src="{{ URL::asset('js/jquery.mobile.custom.min.js') }}"></script>
+<script src="{{ URL::asset('js/contactform.js') }}"></script>
 <script src="{{ URL::asset('js/mainscript.js') }}"></script>
+<script src="{{ URL::asset('js/lp_script.js') }}"></script>
 
 </body>
 </html>
