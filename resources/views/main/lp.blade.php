@@ -10,12 +10,12 @@
             <div class="overlay bgded table-layout" style="background-image:url('images/demo/backgrounds/slider2.jpg')">
                 <article class="text-center table-layout-cell">
                     <div class="header_margin"></div>
-                    <img src="{{ URL::asset('images/logo-n-jasne.png') }}"/>
+                    <a href="{{url('/')}}"><img src="{{ URL::asset('images/logo-n-jasne.png') }}"/></a>
                     <div class="big-text">
-                        <p class="no_margin_vertical">Twoje dodatkowe źródło gotówki</p>
+                        <p class="no_margin_vertical text-right">Twoje dodatkowe źródło gotówki</p>
                     </div>
 
-                    <div class="container" style="max-width:100%;">
+                    <div class="container" style="padding-top: 0; mragin-bottom: 0;">
                         <div class="row" style="margin: 60px 0;">
 
                             <p class="big-text medium" style="margin-bottom: 15px;">Wypełnij formularz, odezwiemy się do
@@ -47,12 +47,12 @@
 
                                         <div class="col-xs-12 col-sm-6 col-md-6">
                                             <div class="col-xs-12 col-sm-12 col-md-12">
-                                                <button type="submit" value="submit" class="center_mrg">Chcę zarabiać
-                                                    więcej
+                                                <button type="submit" value="submit" class="center_mrg"><p
+                                                            class="big-text medium"><span class="strong">Chcę zarabiać
+                                                        więcej</span></p>
                                                 </button>
                                             </div>
                                         </div>
-
 
                                     </fieldset>
                                 </form>
@@ -61,17 +61,27 @@
                                      src="{{URL::asset('css/images/ajax-loader.gif')}}" alt="loading..."
                                      class="invisible"/>
 
-                                <div id="email_form_response" class="alert margin_small invisible status center">
+                                <!-- The Modal -->
+                                <div id="status" class="modal">
+
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                        <span class="close">x</span>
+                                        <p>Some text in the Modal..</p>
+                                    </div>
+
                                 </div>
+
+
                             </div>
                         </div>
 
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <p class="big-text">Zmonetyzuj<br />swoją<br />bazę mailingową</p>
+                            <p class="big-text"><span class="strong">Zmonetyzuj</span><br/>swoją<br/>bazę mailingową</p>
                         </div>
 
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <p class="big-text">Osiągaj<br />wyższe dochody<br />dzięki swojej stronie</p>
+                            <p class="big-text">Osiągaj<br/><span class="strong">wyższe dochody</span><br/>dzięki swojej stronie</p>
                         </div>
 
                     </div>

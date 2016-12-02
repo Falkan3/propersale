@@ -1,10 +1,7 @@
-
-
-
-
 $(document).ready(function() {
 	var form = $("form#email_form");
-	var status = $("#email_form_response");
+	var status = $("#status");
+	var status_text = $("#status .modal-content p");
 	var email= $("form#email_form [name='email']");
 	var nazwafirmy= $("form#email_form [name='nazwafirmy']");
 	var nrtelefonu= $("form#email_form [name='nrtelefonu']");
@@ -27,7 +24,7 @@ $(document).ready(function() {
 		//var formdata = new FormData(document.getElementById('email_form'));
 		var formdata = $("form#email_form").serialize();
 
-	    status.html("");
+		status_text.html("");
 		$.ajaxSetup({
 	        headers: {
 	            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
@@ -43,8 +40,8 @@ $(document).ready(function() {
             dataType : 'json',
 	        processData: false, 
 		    success: function(data){
-				status.html("");
-				status.html('<p>' + data['message'] + '</p>');
+				status_text.html("");
+				status_text.html('<p>' + data['message'] + '</p>');
 				/*
 				for (var index in data.message){
 					// you can show both index and value to know how the array is indexed in javascript (but it should be the same way it was in the php script)
@@ -56,23 +53,27 @@ $(document).ready(function() {
 					//form.reset();
 					//form[0].reset();
 
-					status.removeClass("alert-danger");
-					status.addClass("alert-success");
+					//status.removeClass("alert-danger");
+					//status.addClass("alert-success");
 					$("input[type=text], textarea").val("");
 				}
 				else
 				{
-					status.removeClass("alert-success");
-					status.addClass("alert-danger");
+					//status.removeClass("alert-success");
+					//status.addClass("alert-danger");
 				}
+				//status.removeClass("invisible");
 				status.removeClass("invisible");
+				status.css("display", "block");
 		        },
 	        error: function(data){
 			    // Error...
-				status.removeClass("alert-success");
-				status.addClass("alert-danger");
-				status.html('<p>' + data['message'] + '</p>');
+				//status.removeClass("alert-success");
+				//status.addClass("alert-danger");
+				status_text.html('<p>' + data['message'] + '</p>');
+				//status.removeClass("invisible");
 				status.removeClass("invisible");
+				status.css("display", "block");
 			}
 	    });
 

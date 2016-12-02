@@ -15,6 +15,12 @@ var vlist_index_max = vertical_list.children().length;
 var tab_images_index_max = [5,3,3,3,3,1];
 var rand_image_array = [];
 
+// Get the modal
+var modal = $("#status")
+
+// Get the <span> element that closes the modal
+var span = $(".close");
+
 $(document).ready(function () {
     /* Animated list*/
     if ($(this).scrollTop() < list_position) {
@@ -334,3 +340,14 @@ function init_array(length) {
     }
     return array;
 }
+
+// When the user clicks on <span> (x), close the modal
+span.click(function() {
+    modal.hide();
+});
+
+$(window).click(function event() {
+    modal.hide();
+});
+
+// When the user clicks anywhere outside of the modal, close it

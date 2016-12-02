@@ -46,7 +46,6 @@
 @include('main.footer')
 
 <a id="backtotop" href="#"><i class="fa fa-chevron-up"></i></a>
-<div class="modal"></div>
 
 <script src="{{ URL::asset('js/jquery.mobilemenu.js') }}"></script>
 <!-- IE9 Placeholder Support -->

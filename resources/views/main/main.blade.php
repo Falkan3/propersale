@@ -290,10 +290,18 @@
                         </form>
 
                         <img id="loading_ajax"
-                                src="{{URL::asset('css/images/ajax-loader.gif')}}" alt="loading..."
-                                class="invisible centered-block"/>
+                             src="{{URL::asset('css/images/ajax-loader.gif')}}" alt="loading..."
+                             class="invisible centered-block"/>
 
-                        <div id="email_form_response" class="alert margin_small invisible status center">
+                        <!-- The Modal -->
+                        <div id="status" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">x</span>
+                                <p>Some text in the Modal..</p>
+                            </div>
+
                         </div>
                     </div>
                 </div>

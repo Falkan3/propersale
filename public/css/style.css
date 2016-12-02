@@ -483,9 +483,8 @@ header .screen-height {
 #pageintro ul {
     visibility: hidden;
 }
+
 /* media queries ---------------------*/
-
-
 
 @media screen and (max-width: 767px) {
     div.screen-height, #pageintro .slides li {
