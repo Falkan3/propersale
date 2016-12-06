@@ -11,7 +11,7 @@
 
             <div>
 
-                <p>WebField Sp. z o.o. z siedzibą w Gdańsku (80-755), ul. Lęborska 3B, NIP: 5833190889, REGON:
+                <p>WebField Sp. z o.o. z siedzibą w Gdańsku (80-755), Lęborska 3B, lok. 1.24, NIP: 5833190889, REGON:
                     363241225, wpisaną do rejestru przedsiębiorców
                     Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy miasta Gdańsk, 
                     VII wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000591826, o
@@ -49,7 +49,7 @@
                             <li><a href="mailto:kontakt@propersale.pl?Subject=Kontakt%20z%20ProperSALE"
                                    target="_top"><p>kontakt@propersale.pl</p></a>
                                 <p>Webfield sp. z o.o.</p>
-                                <p>Lęborska 3B</p>
+                                <p>Lęborska 3B, lok. 1.24</p>
                                 <p>80-386 Gdańsk</p>
                                 <p>NIP 583-319-08-89</p>
                             </li>

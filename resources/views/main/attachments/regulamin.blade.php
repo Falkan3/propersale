@@ -42,7 +42,7 @@
                             </li>
                             <li>
                                 <p>
-                                    Usługodawca - WebField Sp. z o.o. z siedzibą w Gdańsku (80-386), ul. Lęborska 3B, lok 1.24,
+                                    Usługodawca - WebField Sp. z o.o. z siedzibą w Gdańsku (80-386), ul. Lęborska 3B, lok. 1.24,
                                     NIP: 5833190889, REGON: 363241225, wpisaną do rejestru przedsiębiorców
                                     Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy miasta Gdańsk, 
                                     VII wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000591826, o
