@@ -124,4 +124,50 @@ class MainController extends Controller
 
         return $response;
     }
+
+    public function testmail()
+    {
+        $admins = User::all();
+        $email = 'aaa@aaa.pl';
+        $nazwafirmy = 'test';
+        $nrtelefonu = '123456789';
+
+        $subject = "Kontakt ze strony ProperSale.pl";
+
+        $response = $this->validateMail($email, $nrtelefonu, $nazwafirmy);
+
+        if (empty($response)) {
+            $contact = new Contact;
+            $contact->email = $email;
+            $contact->nazwafirmy = $nazwafirmy;
+            $contact->nrtelefonu = $nrtelefonu;
+            $contact->save();
+
+            try {
+                if (isset($admins)) {
+                    foreach ($admins as $admin) {
+                        Mail::queue('emails.reminder', ['email' => $email, 'nazwafirmy' => $nazwafirmy, 'nrtelefonu' => $nrtelefonu],
+                            function ($m) use ($admin, $nazwafirmy, $nrtelefonu, $email, $subject) {
+                                $m->from($email, $nazwafirmy);
+
+                                $m->to($admin->email)->subject($subject);
+                            });
+                    }
+                }
+            } catch (\Exception $ex) {
+
+                return $ex->getMessage();
+
+                //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
+            }
+
+            return 'success';
+        } else {
+            return 'failure to validate';
+        }
+
+        return 'failure to validate';
+
+        //return redirect(App::getLocale() . '/about')->with('message', 'Message failed!');
+    }
 }

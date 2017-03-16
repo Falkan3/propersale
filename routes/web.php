@@ -16,6 +16,7 @@ Route::get('/', 'MainController@index');
 Route::get('/lp', 'MainController@landingpage');
 
 Route::post('/mail', 'MainController@mail');
+//Route::get('/testmail', 'MainController@testmail');
 
 Route::group(['prefix' => 'att'], function () {
     Route::group(['prefix' => 'informacje'], function () {
